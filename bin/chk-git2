@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+# ---------------------------------------------------------------------
+# NOTE:  cck-git2 -- fix remotes...
+source $HOME/bin/utils/colors.sh
+
+DIRS=`find . -maxdepth 1 -mindepth 1 -type d | sort`
+ROOT=`pwd`
+
+case $ROOT in
+  /*/github | /*/github/*)
+    ;;
+  *)
+    exit
+    ;;
+esac
+
+for f in $DIRS; do
+  # echo "--" "${f:2}"
+  cd "$f"
+  chk-git
+  cd ..
+done

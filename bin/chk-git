@@ -1,0 +1,52 @@
+#!/usr/bin/env bash
+# ---------------------------------------------------------------------
+# NOTE:  utility to check git remote for improper URLs...
+source $HOME/bin/utils/colors.sh
+
+ROOT=`pwd`
+
+checkRemote() {
+  if [ -d .git ]
+  then
+    REMOTE=`git remote -v | head -n 1 | cut -d " " -f 1`
+    URL=${REMOTE:7}
+    TARGET=${URL/https:\/\/github.com\//git@github.com:}
+    case $URL in
+      *"https:"*)
+        printf "%s %24s ${NOT} ${RED}%s${STOP}\n" "--" ${DIR} ${TARGET}
+        git remote set-url origin ${TARGET}
+        ;;
+      *"git@github.com"*)
+        printf "%s %24s ${OK} ${BLUE}%s${STOP}\n" "--" ${DIR} ${URL}
+        ;;
+      *)
+        printf "%s %s ${WARN} ${YELLOW}%s${STOP}\n"
+        ;;
+    esac
+  fi
+}
+
+if [ -d .git ]
+then
+  DIR=`basename ${ROOT}`
+  checkRemote
+else
+  case ${ROOT} in
+    /*/github | /*/github/*)
+      ;;
+    *)
+      exit
+      ;;
+  esac
+
+  DIRS=`find . -maxdepth 1 -mindepth 1 -type d | sort`
+
+  for f in ${DIRS}; do
+    DIR=${f:2}
+    # echo "--" "${DIR}"
+    cd "$f"
+    checkRemote
+    cd ..
+  done
+fi
+

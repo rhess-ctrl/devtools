@@ -1,0 +1,8 @@
+#!/bin/bash
+# 1. check brew...
+echo "-------------------- [ brew ]"
+bru
+# 2. check dev tools...
+echo "-------------------- [ tools ]"
+t
+

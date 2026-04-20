@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+RED="\033[31m"
+GREEN="\033[32m"
+BLUE="\033[94m"
+YELLOW="\033[93m"
+STOP="\033[0m"
+
+CHECK="\xE2\x9C\x94"
+MARK="\xE2\x9C\x98"
+CHEVRON="\xE2\x9D\xAF"
+STAR="\xE2\x9C\xB1"
+OK="${GREEN}${CHECK}${STOP}"
+WARN="${YELLOW}${STAR}${STOP}"
+NOT="${RED}${MARK}${STOP}"
+TIK="${GREEN}${CHEVRON}${STOP}"

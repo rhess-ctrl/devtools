@@ -1,0 +1,34 @@
+#!/usr/bin/env bash
+BREWHOME=~/.brew-file
+BREWFILE=./Brewfile
+
+if [ -d $BREWHOME ]
+then
+  cd $BREWHOME
+  if [ -f $BREWFILE ]
+  then
+    echo "[brew]:"
+    echo "-- cleanup [ nuke ]"
+    brew bundle cleanup --force
+    echo "-- doctor"
+    brew doctor
+    echo "-- verify"
+    printf "%.3f\n" "$EPOCHREALTIME" > .nuked
+    LOG=`nit`
+    case $LOG in
+      *"git push"*)
+        git push;;
+      *"nothing to commit"*)
+        printf "";;
+      *)
+        git commit -a -m "» updating brew"
+        git push;;
+    esac
+    printf "\a"
+    echo "-- done"
+  else
+    echo "ERROR -- missing ${BREWFILE}"
+  fi
+else
+  echo "ERROR -- missing ${BREWHOME}"
+fi
