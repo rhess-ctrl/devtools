@@ -1,0 +1,7 @@
+onlyBuiltDependencies:
+  - '@socketsupply/socket-darwin-arm64'
+  - core-js
+  - es5-ext
+  - esbuild
+  - instatunnel
+  - rs-module-lexer

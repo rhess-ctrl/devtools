@@ -1,0 +1,107 @@
+#!/usr/bin/env bash
+# --------------------------------------------------
+source $HOME/bin/utils/colors.sh
+
+set -e
+
+TAG=ncx
+TARGET=package.json
+LOCK=pnpm-lock.yaml
+PMGR=yarn
+NYPTWO=.nyp2
+NOBUILD=.noBuild
+NODEPLOY=.skip
+ROOT=`pwd`
+NCUSKIP=.ncuSkip
+SKIP="-x faker,typescript"
+APP=`basename $ROOT`
+NOW=.now
+VERCEL=.vercel
+PROD="--- Production:"
+HOST="vercel.app"
+PREFIX="--"
+
+bold=$(tput bold)
+normal=$(tput sgr0)
+
+if [ -f $NCUSKIP ]
+then
+  SKIP=`cat $NCUSKIP`
+else
+  if [ -f ../$NCUSKIP ]
+  then
+    SKIP=`cat ../$NCUSKIP`
+  fi
+fi
+
+case $ROOT in
+  /*/github/*)
+    printf "%s IGNORE ${TIK}${TIK} ${RED}%s${STOP}\n" "${PREFIX}" "${SKIP}"
+    ;;
+  *)
+    printf "%s ${RED}%s${STOP}\n" "${PREFIX}" "skip"
+    exit
+    ;;
+esac
+
+if [ -f $NYPTWO ]
+then
+  nyp2
+else
+  if [ -f $TARGET ]
+  then
+    if [ -f ${LOCK} ]
+    then
+      PMGR=pnpm
+    fi
+    if [ $# -eq 0 ]
+    then
+      echo "[0] -- checking for updates"
+      ncu $SKIP
+      # NOTE: last chance to skip...
+      read -p "Are you sure? " -n 1 -r
+      echo
+      if [[ ! $REPLY =~ ^[Yy]$ ]]
+      then
+        exit 1
+      fi
+    fi
+    echo "[1] -- update"
+    ncu -u $SKIP
+    echo "[2] -- install"
+    ${PMGR} install
+    echo "[3] -- upgrade"
+    ${PMGR} upgrade
+    if [ -f $NOBUILD ]
+    then
+      echo "[4] -- skip"
+    else
+      echo "[4] -- build"
+      ${PMGR} build
+    fi
+    echo "[5] -- commit"
+    git commit -a -m "» updating packages"
+    git push
+    if [ -f $NODEPLOY ]
+    then
+      echo "[6] -- skip"
+    else
+      echo "[6] -- deploy"
+      if [ ${PMGR} == "pnpm" ]
+      then
+        ${PMGR} release
+      else
+        ${PMGR} deploy
+      fi
+      if [ -e $NOW ] || [ -e $VERCEL ]
+      then
+        echo "$PROD ${bold}https://$APP.$HOST${normal}"
+      fi
+    fi
+    echo "[7] -- verify"
+    git push
+    ncu
+  else
+    echo [$TAG] -- $TARGET missing
+  fi
+fi

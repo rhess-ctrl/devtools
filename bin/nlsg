@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# ├── @google/gemini-cli@0.26.0
+# ├── bare@1.26.0
+# ├── corepack@0.34.5
+# └── npm@11.6.2
+#
+# npm install -g @google/gemini-cli
+# npm install -g bare
+# npm install -g pnpm@latest-10
+#
+npm list -g --depth=0

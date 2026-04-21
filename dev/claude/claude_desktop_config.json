@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "chrome-devtools": {
+      "command": "npx",
+      "args": ["-y", "chrome-devtools-mcp@latest"]
+    },
+    "proto-spec-proxy": {
+      "command": "/Users/richardhess/github/anthropic/devtools/mcp/python-shim.sh",
+      "args": ["/Users/richardhess/github/anthropic/proto-spec-dkr/mcp/proxy-mcp.py"]
+    },
+    "devtools-proxy": {
+      "command": "/Users/richardhess/github/anthropic/devtools/mcp/python-shim.sh",
+      "args": ["/Users/richardhess/github/anthropic/devtools/mcp/proxy-mcp.py"]
+    }
+  },
+  "preferences": {
+    "quickEntryDictationShortcut": "capslock"
+  }
+}

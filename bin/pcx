@@ -1,0 +1,63 @@
+#!/usr/bin/env bash
+source $HOME/bin/utils/colors.sh
+
+TAG=pcx
+PMGR=pnpm
+PREFIX="--"
+TOOLS="dev/global-tools"
+GLOB=$HOME/${TOOLS}
+LOCK="pnpm-lock.yaml"
+TARGET=package.json
+# SKIP="-x npm-check-updates"
+# SKIP="-x @socketsupply/socket"
+# SKIP="-x rollup"
+SKIP="-x typescript"
+
+cd $GLOB
+if [ -f $TARGET ]
+then
+  printf "%s %s ${TIK}${TIK} ${GREEN}%s${STOP}:  ${BLUE}%s${STOP}\n" ${PREFIX} ${PMGR} ${TAG} ${TOOLS}
+
+  if [ "${SKIP}" != "" ]
+  then
+    printf " IGNORE ${TIK}${TIK} ${RED}%s${STOP}\n" "${SKIP}"
+  fi
+
+  LOG=`ncu $SKIP`
+  case $LOG in
+    *"All dependencies match"*)
+      printf "";;
+    *"No dependencies"*)
+      printf "";;
+    *)
+      echo "[0] -- checking for updates"
+      echo -e "${BLUE}${LOG}${STOP}"
+      # NOTE: last chance to skip...
+      read -p "Are you sure? " -n 1 -r
+      echo
+      if [[ ! $REPLY =~ ^[Yy]$ ]]
+      then
+        exit 1
+      fi
+      echo "[1] -- upgrade"
+      ncu -u $SKIP
+      echo "[2] -- install"
+      pnpm install
+      echo "[3] -- commit"
+      git commit -a -m "» updating packages";;
+  esac
+  NIT=`nit`
+  case $NIT in
+    *"Changes not staged"*)
+      git add -A
+      git commit -a -m "» updating packages...";;
+    *)
+      printf "";;
+  esac
+  git push
+else
+  echo [$TAG] -- $TARGET missing
+fi
+
+aixu 42
+

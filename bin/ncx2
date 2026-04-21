@@ -1,0 +1,78 @@
+#!/usr/bin/env bash
+# --------------------------------------------------
+source $HOME/bin/utils/colors.sh
+
+set -e 
+
+DIRS=`find . -maxdepth 1 -mindepth 1 -type d | sort`
+NODEPLOY=.skip
+TARGET=.priority_ncx2
+PACKAGE=package.json
+NYPTWO=.nyp2
+ROOT=`pwd`
+NCUSKIP=.ncuSkip
+SKIP="-x faker,typescript"
+PREFIX="--"
+
+getNcuSkip() {
+  if [ -f $NCUSKIP ]
+  then
+    SKIP=`cat $NCUSKIP`
+    if [ $# == 0 ]
+    then
+      printf "%s IGNORE ${TIK}${TIK} ${RED}%s${STOP}\n" "${PREFIX}" "${SKIP}"
+    fi
+  else
+    if [ -f ../$NCUSKIP ]
+    then
+      SKIP=`cat ../$NCUSKIP`
+    fi
+  fi
+}
+
+getNcuSkip 42
+
+case $ROOT in
+  /*/github/*)
+    printf "%s IGNORE ${TIK}${TIK} ${RED}%s${STOP}\n" "${PREFIX}" "${SKIP}"
+    ;;
+  *)
+    printf "%s ${RED}%s${STOP}\n" "${PREFIX}" "skip"
+    exit
+    ;;
+esac
+
+if [ -f $TARGET ]
+then
+  cat $TARGET > .tmp
+  echo $DIRS | tr ' ' '\n' >> .tmp
+  DIRS=`cat .tmp | awk '!x[$0]++'`
+  # echo $DIRS
+fi
+
+for f in $DIRS; do
+  if [ -d $f ]
+  then
+    echo "--" "${f:2}"
+    cd "$f"
+    if [ -f $NYPTWO ]
+    then
+      nyp2
+    else
+      if [ -f $PACKAGE ]
+      then
+        getNcuSkip
+        LOG=`ncu $SKIP`
+        case $LOG in
+          *"All dependencies match"*)
+            printf "";;
+          *"No dependencies"*)
+            printf "";;
+          *)
+            ncx --yes;;
+        esac
+      fi
+    fi
+    cd ..
+  fi
+done

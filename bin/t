@@ -1,0 +1,105 @@
+#!/usr/bin/env bash
+# check the dev tools which are important... 
+# drop:  ell
+#
+source $HOME/bin/utils/colors.sh
+
+APPS=(
+    asdf
+    bare
+    bun
+    civet
+    deno
+    direnv
+    elvish
+    lua
+    op
+    rustc
+    ssc
+    yarn
+    git
+    nit
+    ack
+    zx
+    claude
+    gemini
+    ollama
+    crush
+    amp
+    fresh
+    hx
+    ox
+    mise
+)
+
+for pak in "${APPS[@]}"; do
+    echo "-- $pak"
+
+    case $pak in
+    ell)
+        # NOTE:  skip...
+        ;;
+    *)
+        which $pak
+        ;;
+    esac
+
+    case $pak in
+    ack)
+        mapfile -n 2 LINES < <($pak --version)
+        echo -n -e "${GREEN}${LINES[0]}${STOP}"
+        echo -n -e "${BLUE}${LINES[1]}${STOP}"
+        ;;
+    amp)
+        ;;
+    ell)
+        # NOTE:  new pie utility does it all...
+        pie 42
+        ;;
+    git)
+        VERS=$($pak --version | cut -d ' ' -f 3)
+        echo -e "${GREEN}${VERS}${STOP}"
+        ;;
+    lua)
+        VERS=$($pak -v)
+        echo -e "${GREEN}${VERS}${STOP}"
+        ;;
+    nit) ;;
+    pip)
+        VERS=$($pak --version | cut -d ' ' -f 2)
+        echo -e "${GREEN}${VERS}${STOP}"
+        ;;
+    claude)
+        VERS=$($pak --version | cut -d ' ' -f 1)
+        echo -e "${GREEN}${VERS}${STOP}"
+        ;;
+    crush)
+        VERS=$($pak --version | cut -d ' ' -f 3)
+        echo -e "${GREEN}${VERS}${STOP}"
+        ;;
+    ollama)
+        OLLOG=$(ollama -v)
+        case $OLLOG in
+        *"Warning"*)
+            echo -e "${RED}${OLLOG}${STOP}"
+            ;;
+        *)
+            VERS=$(echo ${OLLOG} | cut -d ' ' -f 4)
+            echo -e "${GREEN}${VERS}${STOP}"
+            ;;
+        esac
+        ;;
+    rustc)
+        which rustup
+        ru
+        ;;
+    *)
+        VERS=$($pak --version)
+        echo -e "${GREEN}${VERS}${STOP}"
+        ;;
+    esac
+done
+
+# NOTE:  by default, this read only...
+#        updates only happen if you pass --update...
+mt

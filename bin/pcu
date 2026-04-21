@@ -1,0 +1,35 @@
+#!/usr/bin/env bash
+source $HOME/bin/utils/colors.sh
+
+TAG=pcu
+PMGR=pnpm
+PREFIX="--"
+TOOLS="dev/global-tools"
+GLOB=${HOME}/${TOOLS}
+TARGET=package.json
+SKIP="-x typescript"
+
+cd $GLOB
+if [ -f $TARGET ]
+then
+  printf "%s %s ${TIK}${TIK} ${GREEN}%s${STOP}:  ${BLUE}%s${STOP}\n" ${PREFIX} ${PMGR} ${TAG} ${TOOLS}
+  
+  if [ "${SKIP}" != "" ]
+  then
+    printf " IGNORE ${TIK}${TIK} ${RED}%s${STOP}\n" "${SKIP}"
+  fi
+
+  LOG=`ncu ${SKIP}`
+  case $LOG in
+    *"All dependencies match"*)
+      printf "";;
+    *"No dependencies"*)
+      printf "";;
+    *)
+      echo -e "${BLUE}${LOG}${STOP}";;
+  esac
+else
+  echo "--" missing $TARGET
+fi
+
+dotai ${1}

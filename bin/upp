@@ -1,0 +1,189 @@
+#!/usr/bin/env bash
+# ---------------------------------------------------------------------
+# NOTE:  upp == update pip packages... [ after a new version of python ]
+# drop:  ell-ai
+#
+source ${HOME}/bin/utils/colors.sh
+
+PAKS=(
+  asyncio
+  chope
+  dominate
+  fastapi
+  fastmcp
+  htpy
+  ison-py
+  isonantic
+  mcp
+  mcp-ui-server
+  nanoid
+  pipdeptree
+  qrcode
+  requests
+  taskipy
+  uvicorn
+)
+
+LOG=${HOME}/.pip-list.log
+BAG=${HOME}/.pip-filtered.log
+
+PREFIX="--"
+
+CHEK=false
+HELP=false
+OUTDATED=false
+RIPG=false
+UPDATE=false
+
+help() {
+  printf "%s ${GREEN}%s${STOP}:\n" ${PREFIX} "upp"
+  printf "%s %24s:  ${TIK} ${BLUE}%s${STOP}\n" ${PREFIX} "--check | -c" "check packages"
+  printf "%s %24s:  ${TIK} ${BLUE}%s${STOP}\n" ${PREFIX} "--help | -h" "this..."
+  printf "%s %24s:  ${TIK} ${BLUE}%s${STOP}\n" ${PREFIX} "--outdated | -o" "check for outdated packages"
+  printf "%s %24s:  ${TIK} ${BLUE}%s${STOP}\n" ${PREFIX} "--update | -u" "update packages"
+  printf "%s\n" ${PREFIX}
+  printf "%s %24s:  ${TIK} ${BLUE}%s${STOP}\n" ${PREFIX} "42" "update packages"
+  printf "%s %24s:  ${TIK} ${BLUE}%s${STOP}\n" ${PREFIX} "43" "check for outdated packages...(+)"
+}
+
+parse_arguments() {
+  if [[ $# -gt 0 ]]; then
+    while [[ $# -gt 0 ]]; do
+      case $1 in
+      -c | --check)
+        printf "${GREEN}--check${STOP}\n"
+        CHEK=true
+        shift
+        ;;
+      -h | --help)
+        printf "${GREEN}--help${STOP}\n"
+        HELP=true
+        shift
+        ;;
+      -o | --outdated)
+        printf "${GREEN}--outdated${STOP}\n"
+        OUTDATED=true
+        shift
+        ;;
+      -u | --update | 42)
+        printf "${GREEN}--update${STOP}\n"
+        UPDATE=true
+        shift
+        ;;
+      43)
+        printf "${GREEN}--check${STOP}\n"
+        printf "${GREEN}--outdated${STOP}\n"
+        CHEK=true
+        OUTDATED=true
+        RIPG=true
+        shift
+        ;;
+      *)
+        printf "${RED}-- INVALID option... [ $1 ]${STOP}\n"
+        exit
+        ;;
+      esac
+    done
+  else
+    CHEK=true
+  fi
+}
+
+check_packs() {
+  for pak in "${PAKS[@]}"; do
+    JSON=$(pip list --format=json | jq ".[] | select(.name == \"${pak}\")")
+
+    if [ "${JSON}" == "" ]; then
+      case ${pak} in
+      ell-ai)
+        pip install -U "ell-ai[sqlite]"
+        ;;
+      qrcode)
+        pip install -U "qrcode[pil]"
+        ;;
+      *)
+        pip install ${pak}
+        ;;
+      esac
+    else
+      VERS=$(echo ${JSON} | jq -r '.version')
+      printf "${RED}%s${STOP}: ${GREEN}%14s${STOP}  ${OK} ${BLUE}-- %s${STOP}\n" "pip" ${VERS} ${pak}
+    fi
+  done
+  if [ ${OUTDATED} != true ]; then
+    printf "\n"
+    pip_check
+  fi
+}
+
+update_packs() {
+  for pak in "${PAKS[@]}"; do
+    case ${pak} in
+    ell-ai)
+      LOG=$(pip install --upgrade -U "ell-ai[sqlite]")
+      ;;
+    *)
+      LOG=$(pip install --upgrade ${pak})
+      ;;
+    esac
+
+    case ${LOG} in
+    "Requirement already satisfied:"*)
+      printf "%s ${TIK}${TIK} ${BLUE}%s${STOP} ${OK}\n" ${PREFIX} ${pak}
+      ;;
+    *)
+      printf "%s ${TIK}${TIK} ${RED}%s${STOP}\n" ${PREFIX} ${pak}
+      printf "${BLUE}"
+      echo ${LOG}
+      printf "${STOP}"
+      ;;
+    esac
+  done
+}
+
+pip_check() {
+  printf "${TIK}${TIK} ${BLUE}"
+  pip check
+  printf "${STOP}"
+}
+
+parse_arguments "$@"
+
+if [ ${CHEK} == true ]; then
+  check_packs
+  if [ ${OUTDATED} == true ]; then
+    printf "\n"
+  fi
+fi
+
+if [ ${UPDATE} == true ]; then
+  update_packs
+
+  printf "\n"
+  printf "${GREEN}%s %s ${STOP}\n" ${PREFIX} "everything is up to date..."
+  pip_check
+fi
+
+if [ ${HELP} == true ]; then
+  help
+fi
+
+if [ ${OUTDATED} == true ]; then
+  pip list --outdate >${LOG}
+  if [ ${RIPG} == true ]; then
+    FILTERS=" -e Package"
+    for pak in "${PAKS[@]}"; do
+      FILTERS+=" -e ${pak}"
+    done
+    cat ${LOG} | rg ${FILTERS} >${BAG}
+    LINES=$(rg -c "^" <${BAG})
+    if [ "${LINES}" == "1" ]; then
+      printf "${GREEN}%s %s ${STOP}\n" ${PREFIX} "everything is up to date..."
+      pip_check
+    else
+      cat ${BAG} | rg ${FILTERS}
+    fi
+  else
+    cat ${LOG}
+  fi
+fi

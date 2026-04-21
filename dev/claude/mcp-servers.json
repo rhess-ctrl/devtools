@@ -1,0 +1,311 @@
+{
+  "count": 3,
+  "servers": [
+    {
+      "name": "chrome-devtools",
+      "connected": true,
+      "counts": {
+        "resources": 0,
+        "templates": 0,
+        "tools": 26
+      },
+      "resources": [],
+      "templates": [],
+      "tools": [
+        {
+          "name": "click",
+          "description": "Clicks on the provided element"
+        },
+        {
+          "name": "close_page",
+          "description": "Closes the page by its index. The last open page cannot be closed."
+        },
+        {
+          "name": "drag",
+          "description": "Drag an element onto another element"
+        },
+        {
+          "name": "emulate",
+          "description": "Emulates various features on the selected page."
+        },
+        {
+          "name": "evaluate_script",
+          "description": "Evaluate a JavaScript function inside the currently selected page. Returns the response as JSON\nso returned values have to JSON-serializable."
+        },
+        {
+          "name": "fill",
+          "description": "Type text into a input, text area or select an option from a <select> element."
+        },
+        {
+          "name": "fill_form",
+          "description": "Fill out multiple form elements at once"
+        },
+        {
+          "name": "get_console_message",
+          "description": "Gets a console message by its ID. You can get all messages by calling list_console_messages."
+        },
+        {
+          "name": "get_network_request",
+          "description": "Gets a network request by an optional reqid, if omitted returns the currently selected request in the DevTools Network panel."
+        },
+        {
+          "name": "handle_dialog",
+          "description": "If a browser dialog was opened, use this command to handle it"
+        },
+        {
+          "name": "hover",
+          "description": "Hover over the provided element"
+        },
+        {
+          "name": "list_console_messages",
+          "description": "List all console messages for the currently selected page since the last navigation."
+        },
+        {
+          "name": "list_network_requests",
+          "description": "List all requests for the currently selected page since the last navigation."
+        },
+        {
+          "name": "list_pages",
+          "description": "Get a list of pages open in the browser."
+        },
+        {
+          "name": "navigate_page",
+          "description": "Navigates the currently selected page to a URL."
+        },
+        {
+          "name": "new_page",
+          "description": "Creates a new page"
+        },
+        {
+          "name": "performance_analyze_insight",
+          "description": "Provides more detailed information on a specific Performance Insight of an insight set that was highlighted in the results of a trace recording."
+        },
+        {
+          "name": "performance_start_trace",
+          "description": "Starts a performance trace recording on the selected page. This can be used to look for performance problems and insights to improve the performance of the page. It will also report Core Web Vital (CWV) scores for the page."
+        },
+        {
+          "name": "performance_stop_trace",
+          "description": "Stops the active performance trace recording on the selected page."
+        },
+        {
+          "name": "press_key",
+          "description": "Press a key or key combination. Use this when other input methods like fill() cannot be used (e.g., keyboard shortcuts, navigation keys, or special key combinations)."
+        },
+        {
+          "name": "resize_page",
+          "description": "Resizes the selected page's window so that the page has specified dimension"
+        },
+        {
+          "name": "select_page",
+          "description": "Select a page as a context for future tool calls."
+        },
+        {
+          "name": "take_screenshot",
+          "description": "Take a screenshot of the page or element."
+        },
+        {
+          "name": "take_snapshot",
+          "description": "Take a text snapshot of the currently selected page based on the a11y tree. The snapshot lists page elements along with a unique\nidentifier (uid). Always use the latest snapshot. Prefer taking a snapshot over taking a screenshot. The snapshot indicates the element selected\nin the DevTools Elements panel (if any)."
+        },
+        {
+          "name": "upload_file",
+          "description": "Upload a file through a provided element."
+        },
+        {
+          "name": "wait_for",
+          "description": "Wait for the specified text to appear on the selected page."
+        }
+      ],
+      "resources_error": "Method not found",
+      "templates_error": "Method not found"
+    },
+    {
+      "name": "proto-spec-proxy",
+      "connected": true,
+      "counts": {
+        "resources": 7,
+        "templates": 0,
+        "tools": 12
+      },
+      "resources": [
+        {
+          "uri": "tailwind://tailwind/manifest",
+          "name": "tailwind_Tailwind Manifest",
+          "description": "Unified server manifest with runtime files and API endpoints",
+          "mimeType": "application/json"
+        },
+        {
+          "uri": "svg://svg/manifest",
+          "name": "svg_SVG Server Manifest",
+          "description": "Unified server manifest with runtime files and API endpoints",
+          "mimeType": "application/json"
+        },
+        {
+          "uri": "stencil://stencil/manifest",
+          "name": "stencil_Stencil Manifest",
+          "description": "Unified server manifest with runtime files and API endpoints",
+          "mimeType": "application/json"
+        },
+        {
+          "uri": "lit://lit/manifest",
+          "name": "lit_Lit Manifest",
+          "description": "Unified server manifest with runtime files and API endpoints",
+          "mimeType": "application/json"
+        },
+        {
+          "uri": "juris://juris/manifest",
+          "name": "juris_Juris Manifest",
+          "description": "Unified server manifest with runtime files and API endpoints",
+          "mimeType": "application/json"
+        },
+        {
+          "uri": "juris://juris/components",
+          "name": "juris_Juris Components",
+          "description": "Component registry with all available components",
+          "mimeType": "application/json"
+        },
+        {
+          "uri": "juris://juris/labels",
+          "name": "juris_Juris Labels",
+          "description": "Text substitution dictionary for Juris component labels",
+          "mimeType": "application/json"
+        }
+      ],
+      "templates": [],
+      "tools": [
+        {
+          "name": "tailwind_generate_css",
+          "description": "Generate CSS for HTML content containing Tailwind classes"
+        },
+        {
+          "name": "svg_list_svg_icons",
+          "description": "List available SVG icons from multiple icon families with their variants"
+        },
+        {
+          "name": "svg_get_svg_icon",
+          "description": "Get SVG markup for a specific icon from multiple icon families"
+        },
+        {
+          "name": "svg_get_svg_stats",
+          "description": "Get comprehensive statistics about available icon families and the overall collection"
+        },
+        {
+          "name": "svg_get_random_svg_icons",
+          "description": "Get random icons from icon families, useful for sampling or discovery"
+        },
+        {
+          "name": "svg_get_svg_icons_batch",
+          "description": "Get multiple SVG icons in a single request. More efficient than multiple get_svg_icon calls when fetching many icons."
+        },
+        {
+          "name": "stencil_generate_components",
+          "description": "Generate Stencil web components from YAML specification"
+        },
+        {
+          "name": "stencil_validate_yaml",
+          "description": "Validate YAML specification format"
+        },
+        {
+          "name": "lit_generate_components",
+          "description": "Generate Lit web components from YAML specification"
+        },
+        {
+          "name": "lit_validate_yaml",
+          "description": "Validate YAML specification format"
+        },
+        {
+          "name": "juris_generate_preview",
+          "description": "Generate live preview page for Juris.js component from YAML specification"
+        },
+        {
+          "name": "juris_validate_yaml",
+          "description": "Validate YAML specification format"
+        }
+      ]
+    },
+    {
+      "name": "devtools-proxy",
+      "connected": true,
+      "counts": {
+        "resources": 2,
+        "templates": 2,
+        "tools": 11
+      },
+      "resources": [
+        {
+          "uri": "event://eventing/summary",
+          "name": "eventing_get_events_summary",
+          "description": "High-level overview of all event activity.\n\nProvides pre-computed statistics and insights to save tokens.\nClaude can reference this with @event://summary for quick overview.\n\nThis is a static resource (URI never changes) with dynamic content\n(updated based on current server state).",
+          "mimeType": "text/plain"
+        },
+        {
+          "uri": "event://eventing/help",
+          "name": "eventing_get_events_help",
+          "description": "Documentation for the eventing system.\n\nExplains the difference between tools and resources:\n- Tools: Actions (wait, clear, delete) and raw data access\n- Resources: Pre-computed summaries for token efficiency",
+          "mimeType": "text/plain"
+        }
+      ],
+      "templates": [
+        {
+          "uriTemplate": "event://eventing/session/{session_id}",
+          "name": "eventing_get_session_summary",
+          "description": "Session-specific summary resource template.\n\nProvides pre-computed statistics for a single session including:\n- Event count\n- Last activity timestamp\n- Event type breakdown\n- Session status (active/idle)\n\nThis is more token-efficient than calling get_events() when you\nonly need summary statistics rather than full event data.\n\nExample URIs:\n- event://session/abc-123\n- event://session/test-session\n- event://session/gallery-xyz",
+          "mimeType": "text/plain"
+        },
+        {
+          "uriTemplate": "event://eventing/session/{session_id}/latest",
+          "name": "eventing_get_session_latest",
+          "description": "Get the most recent event for a session.\n\nReturns the latest event data without fetching all events.\nMost token-efficient option when you only need the newest event.\n\nUse cases:\n- \"What was the last action in this session?\"\n- \"Show me the most recent event\"\n- Polling for new activity without fetching full history\n\nExample URIs:\n- event://session/abc-123/latest\n- event://session/test-session/latest\n- event://session/gallery-xyz/latest",
+          "mimeType": "text/plain"
+        }
+      ],
+      "tools": [
+        {
+          "name": "gallery_generate_gallery",
+          "description": "Generate an SVG icon gallery and optionally serve it.\n\nThis tool orchestrates the three-step gallery workflow:\n1. Fetch icons from svg-mcp-server\n2. Render gallery.html with htpy renderer (interactive with clipboard, toasts, webhooks)\n3. Optionally start HTTP server on configurable port (default: 3042)\n\nThe gallery includes:\n- Click-to-copy icon names to clipboard\n- Toast notifications for user feedback\n- Event bus integration (mitt.js)\n- Webhook integration with eventing-mcp (events sent to localhost:3100)\n\nReturns metadata including URL, session ID, and generation status."
+        },
+        {
+          "name": "eventing_wait_for_event",
+          "description": "Block until an event arrives for the specified session, or timeout.\n\nThis is the primary tool for interactive workflows:\n1. Generate a UI with a session_id\n2. User interacts with UI (triggers webhook)\n3. Call wait_for_event(session_id) to retrieve the data\n\nReturns event data if received, or timeout indicator if no event arrives."
+        },
+        {
+          "name": "eventing_get_events",
+          "description": "Get events for a session, optionally filtered by timestamp.\n\nNon-blocking - returns immediately with matching events.\nSupports pagination via limit/offset for large result sets.\n\nPagination examples:\n- Page 1: get_events(session_id, limit=50, offset=0)\n- Page 2: get_events(session_id, limit=50, offset=50)\n- Page 3: get_events(session_id, limit=50, offset=100)\n\nThe response includes pagination metadata to help navigate large datasets:\n- total_count: Total number of events matching filters\n- has_more: Whether more events exist beyond this page\n- next_offset: Offset value for the next page (if has_more is true)"
+        },
+        {
+          "name": "eventing_clear_events",
+          "description": "Clear all events for a session.\n\nUseful for resetting state between tests or cleaning up after workflow completion."
+        },
+        {
+          "name": "eventing_delete_session",
+          "description": "Fully remove a session from memory.\n\nDeletes the session entirely from both queues and history.\nUse when workflow is finished and session is no longer needed.\nThis frees memory completely, unlike clear_events which keeps the session structure."
+        },
+        {
+          "name": "eventing_list_sessions",
+          "description": "List all sessions with metadata.\n\nReturns information about all active sessions including:\n- session_id: Unique session identifier\n- event_count: Number of events stored\n- last_activity: Timestamp of most recent event\n- has_queue: Whether session has an active queue\n- queue_size: Number of pending events in queue\n\nUseful for identifying orphaned sessions that need cleanup."
+        },
+        {
+          "name": "eventing_cleanup_empty_sessions",
+          "description": "Remove all sessions with zero events.\n\nBatch cleanup of empty sessions to free memory.\nReturns count of sessions removed.\nUseful for periodic maintenance."
+        },
+        {
+          "name": "eventing_get_all_events",
+          "description": "Get events for all sessions, grouped by session.\n\nReturns all events across all sessions in a structured format:\n- total_sessions: Total number of sessions with events\n- total_events: Total event count across all sessions\n- sessions: Dictionary of session_id -> {event_count, last_activity, events[]}\n\nThis is more efficient than calling list_sessions() followed by get_events()\nfor each session when you need all event data."
+        },
+        {
+          "name": "eventing_clear_all_events",
+          "description": "Clear all events for all sessions.\n\nRemoves event history from all sessions but keeps the session structures intact.\nUseful for resetting state across the entire system while maintaining sessions.\n\nReturns:\n- total_cleared: Total number of events cleared\n- sessions_affected: Number of sessions that had events cleared\n- session_counts: Dictionary of session_id -> events_cleared_count"
+        },
+        {
+          "name": "eventing_ping",
+          "description": "Ping the eventing server to check for new events.\n\nThis tool checks if there are any events in the EventBus and sends\na notification if the event://summary resource has changed. This enables\na hybrid pull-push pattern where Claude polls via this tool, but receives\nnotifications about resource updates.\n\nPattern:\n1. Claude calls ping() periodically\n2. If new events exist, ping() sends resource notification\n3. Claude can then re-read event://summary for updated data\n\nThis works because notifications are sent INSIDE the request context\nwhere ctx.request_context.session is valid.\n\nReturns:\n- status: \"ok\"\n- total_events: Number of events in system\n- notification_sent: Whether a notification was sent"
+        },
+        {
+          "name": "eventing_delete_all_sessions",
+          "description": "Delete all sessions from memory.\n\nCompletely removes all sessions, freeing all memory.\nThis is a destructive operation that clears both event history and session queues.\nUse at end of testing or when you want a complete reset.\n\nReturns:\n- deleted_count: Number of sessions deleted\n- session_ids: List of session IDs that were deleted"
+        }
+      ]
+    }
+  ]
+}

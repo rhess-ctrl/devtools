@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# ---------------------------------------------------------------------
+# NOTE:  pls == list packages in dev/global-tools...
+source ${HOME}/bin/utils/colors.sh
+
+TAG=pls
+TOOLS=dev/global-tools
+GLOB=${HOME}/${TOOLS}
+PMGR=pnpm
+PREFIX="--"
+
+if [ -d ${GLOB} ]
+then
+  printf "%s %s ${TIK}${TIK} ${GREEN}%s${STOP}:  ${BLUE}%s${STOP}\n" ${PREFIX} ${PMGR} ${TAG} ${TOOLS}
+  pushd ${GLOB} > /dev/null
+  pnpm list
+  popd > /dev/null
+fi

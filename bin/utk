@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+# utk == update ticket...
+source "$HOME/bin/utils/colors.sh"
+
+TICKET="$HOME/github/xploratory/ticket"
+PREFIX="--"
+APP=ticket
+
+if [ -d "$TICKET" ]; then
+  cd "$TICKET"
+
+  BEFORE="$(git rev-parse HEAD)"
+  git pull --quiet
+  AFTER="$(git rev-parse HEAD)"
+
+  if [ "$BEFORE" != "$AFTER" ]; then
+    # repo actually changed
+    DATE="$(git log -1 --format='%ci')"   # ISO8601 commit date[web:42][web:36]
+    printf "%s %s ${TIK}${TIK} ${GREEN}%s${STOP}\n" "$PREFIX" "$APP" "$DATE"
+    printf "%s${BLUE}\n" "$PREFIX"
+    cat CHANGELOG.md
+    printf "${STOP}%s\n" "$PREFIX"
+  else
+    # nothing new
+    printf "%s %s ${TIK}${TIK} ${GREEN}already up to date${STOP}\n" "$PREFIX" "$APP"
+  fi
+fi

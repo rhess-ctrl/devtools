@@ -1,0 +1,93 @@
+#!/usr/bin/env bash
+# --------------------------------------------------
+source $HOME/bin/utils/colors.sh
+
+DIRS=`find . -maxdepth 1 -mindepth 1 -type d | sort`
+TARGET=.priority_ncx2
+PACKAGE=package.json
+ROOT=`pwd`
+NCUSKIP=.ncuSkip
+NCUSUBS=.ncuSubs
+SKIP="-x faker,typescript"
+PREFIX="--"
+
+getNcuSkip() {
+  if [ -f $NCUSKIP ]
+  then
+    SKIP=`cat $NCUSKIP`
+    if [ $# == 0 ]
+    then
+      printf "%s IGNORE ${TIK}${TIK} ${RED}%s${STOP}\n" "${PREFIX}" "${SKIP}"
+    fi
+  else
+    if [ -f ../$NCUSKIP ]
+    then
+      SKIP=`cat ../$NCUSKIP`
+    fi
+  fi
+}
+
+getNcuSkip 42
+
+case $ROOT in
+  /*/github/*)
+    if [ -z "$DIRS" ]
+    then
+      echo -n ''
+    else
+      printf "%s IGNORE ${TIK}${TIK} ${RED}%s${STOP}\n" "${PREFIX}" "${SKIP}"
+    fi
+    ;;
+  *)
+    printf "%s ${RED}%s${STOP}\n" "${PREFIX}" "skip"
+    exit
+    ;;
+esac
+
+if [ -f $TARGET ]
+then
+  cat $TARGET > .tmp
+  echo $DIRS | tr ' ' '\n' >> .tmp
+  DIRS=`cat .tmp | awk '!x[$0]++'`
+  # echo $DIRS
+fi
+
+for f in $DIRS; do
+  if [ -d $f ]
+  then
+    echo "--" "${f:2}"
+    cd "$f"
+    if [ -f $PACKAGE ]
+    then
+      getNcuSkip
+      LOG=`ncu $SKIP`
+      case $LOG in
+        *"All dependencies match"*)
+          printf "";;
+        *"No dependencies"*)
+          printf "";;
+        *)
+          echo -e "${BLUE}${LOG}${STOP}";;
+      esac
+    fi
+    if [ -f $NCUSUBS ]
+    then
+      for s in `cat $NCUSUBS`; do
+        echo "   ${f:2}:${s}"
+        cd "$s"
+        LOG=`ncu $SKIP`
+        case $LOG in
+          *"All dependencies match"*)
+            printf "";;
+          *"No dependencies"*)
+            printf "";;
+          *)
+            echo -e "${BLUE}${LOG}${STOP}";;
+        esac
+        cd ..
+      done
+
+    fi
+    cd ..
+  fi
+done
