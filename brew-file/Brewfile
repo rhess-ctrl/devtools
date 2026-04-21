@@ -39,6 +39,7 @@ brew "mise"
 brew "openssl@3"
 brew "pngquant"
 brew "ruby"
+brew "yq"
 
 brew "gh"
 brew "hf"
