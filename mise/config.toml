@@ -1,0 +1,21 @@
+[tools]
+bun = "latest"
+cargo-binstall = "latest"
+deno = "latest"
+fnox = "latest"
+go = "latest"
+node = "lts"
+pipx = "latest"
+pixi = "latest"
+poetry = "latest"
+python = "3.14"
+ruff = "latest"
+rust = "latest"
+ty = "latest"
+usage = "latest"
+uv = "latest"
+
+[settings]
+
+[settings.python]
+compile = false

@@ -1,0 +1,29 @@
+#!/bin/bash
+DIRS=`find . -maxdepth 1 -mindepth 1 -type d | sort`
+ROOT=`pwd`
+
+case $ROOT in
+  /*/github | /*/github/*)
+    ;;
+  *)
+    exit
+    ;;
+esac
+
+for f in $DIRS; do
+  echo "--" "${f:2}"
+  cd "$f"
+  if [ -d .git ]
+  then
+    LOG=`nit`
+    case $LOG in
+      *"git push"*)
+        git push;;
+      *"nothing to commit"*)
+        echo -n "";;
+      *)
+        echo "$LOG";;
+    esac
+  fi
+  cd ..
+done

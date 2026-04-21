@@ -1,0 +1,87 @@
+#!/usr/bin/env bash
+# ---------------------------------------------------------------------
+source ${HOME}/bin/utils/colors.sh
+
+PWD=`pwd`
+COMPONENT=`basename ${PWD}`
+PREFIX="--"
+
+INPUT=./src/styles/input.pcss
+OUTPUT=./src/styles/app.css
+
+count () {
+  wc -l $1 | cut -w -f2
+}
+
+processTokens () {
+  TARGET=.tokens
+  if [ -f $TARGET ]
+  then
+    PROPS=props.css
+    SHADOW=shadow.css
+    TOKENS=tokens.css
+    UTILS=utils.css
+    touch tmp1.css
+    touch tmp2.css
+    touch tmp3.css
+    touch tmp4.css
+    touch tmp5.css
+    touch tmp6.css
+    # step 1 -- compute the line numbers
+    LINE=`grep -wn "^@layer utilities" app.css | head -n 1 | cut -d: -f1`
+    CUT1=`echo "$LINE 1 - p" | dc`
+    # step 2 -- split app.css using line numbers
+    head -n $CUT1 app.css > tmp1.css
+    tail -n +$LINE app.css > tmp2.css
+    SNIP=`grep -wn "^@property" tmp2.css | head -n 1 | cut -d: -f1`
+    CUT2=`echo "$SNIP 1 - p" | dc`
+    head -n $CUT2 tmp2.css > tmp3.css
+    tail -n +$SNIP tmp2.css > tmp4.css
+    KEYS=`grep -wn "^@keyframes" tmp4.css`
+    if [ "$KEYS" != "" ]
+    then
+      SNAP=`echo $KEYS | head -n 1 | cut -d: -f1`
+      CUT3=`echo "$SNAP 1 - p" | dc`
+      head -n $CUT3 tmp4.css > tmp5.css
+      tail -n +$SNAP tmp4.css > tmp6.css
+    else
+      cat tmp4.css > tmp5.css
+    fi
+    # step 3 -- generate $TOKENS
+    cat tmp1.css > $TOKENS
+    # step 4 -- generate $UTILS
+    head -n 1 app.css > $UTILS
+    echo "@layer theme, base, components, utilities;" >> $UTILS
+    cat tmp3.css >> $UTILS
+    # step 5 -- generate $PROPS
+    cat tmp5.css > $PROPS
+    # step 6 -- generate $SHADOW [ tokens + utils ]
+    cat tmp1.css > $SHADOW
+    cat tmp3.css >> $SHADOW
+    cat tmp6.css >> $SHADOW
+    # step 6 -- acknowledge generated files
+    printf "%s %24s ${OK} ${BLUE}%s${STOP} \n" $PREFIX "tokens" `count $TOKENS`
+    printf "%s %24s ${OK} ${BLUE}%s${STOP} \n" $PREFIX "utils" `count $UTILS`
+    printf "%s %24s ${OK} ${BLUE}%s${STOP} \n" $PREFIX "shadow" `count $SHADOW`
+    printf "%s %24s ${OK} ${BLUE}%s${STOP} \n" $PREFIX "props" `count $PROPS`
+    printf "%s %24s ${OK} ${BLUE}%s${STOP} \n" $PREFIX "keys" `count tmp6.css`
+    # step 7 -- cleanup tmp files
+    rm tmp1.css
+    rm tmp2.css
+    rm tmp3.css
+    rm tmp4.css
+    rm tmp5.css
+    rm tmp6.css
+  fi
+}
+
+PWD=`pwd`
+
+if [ -d $1 ]
+then
+  cd $1
+  processTokens
+  cd $PWD
+else
+  processTokens
+fi

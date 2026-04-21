@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# ---------------------------------------------------------------------
+if [ -d .git ]
+then
+    NIT=`nit`
+    case $NIT in
+        *"Changes not staged"*)
+            git add -A
+            if [ "${1}" == "42" ]
+            then
+                git commit -a -m "» updating packages..."
+            else
+                git commit -a -m "» oops..."
+            fi 
+            git push;;
+        *)
+            printf "";;
+    esac
+fi

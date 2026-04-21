@@ -3,13 +3,14 @@
 # NOTE:  list packages in mise and display ai versions...
 source $HOME/bin/utils/colors.sh
 
-FOYER=$HOME/.config/mise
+# FOYER=$HOME/.config/mise
+FOYER=$HOME/github/eswat2/devtools/mise
 
 HELP=false
 UPDATE=false
 
 checkMise () {
-    if [ -d ${FOYER}/.git ]
+    if [ -d ${FOYER}/../.git ]
     then
         pushd $FOYER > /dev/null
         mise list --json > .tools.json

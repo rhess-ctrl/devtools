@@ -1,0 +1,59 @@
+#!/bin/bash
+TAG=prune
+TARGET=node_modules
+DIST=dist
+COVERAGE=coverage
+NYC=.nyc_output
+IONIC=../../ionic
+STNCL=('dist' 'loader' 'www')
+PLOK=package-lock.json
+YLOK=yarn.lock
+
+if [ -d $TARGET ]
+then
+  echo [$TAG] -- removing $TARGET
+  /bin/rm -rf $TARGET
+fi
+
+if [ -f $PLOK ]
+then
+  echo [$TAG] -- removing $PLOK
+  /bin/rm $PLOK
+fi
+
+if [ -f $YLOK ]
+then
+  echo [$TAG] -- removing $YLOK
+  /bin/rm $YLOK
+fi
+
+if [ -d $COVERAGE ]
+then
+  echo [$TAG] -- removing $COVERAGE
+  /bin/rm -rf $COVERAGE
+fi
+
+if [ -d $NYC ]
+then
+  echo [$TAG] -- removing $NYC
+  /bin/rm -rf $NYC
+fi
+
+if [ -d $IONIC ]
+then
+  for xx in "${STNCL[@]}"
+  do
+    if [ -d $xx ]
+    then
+      echo [$TAG] -- removing $xx
+      /bin/rm -rf $xx
+    fi
+  done
+else
+  if [ -d DIST ]
+  then
+    echo [$TAG] -- removing $DIST
+    /bin/rm -rf $DIST
+  fi
+fi
+
