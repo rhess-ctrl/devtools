@@ -1,0 +1,42 @@
+#!/usr/bin/env bash
+# ---------------------------------------------------------------------
+# NOTE:  utility to create a cache for the versions of AI tools...
+#
+source $HOME/bin/utils/colors.sh
+
+CACHE=${HOME}/.ai-cache.json
+
+ARG1=${1}
+DOTS=${HOME}/dots
+
+PREFIX="--"
+DATA=""
+
+processKey () {
+    KEY=${1}
+    PKG="${2}"
+    VERSION=`${KEY} --version`
+    if [ "${PKG}" == "native" ]
+    then
+        VERSION=`${KEY} --version`
+        WORDS=( $VERSION )
+        ID=${WORDS[0]}
+    else
+        ID=${VERSION}
+    fi
+    DATA+="${KEY}[id]=${ID} ${KEY}[pkg]=${PKG} "
+    if [ "$ARG1" != "42" ]
+    then
+        printf "%s ${GREEN}%10s${STOP}  ${BLUE}%-7s${STOP} ${OK} %s \n" $PREFIX $KEY $ID $PKG
+    fi
+}
+
+processKey claude native
+processKey gemini npm
+
+jo -p ${DATA} > ${CACHE}
+
+# cd $DOTS
+# nu $ARG1
+
+dotai

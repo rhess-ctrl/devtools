@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+# ---------------------------------------------------------------------
+# NOTE:  utility to show the versions of AI tools...
+#
+source $HOME/bin/utils/colors.sh
+
+CACHE=${HOME}/.ai-cache.json
+ARG1=${1}
+
+PREFIX="--"
+
+processKey () {
+	KEY=${1}
+	ID=`cat ${CACHE} | jj ${KEY}.id`
+	PKG=`cat ${CACHE} | jj ${KEY}.pkg`
+
+	printf "%s %24s  ${BLUE}%-7s${STOP} ${OK} \n" $PREFIX $KEY $ID
+}
+
+echo '------------------------------------------ ai'
+
+processKey claude
+processKey gemini

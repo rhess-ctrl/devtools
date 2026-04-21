@@ -1,0 +1,35 @@
+#!/usr/bin/env bash
+# ---------------------------------------------------------------------
+# NOTE:  utility to show the .ai-cache.json values...
+#
+source $HOME/bin/utils/colors.sh
+
+CACHE=${HOME}/.ai-cache.json
+
+PREFIX="--"
+
+# NOTE:  massage the output of "jq keys" in make it bash friendly...
+KEYS=(`cat ${CACHE} | jq keys | sed "s/\[//g" | sed "s/\]//g" | sed "s/,//g" | sed "s/\"//g"`)
+
+processKey () {
+  KEY=${1}
+  ID=`cat ${CACHE} | jj ${KEY}.id`
+  PKG=`cat ${CACHE} | jj ${KEY}.pkg`
+  case "${PKG}" in
+    "native"|"npm")
+      printf "%s ${GREEN}%10s${STOP}  ${BLUE}%-7s${STOP} ${OK} ${RED}%s${STOP} \n" $PREFIX $KEY $ID $PKG
+      ;;
+    *)
+      printf "%s ${GREEN}%10s${STOP}  ${BLUE}%-7s${STOP} ${OK} %s \n" $PREFIX $KEY $ID $PKG
+      ;;
+  esac
+}
+
+if [ "$1" != "42" ]
+then
+  echo '------------------------------------------ ai-cache.json'
+fi
+
+for key in "${KEYS[@]}"; do
+  processKey $key
+done

@@ -1,0 +1,69 @@
+#!/usr/bin/env bash
+# ---------------------------------------------------------------------
+# NOTE:  list packages in mise and display ai versions...
+source $HOME/bin/utils/colors.sh
+
+FOYER=$HOME/.config/mise
+
+HELP=false
+UPDATE=false
+
+checkMise () {
+    if [ -d ${FOYER}/.git ]
+    then
+        pushd $FOYER > /dev/null
+        mise list --json > .tools.json
+        mise list --raw  > .snap-list
+        # NOTE:  the following should only output if something actually changed...
+        # git --no-pager diff .snap-list
+        oops ${1}
+        popd > /dev/null
+    fi
+}
+
+help() {
+    printf "%s ${GREEN}%s${STOP}:\n" "--" "mt"
+    printf "%s %24s:  ${TIK} ${BLUE}%s${STOP}\n" "--" "--help | -h" "help, duh..."
+    printf "%s %24s:  ${TIK} ${BLUE}%s${STOP}\n" "--" "--update | -u" "update packages"
+	printf "%s %24s:  ${TIK} ${BLUE}%s${STOP}\n" "--" 42 "update packages"
+}
+
+parse_arguments() {
+    while [[ $# -gt 0 ]]; do
+        case $1 in
+            -h|--help)
+                printf "${GREEN}--help${STOP}\n"
+                HELP=true
+                shift
+                ;;
+            -u|--update|42)
+                printf "${GREEN}--update${STOP}\n"
+                UPDATE=true
+                shift
+                ;;
+            *)
+                printf "${RED}-- INVALID option... [ $1 ]${STOP}\n"
+                help
+                exit
+                ;;
+        esac
+    done
+}
+
+parse_arguments "$@"
+
+mise --version
+
+if [ ${HELP} == true ]
+then
+    help
+fi
+
+if [ ${UPDATE} == true ]
+then
+    mise upgrade
+fi
+checkMise 42
+echo "------------------------------------------ mise en place"
+mise list
+dotai

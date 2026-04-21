@@ -1,0 +1,45 @@
+#!/usr/bin/env bash
+# ---------------------------------------------------------------------
+# NOTE:  to update the cli for claude & gemini...
+source $HOME/bin/utils/colors.sh
+
+clearLocks() {
+    cd $HOME/.local/state/claude/locks
+    shopt -s nullglob # Ensures pattern disappears if no files match
+
+    for lockfile in *.lock; do
+      if [[ -d "$lockfile" ]]; then
+        # echo "Found a lock directory: $lockfile"
+        # Take action here, e.g., break the loop or process all
+        /bin/rm -rf ${lockfile}
+        printf "%s ${GREEN}%s${STOP}: %s \n" "--" ${lockfile} "has been cleared..."
+      fi
+    done
+    cd $HOME
+}
+
+updateClaude() {
+    clearLocks
+    claude update
+}
+
+updateGemini() {
+    GEMINI=gemini-cli
+    PACKAGE="@google/${GEMINI}"
+    
+    LIST=`npm list -g ${PACKAGE} | rg -e empty`
+    UPDATE=`npm outdated -g ${PACKAGE}`
+
+    if [[ "${LIST}" != "" || "${UPDATE}" != "" ]]
+    then
+        npm install -g ${PACKAGE}@latest
+    else
+        VERSION=`gemini --version`
+        printf "${GREEN} %s is up to date (%s)${STOP} \n" ${GEMINI} ${VERSION}
+    fi 
+}
+
+updateClaude
+updateGemini
+
+aixu 42

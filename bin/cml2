@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+# ---------------------------------------------------------------------
+# NOTE:  cml2 == claude mcp list...
+source $HOME/bin/utils/colors.sh
+
+DIRS=`find . -maxdepth 1 -mindepth 1 -type d | sort`
+ROOT=`pwd`
+
+case $ROOT in
+  /*/github | /*/github/*)
+    ;;
+  *)
+    exit
+    ;;
+esac
+
+for f in $DIRS; do
+  echo "--" "${f:2}"
+  cd "$f"
+  if [ -d .claude ]
+  then
+    printf "${BLUE}"
+    claude mcp list
+    printf "${STOP}"
+  fi
+  cd ..
+done
