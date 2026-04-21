@@ -1,5 +1,5 @@
-bin: /
 brew-file: /.
+mise: /.config/
+bin: /
 dev: /
 dots: /
-mise: /.config/

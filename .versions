@@ -15,12 +15,12 @@ processKeys () {
   then
     if [ -L ${BUCKET} ]
     then
-      printf "%s %s ${OK}\n" ${PREFIX} ${TAG}
+      printf "%s %13s ${OK}\n" ${PREFIX} ${TAG}
     else
-      printf "%s %s -- ${RED}WARNING${STOP}\n" ${PREFIX} ${TAG}
+      printf "%s %13s -- ${RED}WARNING${STOP}\n" ${PREFIX} ${TAG}
     fi
   else
-    printf "%s %s -- ${RED}MISSING${STOP}\n" ${PREFIX} ${TAG}
+    printf "%s %13s -- ${RED}MISSING${STOP}\n" ${PREFIX} ${TAG}
   fi
 }
 
