@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+set -e 
+
+if [ -f .update ]
+then
+  sh .update ${1}
+fi

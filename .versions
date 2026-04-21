@@ -1,0 +1,32 @@
+#!/bin/bash
+# ---------------------------------------------------------------------
+# NOTE:  list the devtool symlinks...
+source $HOME/bin/utils/colors.sh
+
+PREFIX="--"
+CACHE=${HOME}/github/eswat2/devtools/.dev-cache.yaml
+
+processKeys () {
+  TARGET=${1}
+  BUCKET=${HOME}${2}${TARGET}
+  TAG=${BUCKET#$HOME/}
+  
+  if [ -d ${BUCKET} ]
+  then
+    if [ -L ${BUCKET} ]
+    then
+      printf "%s %s ${OK}\n" ${PREFIX} ${TAG}
+    else
+      printf "%s %s -- ${RED}WARNING${STOP}\n" ${PREFIX} ${TAG}
+    fi
+  else
+    printf "%s %s -- ${RED}MISSING${STOP}\n" ${PREFIX} ${TAG}
+  fi
+}
+
+# Simple parser for "key: value" lines... [ simmple alternative to yq ]
+while IFS=": " read -r key value; do
+  # Skip empty lines or comments...
+  [[ -z "$key" || "$key" =~ ^# ]] && continue
+  processKeys $key $value
+done < ${CACHE}
