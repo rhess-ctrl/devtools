@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+# ---------------------------------------------------------------------
+# NOTE:  tko2 == check for open tickets...
+source $HOME/bin/utils/colors.sh
+
+DIRS=`find . -maxdepth 1 -mindepth 1 -type d | sort`
+ROOT=`pwd`
+
+case $ROOT in
+  /*/github | /*/github/*)
+    ;;
+  *)
+    exit
+    ;;
+esac
+
+for f in $DIRS; do
+  # echo "--" "${f:2}"
+  cd "$f"
+  if [ -d .tickets ]
+  then
+    # tko: aliased to tk list --status=open
+    tk list --status=open
+  fi
+  cd ..
+done

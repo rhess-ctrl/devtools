@@ -1,0 +1,48 @@
+#!/usr/bin/env bash
+# ---------------------------------------------------------------------
+# NOTE:  tk == ticket... [ a simple wrapper to help CLAUDE ]
+source $HOME/bin/utils/colors.sh
+
+TICKET=${HOME}/github/eswat2/ticket/ticket
+PREFIX="--"
+PWD=$(pwd)
+
+case $PWD in
+/*/github | /*/github/*)
+  # NOTE:  force tk to only work in a github folder...
+  ROOT=$(git rev-parse --show-toplevel)
+  printf "%s ${TIK}${TIK} ${BLUE}%s${STOP}\n" ${PREFIX} ${ROOT#$HOME/}
+  ;;
+*)
+  $TICKET --help
+  exit
+  ;;
+esac
+
+if [ -f ${TICKET} ]; then
+  if [ -d ${ROOT} ]; then
+    # NOTE:  CLAUDE can't remember that you only run tk in the repo root...
+    # NOTE:  latest version of tk walks the parent directories to find .tickets...
+    # pushd ${ROOT} >/dev/null
+    case "$1" in
+    "list")
+      # NOTE:  CLAUDE is forever forgetting to use ls instead of list...
+      # NOTE:  latest version of tk aliases list to ls...
+      # set -- "ls" "${@:2}"
+      ;;
+    "open")
+      # NOTE:  I'm always using open instead of ready...
+      set -- "ready" "${@:2}"
+      ;;
+    "add" | "new")
+      # NOTE:  CLAUDE is forever forgetting to use create...
+      set -- "create" "${@:2}"
+      ;;
+    *) ;;
+    esac
+
+
+    $TICKET "$@"
+    # popd >/dev/null
+  fi
+fi

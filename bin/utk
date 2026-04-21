@@ -2,7 +2,7 @@
 # utk == update ticket...
 source "$HOME/bin/utils/colors.sh"
 
-TICKET="$HOME/github/xploratory/ticket"
+TICKET="$HOME/github/eswat2/ticket"
 PREFIX="--"
 APP=ticket
 

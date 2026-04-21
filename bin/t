@@ -16,7 +16,6 @@ APPS=(
     op
     rustc
     ssc
-    yarn
     git
     nit
     ack
