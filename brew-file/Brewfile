@@ -164,6 +164,6 @@ brew "charmbracelet/tap/vhs"
 
 brew "bjarneo/cliamp/cliamp"
 brew "ksdme/tap/ut"
-brew "tidwall/jj/jj"
+# brew "tidwall/jj/jj"
 brew "f/mcptools/mcp"
 
