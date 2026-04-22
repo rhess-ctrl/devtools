@@ -33,8 +33,8 @@ importers:
         specifier: 9.2.1
         version: 9.2.1
       create-astro:
-        specifier: 5.0.5
-        version: 5.0.5
+        specifier: 5.0.6
+        version: 5.0.6
       create-lit:
         specifier: 1.5.0
         version: 1.5.0
@@ -2790,8 +2790,8 @@ packages:
       typescript:
         optional: true
 
-  create-astro@5.0.5:
-    resolution: {integrity: sha512-Q71Dhh/atm/SWQpkwF0V9rspUurVr5TGcH8FnWNJNlKCVGmRlAsvL/VLc1XJWE8eBVmD8RhBozYTZu2imn+hKg==}
+  create-astro@5.0.6:
+    resolution: {integrity: sha512-XgTGwDUtOaJ29SGpWVTTPZqLFUbzd3kj8zD0LSnirZ4HmixXWrVX0U4XF5NoKk+jdjc246aBybjcw9C4AVWeCw==}
     engines: {node: '>=22.12.0'}
     hasBin: true
 
@@ -8966,7 +8966,7 @@ snapshots:
     optionalDependencies:
       typescript: 5.9.3
 
-  create-astro@5.0.5:
+  create-astro@5.0.6:
     dependencies:
       '@astrojs/cli-kit': 0.4.1
       '@bluwy/giget-core': 0.1.6
