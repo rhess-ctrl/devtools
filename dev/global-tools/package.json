@@ -5,7 +5,7 @@
   "private": true,
   "author": "Richard Hess",
   "license": "MIT",
-  "packageManager": "pnpm@10.33.0",
+  "packageManager": "pnpm@10.33.1",
   "scripts": {
     "preinstall": "npx only-allow pnpm"
   },
@@ -42,7 +42,7 @@
     "svgo": "4.0.1",
     "typescript": "5.9.3",
     "updtr": "4.1.0",
-    "vercel": "51.8.0",
+    "vercel": "52.0.0",
     "wait-on": "9.0.5",
     "zx": "8.8.5"
   }
