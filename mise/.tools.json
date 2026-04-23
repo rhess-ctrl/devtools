@@ -27,9 +27,9 @@
   ],
   "deno": [
     {
-      "version": "2.7.12",
+      "version": "2.7.13",
       "requested_version": "latest",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/deno/2.7.12",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/deno/2.7.13",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
