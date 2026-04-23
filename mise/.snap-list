@@ -5,7 +5,7 @@ fnox            1.21.0            ~/github/eswat2/devtools/mise/config.toml  lat
 go              1.26.2            ~/github/eswat2/devtools/mise/config.toml  latest
 node            24.15.0           ~/github/eswat2/devtools/mise/config.toml  lts
 pipx            1.11.1            ~/github/eswat2/devtools/mise/config.toml  latest
-pixi            0.67.1            ~/github/eswat2/devtools/mise/config.toml  latest
+pixi            0.67.2            ~/github/eswat2/devtools/mise/config.toml  latest
 poetry          2.3.4             ~/github/eswat2/devtools/mise/config.toml  latest
 python          3.14.4            ~/github/eswat2/devtools/mise/config.toml  3.14
 ruff            0.15.11           ~/github/eswat2/devtools/mise/config.toml  latest
