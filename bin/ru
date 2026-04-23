@@ -1,0 +1,14 @@
+#!/bin/bash
+
+rustup check
+
+LOG=`rustup check`
+
+case $LOG in
+  *Update\ available*)
+    echo "------------------------------------------ rust"
+    rustup update;;
+  *)
+    ;;
+esac
+
