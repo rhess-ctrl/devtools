@@ -1,4 +1,3 @@
-tap "encoredev/tap"
 tap "github/gh"
 tap "mongodb/brew"
 tap "misterTea/et"
