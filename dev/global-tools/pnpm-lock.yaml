@@ -42,8 +42,8 @@ importers:
         specifier: 4.0.2
         version: 4.0.2
       create-vite:
-        specifier: 9.0.5
-        version: 9.0.5
+        specifier: 9.0.6
+        version: 9.0.6
       cspell:
         specifier: 10.0.0
         version: 10.0.0
@@ -2809,8 +2809,8 @@ packages:
     engines: {node: '>=10.10.0', npm: '>=6.0.0'}
     hasBin: true
 
-  create-vite@9.0.5:
-    resolution: {integrity: sha512-iIcAUbndUpghcnNu4vY5B9z/8zAAy9P9LUdGiyQTFGvDUyh1WZALl6qWgcyvXIeo6I+MnCV9lB0IvUrqARK0Iw==}
+  create-vite@9.0.6:
+    resolution: {integrity: sha512-OJKuMfUtJYi+lnY0VLA44uunSYvlvbgQpVLkD41d6WrTgH58Md1iajb2NM6dl+rXSwwmLeouDdTT65kFHDNjIA==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
 
@@ -9014,7 +9014,7 @@ snapshots:
 
   create-stencil@4.0.2: {}
 
-  create-vite@9.0.5: {}
+  create-vite@9.0.6: {}
 
   cross-spawn@7.0.6:
     dependencies:
