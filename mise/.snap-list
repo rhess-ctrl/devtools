@@ -1,14 +1,14 @@
 bun             1.3.13            ~/github/eswat2/devtools/mise/config.toml  latest
 cargo-binstall  1.18.1            ~/github/eswat2/devtools/mise/config.toml  latest
 deno            2.7.13            ~/github/eswat2/devtools/mise/config.toml  latest
-fnox            1.21.0            ~/github/eswat2/devtools/mise/config.toml  latest
+fnox            1.23.0            ~/github/eswat2/devtools/mise/config.toml  latest
 go              1.26.2            ~/github/eswat2/devtools/mise/config.toml  latest
 node            24.15.0           ~/github/eswat2/devtools/mise/config.toml  lts
 pipx            1.11.1            ~/github/eswat2/devtools/mise/config.toml  latest
 pixi            0.67.2            ~/github/eswat2/devtools/mise/config.toml  latest
 poetry          2.3.4             ~/github/eswat2/devtools/mise/config.toml  latest
 python          3.14.4            ~/github/eswat2/devtools/mise/config.toml  3.14
-ruff            0.15.11           ~/github/eswat2/devtools/mise/config.toml  latest
+ruff            0.15.12           ~/github/eswat2/devtools/mise/config.toml  latest
 rust            1.95.0 (symlink)  ~/github/eswat2/devtools/mise/config.toml  latest
 ty              0.0.32            ~/github/eswat2/devtools/mise/config.toml  latest
 usage           3.2.1             ~/github/eswat2/devtools/mise/config.toml  latest

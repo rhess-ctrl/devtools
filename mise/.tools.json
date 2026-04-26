@@ -40,9 +40,9 @@
   ],
   "fnox": [
     {
-      "version": "1.21.0",
+      "version": "1.23.0",
       "requested_version": "latest",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/fnox/1.21.0",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/fnox/1.23.0",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
@@ -131,9 +131,9 @@
   ],
   "ruff": [
     {
-      "version": "0.15.11",
+      "version": "0.15.12",
       "requested_version": "latest",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/ruff/0.15.11",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/ruff/0.15.12",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
