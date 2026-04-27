@@ -12,4 +12,4 @@ ruff            0.15.12           ~/github/eswat2/devtools/mise/config.toml  lat
 rust            1.95.0 (symlink)  ~/github/eswat2/devtools/mise/config.toml  latest
 ty              0.0.32            ~/github/eswat2/devtools/mise/config.toml  latest
 usage           3.2.1             ~/github/eswat2/devtools/mise/config.toml  latest
-uv              0.11.7            ~/github/eswat2/devtools/mise/config.toml  latest
+uv              0.11.8            ~/github/eswat2/devtools/mise/config.toml  latest

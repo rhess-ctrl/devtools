@@ -184,9 +184,9 @@
   ],
   "uv": [
     {
-      "version": "0.11.7",
+      "version": "0.11.8",
       "requested_version": "latest",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/uv/0.11.7",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/uv/0.11.8",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
