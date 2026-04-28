@@ -158,9 +158,9 @@
   ],
   "ty": [
     {
-      "version": "0.0.32",
+      "version": "0.0.33",
       "requested_version": "latest",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/ty/0.0.32",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/ty/0.0.33",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"

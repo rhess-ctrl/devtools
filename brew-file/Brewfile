@@ -141,7 +141,7 @@ cask "font-source-sans-3"
 cask "font-space-mono"
 cask "font-victor-mono"
 
-cask "codexbar"
+# cask "codexbar"
 cask "repobar"
 
 cask "ghostty"
