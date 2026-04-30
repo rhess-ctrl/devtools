@@ -81,8 +81,8 @@ importers:
         specifier: 1.2.2
         version: 1.2.2
       portless:
-        specifier: 0.11.1
-        version: 0.11.1
+        specifier: 0.12.0
+        version: 0.12.0
       prettier:
         specifier: 3.8.3
         version: 3.8.3
@@ -105,8 +105,8 @@ importers:
         specifier: 4.1.0
         version: 4.1.0
       vercel:
-        specifier: 52.0.0
-        version: 52.0.0(rollup@4.60.2)(typescript@5.9.3)
+        specifier: 52.2.1
+        version: 52.2.1(rollup@4.60.2)(typescript@5.9.3)
       wait-on:
         specifier: 9.0.5
         version: 9.0.5
@@ -1957,8 +1957,8 @@ packages:
   '@vercel/python-analysis@0.11.0':
     resolution: {integrity: sha512-gsoj+nscmNm0xDh+tRhECRhit2VlAVaD7jc9h93sN6rDEBDxPo7eLEgIJFzVDaAItxERZ9Od2IK/04fB9vFy+g==}
 
-  '@vercel/python@6.36.0':
-    resolution: {integrity: sha512-GLCX2JV2zfjGoSaANWi6gfL1z1IO02ulFhDOGYlOwBmVb1qQFLLssTnbN5uDO5heWm5Owi2/eqBG+l2E7TXiVQ==}
+  '@vercel/python@6.36.1':
+    resolution: {integrity: sha512-N/vgn3G0k8MW3TgdYSCrKoe8vWI49vUjDZYl3dqPt7sSD8wwPalp2Us/0uwY/oUyI1pFdY0uHvR17HOuMhZEbg==}
 
   '@vercel/redwood@2.4.12':
     resolution: {integrity: sha512-8kJ7eEerI4iMpKVRxQCsnxiIwRVsWtyirEbYb4erCqqsJymTu/xrjhsfAUuzeP8qkuYGP82MJVK+hpKlFtsjGw==}
@@ -5023,8 +5023,8 @@ packages:
     resolution: {integrity: sha512-nDywThFk1i4BQK4twPQ6TA4RT8bDY96yeuCVBWL3ePARCiEKDRSrNGbFIgUJpLp+XeIR65v8ra7WuJOFUBtkMA==}
     engines: {node: '>=8'}
 
-  portless@0.11.1:
-    resolution: {integrity: sha512-A/U6sBo/aC+MDoLjVTzAUeB18KTzJQs7z+MnuyyCjJTOZoCh9xZzOjSqUPA+aWS0uS3UytWPrNLA5AO96TzuKQ==}
+  portless@0.12.0:
+    resolution: {integrity: sha512-zE8EYJ5xIEtKEBu1wnD+FavOE90/GNxRixF4Mu2hxMvDuVx1ftUbA6VbjbxI9sP9LUt0L26l6OiENGo4EFtLfw==}
     engines: {node: '>=20'}
     os: [darwin, linux, win32]
     hasBin: true
@@ -6134,8 +6134,8 @@ packages:
   vendors@1.0.4:
     resolution: {integrity: sha512-/juG65kTL4Cy2su4P8HjtkTxk6VmJDiOPBufWniqQ6wknac6jNiXS9vU+hO3wgusiyqWlzTbVHi0dyJqRONg3w==}
 
-  vercel@52.0.0:
-    resolution: {integrity: sha512-yLQn/wrGWVjvoCKQJuqi+aZvy+yYNDY9tSWiq6sH3LlTZ8zdEIHS7hB07TTsYTLQQWb55rW0h5d05QPExMVcSA==}
+  vercel@52.2.1:
+    resolution: {integrity: sha512-/SabFfhZUp3uTqrCHzTZSPDFZU4cwKlCLF3McN9vrA5Gyk0ldvHruBqZNuFtW5Y3J8aSIiREzLxbmL3H8uTquw==}
     engines: {node: '>= 18'}
     hasBin: true
 
@@ -8152,7 +8152,7 @@ snapshots:
       smol-toml: 1.5.2
       zod: 3.22.4
 
-  '@vercel/python@6.36.0':
+  '@vercel/python@6.36.1':
     dependencies:
       '@vercel/python-analysis': 0.11.0
 
@@ -11533,7 +11533,7 @@ snapshots:
     dependencies:
       find-up: 3.0.0
 
-  portless@0.11.1: {}
+  portless@0.12.0: {}
 
   postcss-calc@5.3.1:
     dependencies:
@@ -12842,7 +12842,7 @@ snapshots:
 
   vendors@1.0.4: {}
 
-  vercel@52.0.0(rollup@4.60.2)(typescript@5.9.3):
+  vercel@52.2.1(rollup@4.60.2)(typescript@5.9.3):
     dependencies:
       '@vercel/backends': 0.2.0(rollup@4.60.2)(typescript@5.9.3)
       '@vercel/blob': 2.3.0
@@ -12861,7 +12861,7 @@ snapshots:
       '@vercel/next': 4.16.8(rollup@4.60.2)
       '@vercel/node': 5.7.13(rollup@4.60.2)
       '@vercel/prepare-flags-definitions': 0.2.1
-      '@vercel/python': 6.36.0
+      '@vercel/python': 6.36.1
       '@vercel/redwood': 2.4.12(rollup@4.60.2)
       '@vercel/remix-builder': 5.7.2(rollup@4.60.2)
       '@vercel/ruby': 2.3.2
