@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+DEVTOOLS=$HOME/github/eswat2/devtools
+if [ -d "${DEVTOOLS}" ]
+then
+  cd "${DEVTOOLS}"
+  nv
+fi
