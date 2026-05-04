@@ -1,5 +1,11 @@
-brew-file: /.
-mise: /.config/
-bin: /
-dev: /
-dots: /
+# Simple list of entries; duplicates are fine...
+- key: brew-file
+  base: /.
+- key: mise
+  base: /.config/
+- key: bin
+  base: /
+- key: dev
+  base: /
+- key: dots
+  base: /

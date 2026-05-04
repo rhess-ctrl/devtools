@@ -1,32 +1,37 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # ---------------------------------------------------------------------
-# NOTE:  list the devtool symlinks...
-source $HOME/bin/utils/colors.sh
+# NOTE: list the devtool symlinks using yq and a key/base entry list...
+set -euo pipefail
+source "$HOME/bin/utils/colors.sh"
 
 PREFIX="--"
-CACHE=${HOME}/github/eswat2/devtools/.dev-cache.yaml
+# HRULE:  46 + 2 + 2 == 50 total
+HRULE="----------------------------------------------"
+CACHE="$HOME/github/eswat2/devtools/.dev-cache.yaml"
 
 processKeys () {
-  TARGET=${1}
-  BUCKET=${HOME}${2}${TARGET}
-  TAG=${BUCKET#$HOME/}
-  
-  if [ -d ${BUCKET} ]
-  then
-    if [ -L ${BUCKET} ]
-    then
-      printf "%s %13s ${OK}\n" ${PREFIX} ${TAG}
+  local target="$1"
+  local base="$2"
+
+  local bucket="${HOME}${base}${target}"
+  local tag="${bucket#$HOME/}"
+
+  if [ -d "$bucket" ]; then
+    if [ -L "$bucket" ]; then
+      printf "%s ${BLUE}%20s${STOP} ${OK}\n" "$PREFIX" "$tag"
     else
-      printf "%s %13s -- ${RED}WARNING${STOP}\n" ${PREFIX} ${TAG}
+      printf "%s %20s -- ${RED}%s${STOP}\n" "$PREFIX" "$tag" "WARNING"
     fi
   else
-    printf "%s %13s -- ${RED}MISSING${STOP}\n" ${PREFIX} ${TAG}
+    printf "%s %20s -- ${RED}%s${STOP}\n" "$PREFIX" "$tag" "MISSING"
   fi
 }
 
-# Simple parser for "key: value" lines... [ simmple alternative to yq ]
-while IFS=": " read -r key value; do
-  # Skip empty lines or comments...
-  [[ -z "$key" || "$key" =~ ^# ]] && continue
-  processKeys $key $value
-done < ${CACHE}
+# yq v4: iterate the top-level list and emit "key<TAB>base"
+yq e '.[] | select(.key != null and .base != null) | .key + "\t" + .base' "$CACHE" |
+while IFS=$'\t' read -r key base; do
+  processKeys "$key" "$base"
+done
+
+printf "${TIK}${TIK} ${HRULE} [ ${GREEN}%s${STOP} ]\n" "devtools-mac"
+nit
