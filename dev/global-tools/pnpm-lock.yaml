@@ -75,8 +75,8 @@ importers:
         specifier: 11.2.0
         version: 11.2.0(@types/node@25.2.0)(typescript@5.9.3)
       npm-check-updates:
-        specifier: 22.1.0
-        version: 22.1.0
+        specifier: 22.1.1
+        version: 22.1.1
       only-allow:
         specifier: 1.2.2
         version: 1.2.2
@@ -105,8 +105,8 @@ importers:
         specifier: 4.1.0
         version: 4.1.0
       vercel:
-        specifier: 53.1.1
-        version: 53.1.1(rollup@4.60.3)(typescript@5.9.3)
+        specifier: 53.2.0
+        version: 53.2.0(rollup@4.60.3)(typescript@5.9.3)
       wait-on:
         specifier: 9.0.5
         version: 9.0.5
@@ -3591,7 +3591,7 @@ packages:
 
   glob@7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
-    deprecated: Glob versions prior to v9 are no longer supported
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   global-directory@4.0.1:
     resolution: {integrity: sha512-wHTUcDUoZ1H5/0iVqEudYW4/kAlN5cZ3j/bXn0Dpbizl9iaUVeWSHqiOjsgk6OW2bkLclbBjzewBz6weQ1zA2Q==}
@@ -4708,8 +4708,8 @@ packages:
     engines: {bun: '>=1', git: '>=2.11.0', node: '>=20', npm: '>=9', pnpm: '>=8', yarn: '>=1.7.0'}
     hasBin: true
 
-  npm-check-updates@22.1.0:
-    resolution: {integrity: sha512-zKjYAa205S6UyHkNJGmiLFmm6M31175cvUA3OdHvVlCdtyTfkyQbPWoov/GJEc6PWVbCV5e+60c7S2eVp0ybOA==}
+  npm-check-updates@22.1.1:
+    resolution: {integrity: sha512-uWSxJW25dy5ZM4SdLsi0VBgPSJlo7u+jARQ6Xql+85YYCoqXU2ZaympAZ6237/oybCq/I4nXddE9S9BTwBfBXA==}
     engines: {node: ^20.19.0 || ^22.12.0 || >=24.0.0, npm: '>=10.0.0'}
     hasBin: true
 
@@ -6105,15 +6105,17 @@ packages:
 
   uuid@10.0.0:
     resolution: {integrity: sha512-8XkAphELsDnEGrDxUOHB3RGvXz6TeuYSGEZBOjtTtPm2lwhGBjLgOzLHB63IUWfBpNucQjND6d3AOudO+H3RWQ==}
+    deprecated: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
     hasBin: true
 
   uuid@3.4.0:
     resolution: {integrity: sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==}
-    deprecated: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+    deprecated: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
     hasBin: true
 
   uuid@8.3.2:
     resolution: {integrity: sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==}
+    deprecated: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
     hasBin: true
 
   uvm@2.1.1:
@@ -6134,8 +6136,8 @@ packages:
   vendors@1.0.4:
     resolution: {integrity: sha512-/juG65kTL4Cy2su4P8HjtkTxk6VmJDiOPBufWniqQ6wknac6jNiXS9vU+hO3wgusiyqWlzTbVHi0dyJqRONg3w==}
 
-  vercel@53.1.1:
-    resolution: {integrity: sha512-iQrhYqdh7IMxbqdHSvmNGpH+yljryfjO98d8sX1jFBSIKQseya/WUoC8+q6Yw0vqL/48aQMHhdupU0cbE1eKOA==}
+  vercel@53.2.0:
+    resolution: {integrity: sha512-r4fzI7LSnzhYn2L4acMHmRk1V6WgfjFFzaei0AgG0bd2b17HF9HeRoP9BxJD/yvYmjLIfYIoGTd0CWlIGg3rUg==}
     engines: {node: '>= 18'}
     hasBin: true
 
@@ -11197,7 +11199,7 @@ snapshots:
       - zen-observable
       - zenObservable
 
-  npm-check-updates@22.1.0: {}
+  npm-check-updates@22.1.1: {}
 
   npm-name@8.1.0:
     dependencies:
@@ -12842,7 +12844,7 @@ snapshots:
 
   vendors@1.0.4: {}
 
-  vercel@53.1.1(rollup@4.60.3)(typescript@5.9.3):
+  vercel@53.2.0(rollup@4.60.3)(typescript@5.9.3):
     dependencies:
       '@vercel/backends': 0.3.0(rollup@4.60.3)(typescript@5.9.3)
       '@vercel/blob': 2.3.0

@@ -1,3 +1,10 @@
+allowBuilds:
+  '@socketsupply/socket-darwin-arm64': set this to true or false
+  core-js: set this to true or false
+  es5-ext: set this to true or false
+  esbuild: set this to true or false
+  instatunnel: set this to true or false
+  rs-module-lexer: set this to true or false
 onlyBuiltDependencies:
   - '@socketsupply/socket-darwin-arm64'
   - core-js
