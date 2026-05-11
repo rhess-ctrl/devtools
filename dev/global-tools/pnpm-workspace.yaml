@@ -5,7 +5,7 @@ allowBuilds:
   esbuild: true
   instatunnel: true
   rs-module-lexer: true
-  sharp: set this to true or false
+  sharp: true
 onlyBuiltDependencies:
   - '@socketsupply/socket-darwin-arm64'
   - core-js

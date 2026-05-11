@@ -32,6 +32,8 @@
     "newman": "6.2.2",
     "nodemon": "3.1.14",
     "np": "11.2.0",
+    "node-addon-api": "8.7.0",
+    "node-gyp": "12.3.0",
     "npm-check-updates": "22.1.1",
     "only-allow": "1.2.2",
     "portless": "0.13.0",
