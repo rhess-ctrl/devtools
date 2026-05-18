@@ -2,7 +2,7 @@ tap "github/gh"
 tap "mongodb/brew"
 tap "misterTea/et"
 tap "productdevbook/tap"
-tap "steipete/tap"
+# tap "steipete/tap"
 tap "steveyegge/beads"
 tap "wedow/tools"
 
@@ -142,7 +142,7 @@ cask "font-space-mono"
 cask "font-victor-mono"
 
 # cask "codexbar"
-cask "repobar"
+# cask "repobar"
 
 cask "ghostty"
 cask "graphql-playground"
