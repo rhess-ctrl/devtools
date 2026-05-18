@@ -6,6 +6,8 @@ allowBuilds:
   instatunnel: true
   rs-module-lexer: true
   sharp: true
+minimumReleaseAgeExclude:
+  - '@danielx/civet@0.11.10'
 onlyBuiltDependencies:
   - '@socketsupply/socket-darwin-arm64'
   - core-js

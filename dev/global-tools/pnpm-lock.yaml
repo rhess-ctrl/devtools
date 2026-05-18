@@ -12,8 +12,8 @@ importers:
         specifier: 0.11.0
         version: 0.11.0
       '@danielx/civet':
-        specifier: 0.11.9
-        version: 0.11.9(typescript@5.9.3)(yaml@2.8.3)
+        specifier: 0.11.10
+        version: 0.11.10(typescript@5.9.3)(yaml@2.8.3)
       '@pencil.dev/cli':
         specifier: ^0.2.6
         version: 0.2.6(@types/node@25.2.0)(zod@4.3.6)
@@ -453,8 +453,8 @@ packages:
   '@custom-elements-manifest/find-dependencies@0.0.7':
     resolution: {integrity: sha512-icHEBPHcOXSrpDOFkQhvM7vljEbqrEReW251RBxSzDctXzYWIL0Hk2yMDINn3d6mZ4KSsqLZlaFiGFp/2nn9rA==}
 
-  '@danielx/civet@0.11.9':
-    resolution: {integrity: sha512-1LGG34cSpxUNvlMEA9AAceQiL6WbPIBqftGZPLzmmgJbPbn033e79Cq2/UbP1QA3o/VZw5IowexFzSsdfCDfuA==}
+  '@danielx/civet@0.11.10':
+    resolution: {integrity: sha512-za9Ihhm601ld3QX+91D6pg5jtGqR5qqWbXvfes0BkFRy+m+AODBcs7lePdZVr6QfMySqNJfnCwXnW7oVHAN+YA==}
     engines: {node: '>=19 || ^18.6.0 || ^16.17.0'}
     hasBin: true
     peerDependencies:
@@ -6866,7 +6866,7 @@ snapshots:
       oxc-resolver: 11.17.0
       rs-module-lexer: 2.6.0
 
-  '@danielx/civet@0.11.9(typescript@5.9.3)(yaml@2.8.3)':
+  '@danielx/civet@0.11.10(typescript@5.9.3)(yaml@2.8.3)':
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       unplugin: 2.3.11
