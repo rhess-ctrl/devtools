@@ -5,13 +5,13 @@
   "private": true,
   "author": "Richard Hess",
   "license": "MIT",
-  "packageManager": "pnpm@11.2.2",
+  "packageManager": "pnpm@11.3.0",
   "scripts": {
     "preinstall": "npx only-allow pnpm"
   },
   "dependencies": {
     "@custom-elements-manifest/analyzer": "0.11.0",
-    "@danielx/civet": "0.11.10",
+    "@danielx/civet": "0.11.11",
     "@pencil.dev/cli": "^0.2.6",
     "@socketsupply/socket": "0.5.4",
     "@storybook/storybook-deployer": "2.8.16",
@@ -34,7 +34,7 @@
     "np": "11.2.1",
     "node-addon-api": "8.8.0",
     "node-gyp": "12.3.0",
-    "npm-check-updates": "22.2.0",
+    "npm-check-updates": "22.2.1",
     "only-allow": "1.2.2",
     "portless": "0.13.0",
     "prettier": "3.8.3",

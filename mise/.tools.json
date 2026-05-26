@@ -27,9 +27,9 @@
   ],
   "deno": [
     {
-      "version": "2.7.14",
+      "version": "2.8.0",
       "requested_version": "latest",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/deno/2.7.14",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/deno/2.8.0",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
@@ -40,9 +40,9 @@
   ],
   "fnox": [
     {
-      "version": "1.24.0",
+      "version": "1.25.1",
       "requested_version": "latest",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/fnox/1.24.0",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/fnox/1.25.1",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
@@ -66,9 +66,9 @@
   ],
   "node": [
     {
-      "version": "24.15.0",
+      "version": "24.16.0",
       "requested_version": "lts",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/node/24.15.0",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/node/24.16.0",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
@@ -92,9 +92,9 @@
   ],
   "pixi": [
     {
-      "version": "0.68.1",
+      "version": "0.69.0",
       "requested_version": "latest",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/pixi/0.68.1",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/pixi/0.69.0",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
@@ -118,9 +118,9 @@
   ],
   "ruff": [
     {
-      "version": "0.15.12",
+      "version": "0.15.14",
       "requested_version": "latest",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/ruff/0.15.12",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/ruff/0.15.14",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
@@ -145,9 +145,9 @@
   ],
   "ty": [
     {
-      "version": "0.0.35",
+      "version": "0.0.38",
       "requested_version": "latest",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/ty/0.0.35",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/ty/0.0.38",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
@@ -171,9 +171,9 @@
   ],
   "uv": [
     {
-      "version": "0.11.13",
+      "version": "0.11.16",
       "requested_version": "latest",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/uv/0.11.13",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/uv/0.11.16",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
