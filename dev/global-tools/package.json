@@ -5,13 +5,13 @@
   "private": true,
   "author": "Richard Hess",
   "license": "MIT",
-  "packageManager": "pnpm@11.3.0",
+  "packageManager": "pnpm@11.4.0",
   "scripts": {
     "preinstall": "npx only-allow pnpm"
   },
   "dependencies": {
     "@custom-elements-manifest/analyzer": "0.11.0",
-    "@danielx/civet": "0.11.11",
+    "@danielx/civet": "0.11.12",
     "@pencil.dev/cli": "^0.2.6",
     "@socketsupply/socket": "0.5.4",
     "@storybook/storybook-deployer": "2.8.16",
@@ -44,7 +44,7 @@
     "svgo": "4.0.1",
     "typescript": "5.9.3",
     "updtr": "4.1.0",
-    "vercel": "54.4.1",
+    "vercel": "54.5.0",
     "wait-on": "9.0.10",
     "zx": "8.8.5"
   }
