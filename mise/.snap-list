@@ -7,8 +7,8 @@ node            24.16.0           ~/github/eswat2/devtools/mise/config.toml  lts
 pipx            1.12.0            ~/github/eswat2/devtools/mise/config.toml  latest
 pixi            0.69.0            ~/github/eswat2/devtools/mise/config.toml  latest
 python          3.14.5            ~/github/eswat2/devtools/mise/config.toml  3.14
-ruff            0.15.14           ~/github/eswat2/devtools/mise/config.toml  latest
+ruff            0.15.15           ~/github/eswat2/devtools/mise/config.toml  latest
 rust            1.95.0 (symlink)  ~/github/eswat2/devtools/mise/config.toml  latest
-ty              0.0.39            ~/github/eswat2/devtools/mise/config.toml  latest
+ty              0.0.40            ~/github/eswat2/devtools/mise/config.toml  latest
 usage           3.3.0             ~/github/eswat2/devtools/mise/config.toml  latest
 uv              0.11.16           ~/github/eswat2/devtools/mise/config.toml  latest
