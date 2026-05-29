@@ -65,6 +65,24 @@ minimumReleaseAgeExclude:
   - concurrently@10.0.0
   - portless@0.13.1
   - vercel@54.5.1
+  - '@vercel/backends@0.8.3'
+  - '@vercel/build-utils@13.26.4'
+  - '@vercel/cervel@0.1.11'
+  - '@vercel/elysia@0.1.84'
+  - '@vercel/express@0.1.94'
+  - '@vercel/fastify@0.1.87'
+  - '@vercel/gatsby-plugin-vercel-builder@2.2.10'
+  - '@vercel/h3@0.1.93'
+  - '@vercel/hono@0.2.87'
+  - '@vercel/koa@0.1.67'
+  - '@vercel/nestjs@0.2.88'
+  - '@vercel/next@4.17.5'
+  - '@vercel/node@5.8.8'
+  - '@vercel/python@6.44.0'
+  - '@vercel/redwood@2.4.15'
+  - '@vercel/remix-builder@5.8.4'
+  - '@vercel/static-build@2.9.33'
+  - vercel@54.6.1
 onlyBuiltDependencies:
   - '@socketsupply/socket-darwin-arm64'
   - core-js
