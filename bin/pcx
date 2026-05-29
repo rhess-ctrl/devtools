@@ -42,6 +42,7 @@ then
       echo "[1] -- upgrade"
       ncu -u $SKIP
       echo "[2] -- install"
+      pnpm clean --lockfile
       pnpm install
       echo "[3] -- commit"
       git commit -a -m "» updating packages";;
