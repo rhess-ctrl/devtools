@@ -131,14 +131,14 @@
   ],
   "rust": [
     {
-      "version": "1.95.0",
+      "version": "1.96.0",
       "requested_version": "latest",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/rust/1.95.0",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/rust/1.96.0",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
       },
-      "symlinked_to": "/Users/RHESS/.local/share/mise/installs/rust/1.95.0",
+      "symlinked_to": "/Users/RHESS/.local/share/mise/installs/rust/1.96.0",
       "installed": true,
       "active": true
     }
@@ -171,9 +171,9 @@
   ],
   "uv": [
     {
-      "version": "0.11.16",
+      "version": "0.11.17",
       "requested_version": "latest",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/uv/0.11.16",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/uv/0.11.17",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
