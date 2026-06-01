@@ -110,6 +110,8 @@ minimumReleaseAgeExclude:
   - '@rollup/rollup-win32-x64-msvc@4.61.0'
   - concurrently@10.0.1
   - rollup@4.61.0
+  - '@vercel/remix-builder@5.8.5'
+  - vercel@54.7.0
 onlyBuiltDependencies:
   - '@socketsupply/socket-darwin-arm64'
   - core-js
