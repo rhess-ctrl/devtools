@@ -9,6 +9,6 @@ pixi            0.70.0            ~/github/eswat2/devtools/mise/config.toml  lat
 python          3.14.5            ~/github/eswat2/devtools/mise/config.toml  3.14
 ruff            0.15.15           ~/github/eswat2/devtools/mise/config.toml  latest
 rust            1.96.0 (symlink)  ~/github/eswat2/devtools/mise/config.toml  latest
-ty              0.0.41            ~/github/eswat2/devtools/mise/config.toml  latest
+ty              0.0.42            ~/github/eswat2/devtools/mise/config.toml  latest
 usage           3.4.0             ~/github/eswat2/devtools/mise/config.toml  latest
 uv              0.11.17           ~/github/eswat2/devtools/mise/config.toml  latest
