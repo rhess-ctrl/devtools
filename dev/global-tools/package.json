@@ -34,7 +34,7 @@
     "np": "11.2.1",
     "node-addon-api": "8.8.0",
     "node-gyp": "12.4.0",
-    "npm-check-updates": "22.2.2",
+    "npm-check-updates": "22.2.3",
     "only-allow": "1.2.2",
     "portless": "0.14.0",
     "prettier": "3.8.3",
@@ -44,7 +44,7 @@
     "svgo": "4.0.1",
     "typescript": "5.9.3",
     "updtr": "4.1.0",
-    "vercel": "54.9.1",
+    "vercel": "54.10.1",
     "wait-on": "9.0.10",
     "zx": "8.8.5"
   }
