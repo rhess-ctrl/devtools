@@ -146,6 +146,11 @@ minimumReleaseAgeExclude:
   - '@vercel/static-build@2.10.3'
   - node-gyp@13.0.0
   - vercel@54.12.2
+  - '@vercel/backends@0.8.14'
+  - '@vercel/cervel@0.1.22'
+  - '@vercel/express@0.1.105'
+  - eslint@10.5.0
+  - vercel@54.13.0
 onlyBuiltDependencies:
   - '@socketsupply/socket-darwin-arm64'
   - core-js
