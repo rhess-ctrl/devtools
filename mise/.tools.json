@@ -105,9 +105,9 @@
   ],
   "python": [
     {
-      "version": "3.14.5",
+      "version": "3.14.6",
       "requested_version": "3.14",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/python/3.14.5",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/python/3.14.6",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
@@ -145,9 +145,9 @@
   ],
   "ty": [
     {
-      "version": "0.0.44",
+      "version": "0.0.48",
       "requested_version": "latest",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/ty/0.0.44",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/ty/0.0.48",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
@@ -158,9 +158,9 @@
   ],
   "usage": [
     {
-      "version": "3.4.0",
+      "version": "3.5.0",
       "requested_version": "latest",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/usage/3.4.0",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/usage/3.5.0",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
@@ -171,9 +171,9 @@
   ],
   "uv": [
     {
-      "version": "0.11.19",
+      "version": "0.11.20",
       "requested_version": "latest",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/uv/0.11.19",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/uv/0.11.20",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"

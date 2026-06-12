@@ -144,6 +144,7 @@ cask "font-victor-mono"
 # cask "codexbar"
 # cask "repobar"
 
+cask "gcloud-cli"
 cask "ghostty"
 cask "graphql-playground"
 cask "llamachat"
