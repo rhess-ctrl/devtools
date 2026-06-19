@@ -40,9 +40,9 @@
   ],
   "fnox": [
     {
-      "version": "1.26.0",
+      "version": "1.27.1",
       "requested_version": "latest",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/fnox/1.26.0",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/fnox/1.27.1",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
@@ -66,9 +66,9 @@
   ],
   "node": [
     {
-      "version": "24.16.0",
+      "version": "24.17.0",
       "requested_version": "lts",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/node/24.16.0",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/node/24.17.0",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
@@ -79,9 +79,9 @@
   ],
   "pipx": [
     {
-      "version": "1.14.0",
+      "version": "1.14.1",
       "requested_version": "latest",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/pipx/1.14.0",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/pipx/1.14.1",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
@@ -145,9 +145,9 @@
   ],
   "ty": [
     {
-      "version": "0.0.49",
+      "version": "0.0.50",
       "requested_version": "latest",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/ty/0.0.49",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/ty/0.0.50",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
@@ -158,9 +158,9 @@
   ],
   "usage": [
     {
-      "version": "3.5.0",
+      "version": "3.5.2",
       "requested_version": "latest",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/usage/3.5.0",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/usage/3.5.2",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
