@@ -14,9 +14,9 @@
   ],
   "cargo-binstall": [
     {
-      "version": "1.20.0",
+      "version": "1.20.1",
       "requested_version": "latest",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/cargo-binstall/1.20.0",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/cargo-binstall/1.20.1",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
@@ -118,9 +118,9 @@
   ],
   "ruff": [
     {
-      "version": "0.15.17",
+      "version": "0.15.18",
       "requested_version": "latest",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/ruff/0.15.17",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/ruff/0.15.18",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
@@ -145,9 +145,9 @@
   ],
   "ty": [
     {
-      "version": "0.0.50",
+      "version": "0.0.52",
       "requested_version": "latest",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/ty/0.0.50",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/ty/0.0.52",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
@@ -171,9 +171,9 @@
   ],
   "uv": [
     {
-      "version": "0.11.21",
+      "version": "0.11.23",
       "requested_version": "latest",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/uv/0.11.21",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/uv/0.11.23",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
