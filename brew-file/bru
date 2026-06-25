@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+source $HOME/bin/utils/bru-utils.sh
+
 BREWHOME=~/.brew-file
 BREWFILE=./Brewfile
 
@@ -10,6 +12,8 @@ then
     echo "[brew]:"
     echo "-- update"
     brew update
+    echo "-- trust"
+    bru::trust
     echo "-- check"
     brew bundle check
     echo "-- install"
