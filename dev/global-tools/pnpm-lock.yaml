@@ -33,8 +33,8 @@ importers:
         specifier: 10.0.3
         version: 10.0.3
       create-astro:
-        specifier: 5.1.0
-        version: 5.1.0
+        specifier: 5.2.0
+        version: 5.2.0
       create-lit:
         specifier: 1.5.0
         version: 1.5.0
@@ -108,8 +108,8 @@ importers:
         specifier: 4.1.0
         version: 4.1.0
       vercel:
-        specifier: 54.17.1
-        version: 54.17.1(@emnapi/core@1.11.0)(@emnapi/runtime@1.11.1)(rollup@4.62.2)
+        specifier: 54.17.2
+        version: 54.17.2(@emnapi/core@1.11.0)(@emnapi/runtime@1.11.1)(rollup@4.62.2)
       wait-on:
         specifier: 9.0.10
         version: 9.0.10
@@ -2740,8 +2740,8 @@ packages:
       typescript:
         optional: true
 
-  create-astro@5.1.0:
-    resolution: {integrity: sha512-SkYY1mjDh3DAPrtTAblD9p2xOHpqSKw+2zBhCLa/KUoqqIzIXyq1OKpCrhklqwpkUDPTMmf3zOdEAVPQCnpO7A==}
+  create-astro@5.2.0:
+    resolution: {integrity: sha512-m27Th0p7WYnT7sbGh5fcE3l6WBxLzJ+YwynZjJH0AE+8CbIVJpcKXatpqgKi2LxM5exXsOB8Emn8iua2pEs6ZA==}
     engines: {node: '>=22.12.0'}
     hasBin: true
 
@@ -5984,8 +5984,8 @@ packages:
   vendors@1.0.4:
     resolution: {integrity: sha512-/juG65kTL4Cy2su4P8HjtkTxk6VmJDiOPBufWniqQ6wknac6jNiXS9vU+hO3wgusiyqWlzTbVHi0dyJqRONg3w==}
 
-  vercel@54.17.1:
-    resolution: {integrity: sha512-FNzQKz+Da1geI4v5dHxrKn9i1vE0jp4yDxLJ2FwAI0mBwQwEqNCCJNGgRBC+dXsKl2Sv1i+PR19zbRIVAq4r7g==}
+  vercel@54.17.2:
+    resolution: {integrity: sha512-OFqRjuPEzNE8JHM3I1f489xc+yO0ssywl3Ogv4okbmgkFKmRV/zHMWEJeO1aNluVBQt/2xdyxYVFxYeWbLDiJA==}
     engines: {node: '>= 18'}
     hasBin: true
 
@@ -8547,7 +8547,7 @@ snapshots:
     optionalDependencies:
       typescript: 5.9.3
 
-  create-astro@5.1.0:
+  create-astro@5.2.0:
     dependencies:
       '@astrojs/cli-kit': 0.4.1
       '@bluwy/giget-core': 0.1.7
@@ -12306,7 +12306,7 @@ snapshots:
 
   vendors@1.0.4: {}
 
-  vercel@54.17.1(@emnapi/core@1.11.0)(@emnapi/runtime@1.11.1)(rollup@4.62.2):
+  vercel@54.17.2(@emnapi/core@1.11.0)(@emnapi/runtime@1.11.1)(rollup@4.62.2):
     dependencies:
       '@vercel/backends': 0.8.18(@emnapi/core@1.11.0)(@emnapi/runtime@1.11.1)(rollup@4.62.2)
       '@vercel/blob': 2.4.0
