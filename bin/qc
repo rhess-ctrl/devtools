@@ -1,0 +1,48 @@
+#!/usr/bin/env bash
+# ---------------------------------------------------------------------
+# NOTE:  utility to quick compress a directory by name...
+source ${HOME}/bin/utils/colors.sh
+
+generate-cmd () {
+  ZIP=(
+    zip -yr "${1}.zip" "${1}"
+    -x "${1}/_arkive**"
+    -x "${1}/__pycache__**"
+    -x "${1}/node_modules**"
+    -x "${1}/perplexity**"
+    -x "${1}/.git**"
+    -x "${1}/.next**"
+    -x "${1}/.gemini**"
+    -x "${1}/.crush**"
+    -x "${1}/.claude**"
+    -x "${1}/.beads**"
+    -x "${1}/.DS_Store"
+    -x "${1}/**/_arkive**"
+    -x "${1}/**/__pycache__**"
+    -x "${1}/**/node_modules**"
+    -x "${1}/**/perplexity**"
+    -x "${1}/**/.git**"
+    -x "${1}/**/.next**"
+    -x "${1}/**/.gemini**"
+    -x "${1}/**/.crush**"
+    -x "${1}/**/.claude**"
+    -x "${1}/**/.beads**"
+    -x "${1}/**/.DS_Store"
+  )
+
+  echo "${ZIP[@]}"
+}
+
+for f in "$@"
+do
+  generate-cmd ${f}
+
+  echo ${ZIP}
+
+  bn=$(basename "$f")
+  dn=$(dirname "$f")
+
+  "${ZIP[@]}" > ${f}-zip.log
+
+  printf "%s ${BLUE}%24s${STOP} - ${GREEN}%s${STOP}\n" "--" ${f} "compressed..."
+done
