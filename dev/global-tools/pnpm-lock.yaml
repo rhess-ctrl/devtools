@@ -16,7 +16,7 @@ importers:
         version: 0.11.13(typescript@5.9.3)(yaml@2.9.0)
       '@pencil.dev/cli':
         specifier: ^0.2.7
-        version: 0.2.7(@anthropic-ai/sdk@0.105.0(zod@4.1.11))(@modelcontextprotocol/sdk@1.29.0(zod@4.1.11))(@types/node@26.0.0)(zod@4.1.11)
+        version: 0.2.7(@anthropic-ai/sdk@0.106.0(zod@4.1.11))(@modelcontextprotocol/sdk@1.29.0(zod@4.1.11))(@types/node@26.0.1)(zod@4.1.11)
       '@socketsupply/socket':
         specifier: 0.5.4
         version: 0.5.4
@@ -76,7 +76,7 @@ importers:
         version: 3.1.14
       np:
         specifier: 11.2.1
-        version: 11.2.1(@types/node@26.0.0)(typescript@5.9.3)
+        version: 11.2.1(@types/node@26.0.1)(typescript@5.9.3)
       npm-check-updates:
         specifier: 22.2.7
         version: 22.2.7
@@ -108,8 +108,8 @@ importers:
         specifier: 4.1.0
         version: 4.1.0
       vercel:
-        specifier: 54.17.2
-        version: 54.17.2(@emnapi/core@1.11.0)(@emnapi/runtime@1.11.1)(rollup@4.62.2)
+        specifier: 54.17.3
+        version: 54.17.3(@emnapi/core@1.11.0)(@emnapi/runtime@1.11.1)(rollup@4.62.2)
       wait-on:
         specifier: 9.0.10
         version: 9.0.10
@@ -119,60 +119,60 @@ importers:
 
 packages:
 
-  '@anthropic-ai/claude-agent-sdk-darwin-arm64@0.3.190':
-    resolution: {integrity: sha512-131dhlg7qGXgVsnKi0pTPMK4lQOunF4Ewx9AT4sP24LXc0vxYZ8r7d6Vy5ba/jCp6NqkJUNsMNYwNfvIaGdv4Q==}
+  '@anthropic-ai/claude-agent-sdk-darwin-arm64@0.3.191':
+    resolution: {integrity: sha512-rmpi5ONfuuw7oXdzyr9QJB5sK9Rr1MmdOUsiGutVFpcAqqSXpVYLmMvfaarmXvItgfwgGprzrGDfcAeAQHSUGw==}
     cpu: [arm64]
     os: [darwin]
 
-  '@anthropic-ai/claude-agent-sdk-darwin-x64@0.3.190':
-    resolution: {integrity: sha512-IU8RDROU69Hd81TgH8VAjXMq/pvTreuT0Fqtjut2u5p9zYB7m0q1uWZyEWJfte6aCTA6aQLcFp2l1RRpRfOYxg==}
+  '@anthropic-ai/claude-agent-sdk-darwin-x64@0.3.191':
+    resolution: {integrity: sha512-b/4pfSFTC2gkc0RoGSJ5B3DWo77qZFMi2hRlx8kwaRDiefeIOnbJu42gDBrs4F8nSJJug77HM9AsG6XHXvt5Fg==}
     cpu: [x64]
     os: [darwin]
 
-  '@anthropic-ai/claude-agent-sdk-linux-arm64-musl@0.3.190':
-    resolution: {integrity: sha512-/fHLhroUkjgqjbU4vQtql9nVNf9qyYLDuXAUViA3VCCYY78mgfQPj0k3p0dVre38Cr5AuzWVS8tLxJm3Yg1o4g==}
+  '@anthropic-ai/claude-agent-sdk-linux-arm64-musl@0.3.191':
+    resolution: {integrity: sha512-+Gg7lKwYDr8uiA37EBMYI63if+YGdbrFt2tcRFBB4IhdVf5r1IkKwQ8rEYV6Y0nqGTKoXLh3bRc5QWOe5JwgbQ==}
     cpu: [arm64]
     os: [linux]
     libc: [musl]
 
-  '@anthropic-ai/claude-agent-sdk-linux-arm64@0.3.190':
-    resolution: {integrity: sha512-MhBNdygHatPnfw2zpfx70A535pDk2mZQwkFeL0kSfiF0pAgJWyuyYCAI7NUH61NtT3R2kO1kxGGWxgAuh0Ncag==}
+  '@anthropic-ai/claude-agent-sdk-linux-arm64@0.3.191':
+    resolution: {integrity: sha512-vm526e3InpItmh+Ua8a49eGTpFJvZTYLURX9ppKrtFb+Wo7rOgoXmK/Hzf/crEU7h72xtaD7PIOXm4P+psxO3w==}
     cpu: [arm64]
     os: [linux]
     libc: [glibc]
 
-  '@anthropic-ai/claude-agent-sdk-linux-x64-musl@0.3.190':
-    resolution: {integrity: sha512-ixcKEYuAaK6Fx2a9hjNRlCqTu9uc2SgZZr/f5Uzy4xFSHZNVyc+xn0c+JlCV6ZwiVs8FRlxGuFGoOD0yN3X6Zg==}
+  '@anthropic-ai/claude-agent-sdk-linux-x64-musl@0.3.191':
+    resolution: {integrity: sha512-tUwwIXpPBrzJge3E4SQJQX8PuC+lxPb5xQBmyLsWxyjttlgpFpTG/jWPVQO5qH0HgYaEJS5JALHFiYcXwVrEkg==}
     cpu: [x64]
     os: [linux]
     libc: [musl]
 
-  '@anthropic-ai/claude-agent-sdk-linux-x64@0.3.190':
-    resolution: {integrity: sha512-iLT6Z2ivtCSu722H51wBwEjTfRrymrVZjV6puhkBHAFQsW7U8ya0gKzELlun/nj8gYLT38eoUanIhdSDdyWoAA==}
+  '@anthropic-ai/claude-agent-sdk-linux-x64@0.3.191':
+    resolution: {integrity: sha512-wj43/l0Behb4UWYt6Lomq2W7jhmuU7ARsEP0el6gLGCR348PDeqLGcB4dMOcYMGRZv8TYKfnhDwJnX4pJBT1vQ==}
     cpu: [x64]
     os: [linux]
     libc: [glibc]
 
-  '@anthropic-ai/claude-agent-sdk-win32-arm64@0.3.190':
-    resolution: {integrity: sha512-CcMt72vqTWBV3y+E0szfcOcUHcY8qAG+SnjUwYMHNMlzBrUL4cpiiGO6qKYxo4kkdoSWaHZVxVkPtOldrPiz4A==}
+  '@anthropic-ai/claude-agent-sdk-win32-arm64@0.3.191':
+    resolution: {integrity: sha512-J8aTOi7n6AM7tHFlKt6hlJ4rue0TbY2glqcI2r6K3iK7Fmzvt9zfg00+l8fWKOais4K+8jqJCC4WSCUlz6+tKQ==}
     cpu: [arm64]
     os: [win32]
 
-  '@anthropic-ai/claude-agent-sdk-win32-x64@0.3.190':
-    resolution: {integrity: sha512-3tkc+zizxgl+q+keZ52OJ3flUq2i4TUUgfkXJaozbylHglW94qW/j0axmEp+cREGiiV5jtJGxLMziHpr/dS6TQ==}
+  '@anthropic-ai/claude-agent-sdk-win32-x64@0.3.191':
+    resolution: {integrity: sha512-1rYlPuM9PS37IPCE/sAG7A7oCrWnIb0J7EY6eQBdImdXHEjwBngZ3E8KbtEM79fUTA3C810LqrnFpjOmNExLMA==}
     cpu: [x64]
     os: [win32]
 
-  '@anthropic-ai/claude-agent-sdk@0.3.190':
-    resolution: {integrity: sha512-d4morVtH9eBUsk5BXmhcX2tnEums/RwbM9LrhZB3VCDAYNiDTEW4IejY5o572//7/0qN111l6fmPr5b5cmrjsQ==}
+  '@anthropic-ai/claude-agent-sdk@0.3.191':
+    resolution: {integrity: sha512-DM9oYbt+WAb/CiD8l/CO6akqPKfyZ4sL1e+lP2O2eS9IR0f58sf90xWeji7V+/zfnIp+jyH3hJ3V6r7odCdB8g==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       '@anthropic-ai/sdk': '>=0.93.0'
       '@modelcontextprotocol/sdk': ^1.29.0
       zod: ^4.0.0
 
-  '@anthropic-ai/sdk@0.105.0':
-    resolution: {integrity: sha512-sDyu+aM9cE6uZE+HgRjjHRb+qqb87GHZOx+8bE0YlWetdL1YcVLxn8h9ltxGOflyChTe6PMEo50kMQV4cw0hfg==}
+  '@anthropic-ai/sdk@0.106.0':
+    resolution: {integrity: sha512-ufwVvYNDBj2dzOGupBCTaNzBLxqcTnGOzI4z8Wouxlt+mT3J3HuOmatgCy1VmwCHOUueqZ41ERhm0O99OUcbWA==}
     hasBin: true
     peerDependencies:
       zod: ^3.25.0 || ^4.0.0
@@ -1838,8 +1838,8 @@ packages:
   '@types/node@20.11.0':
     resolution: {integrity: sha512-o9bjXmDNcF7GbM4CNQpmi+TutCgap/K3w1JyKgxAjqx41zp9qlIAVFi0IhCNsJcXolEqLWhbFbEeL0PvYm4pcQ==}
 
-  '@types/node@26.0.0':
-    resolution: {integrity: sha512-vf2YFi1iY9lHGwNJMs01biZFbKJkrZR1T6/MlzjhJLPdntOHLhTrDSnSVcdtvjihi4VQNlrFRIxLsDBlQpAipA==}
+  '@types/node@26.0.1':
+    resolution: {integrity: sha512-fc3KiUoBt6kie0N9bIW3E47vZsuaMf0PM2AaUpLCLT0s/LvX1nxAim6Fc049cNxODPpGm6qRAuUOB86SkRuPQw==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -1908,8 +1908,8 @@ packages:
   '@vercel/gatsby-plugin-vercel-builder@2.2.23':
     resolution: {integrity: sha512-UxInx6QtZZQkjeoOK+fMBxavlS+GWm1PUWAvCvZpyCNO971JzdlGwW6zzSIeUsBrHB8SozPqnG1PMQisLY6TxQ==}
 
-  '@vercel/go@3.10.0':
-    resolution: {integrity: sha512-duJHRjJy0vZIGU4XcPcsEDf0bw9RfNqPiH9yx7otbAqAA5MdukbDHU0lWr3sup/jKAYIy8QZMmjN+sZjYbQ4xA==}
+  '@vercel/go@3.10.1':
+    resolution: {integrity: sha512-6i37zdMUS4PX1BWRHBCUqp5Ev0NbOrfrRVCwAzKj8YKh48LNu/Ye5r5NFI3JW7g40HkAC8wBMwZ7fRQPlWgBSg==}
 
   '@vercel/h3@0.1.106':
     resolution: {integrity: sha512-Sl9k42VQnlbPgtg0vQyUmhhQ0LmjSYhLklLKjd5pzD0GXITKbhPXa+0QwdnRtJo0Eb2kFzluZmypEF7KoNxW4g==}
@@ -1947,8 +1947,8 @@ packages:
   '@vercel/python-analysis@0.11.1':
     resolution: {integrity: sha512-EPPLuXJQhIDUx08H9nG76AR2HSgBquwe3OAX5s2w20M923iaWeGGVkhX/4yZ89CJfXEZgE1Aj/mX7lVHOVIcYA==}
 
-  '@vercel/python@6.47.1':
-    resolution: {integrity: sha512-3AKnpBnZc4ClonYrpzMeWoNnoWzQF2PyAJqsfo74IhLuAh5bnOGFOnLK2NcIg60GdzF/8TjdwPR7AkyuxdrYzw==}
+  '@vercel/python@6.47.2':
+    resolution: {integrity: sha512-ayP1s8dfCtW4XmvUFDRdA7ETbkEbRWChfCv66FZNHWgMRKELxhsuO1OHPnK+7hwHwEjpxPqZyilRO64RBKlYfw==}
 
   '@vercel/redwood@2.5.0':
     resolution: {integrity: sha512-LO24CbieV57rGAqrq5n5z/B+fMYeUqbE/Ge3qMeKRuS3Q9awgcBgB6WYLCe8crHM7XJd5AZjbuyoS/6k3r0X0w==}
@@ -5132,8 +5132,8 @@ packages:
     resolution: {integrity: sha512-V/yCWTTF7VJ9hIh18Ugr2zhJMP01MY7c5kh4J870L7imm6/DIzBsNLTXzMwUA3yZ5b/KBqLx8Kp3uRvd7xSe3Q==}
     engines: {node: '>=0.6'}
 
-  qs@6.15.2:
-    resolution: {integrity: sha512-Rzq0KEyX/w/tEybncDgdkZrJgVUsUMk3xjh3t5bv3S1HTAtg+uOYt72+ZfwiQwKdysThkTBdL/rTi6HDmX9Ddw==}
+  qs@6.15.3:
+    resolution: {integrity: sha512-O9gl3zCl5h5blw1KGUzQKhA5oUXSl8rwUIM5o0S3nCXMliSvy5Dzx7/DJcI+SwgICv+IneSZwhBh1oSyEHA71A==}
     engines: {node: '>=0.6'}
 
   qs@6.5.5:
@@ -5984,8 +5984,8 @@ packages:
   vendors@1.0.4:
     resolution: {integrity: sha512-/juG65kTL4Cy2su4P8HjtkTxk6VmJDiOPBufWniqQ6wknac6jNiXS9vU+hO3wgusiyqWlzTbVHi0dyJqRONg3w==}
 
-  vercel@54.17.2:
-    resolution: {integrity: sha512-OFqRjuPEzNE8JHM3I1f489xc+yO0ssywl3Ogv4okbmgkFKmRV/zHMWEJeO1aNluVBQt/2xdyxYVFxYeWbLDiJA==}
+  vercel@54.17.3:
+    resolution: {integrity: sha512-HVmYSzxvG6kDp0pqKJCdzaRUsopDVx6VyuGEWIVuyRGZWs6Tw/eUZ2OVl+VRTGn5yGOLaCPpI5nVqnk1689MSg==}
     engines: {node: '>= 18'}
     hasBin: true
 
@@ -6190,46 +6190,46 @@ packages:
 
 snapshots:
 
-  '@anthropic-ai/claude-agent-sdk-darwin-arm64@0.3.190':
+  '@anthropic-ai/claude-agent-sdk-darwin-arm64@0.3.191':
     optional: true
 
-  '@anthropic-ai/claude-agent-sdk-darwin-x64@0.3.190':
+  '@anthropic-ai/claude-agent-sdk-darwin-x64@0.3.191':
     optional: true
 
-  '@anthropic-ai/claude-agent-sdk-linux-arm64-musl@0.3.190':
+  '@anthropic-ai/claude-agent-sdk-linux-arm64-musl@0.3.191':
     optional: true
 
-  '@anthropic-ai/claude-agent-sdk-linux-arm64@0.3.190':
+  '@anthropic-ai/claude-agent-sdk-linux-arm64@0.3.191':
     optional: true
 
-  '@anthropic-ai/claude-agent-sdk-linux-x64-musl@0.3.190':
+  '@anthropic-ai/claude-agent-sdk-linux-x64-musl@0.3.191':
     optional: true
 
-  '@anthropic-ai/claude-agent-sdk-linux-x64@0.3.190':
+  '@anthropic-ai/claude-agent-sdk-linux-x64@0.3.191':
     optional: true
 
-  '@anthropic-ai/claude-agent-sdk-win32-arm64@0.3.190':
+  '@anthropic-ai/claude-agent-sdk-win32-arm64@0.3.191':
     optional: true
 
-  '@anthropic-ai/claude-agent-sdk-win32-x64@0.3.190':
+  '@anthropic-ai/claude-agent-sdk-win32-x64@0.3.191':
     optional: true
 
-  '@anthropic-ai/claude-agent-sdk@0.3.190(@anthropic-ai/sdk@0.105.0(zod@4.1.11))(@modelcontextprotocol/sdk@1.29.0(zod@4.1.11))(zod@4.1.11)':
+  '@anthropic-ai/claude-agent-sdk@0.3.191(@anthropic-ai/sdk@0.106.0(zod@4.1.11))(@modelcontextprotocol/sdk@1.29.0(zod@4.1.11))(zod@4.1.11)':
     dependencies:
-      '@anthropic-ai/sdk': 0.105.0(zod@4.1.11)
+      '@anthropic-ai/sdk': 0.106.0(zod@4.1.11)
       '@modelcontextprotocol/sdk': 1.29.0(zod@4.1.11)
       zod: 4.1.11
     optionalDependencies:
-      '@anthropic-ai/claude-agent-sdk-darwin-arm64': 0.3.190
-      '@anthropic-ai/claude-agent-sdk-darwin-x64': 0.3.190
-      '@anthropic-ai/claude-agent-sdk-linux-arm64': 0.3.190
-      '@anthropic-ai/claude-agent-sdk-linux-arm64-musl': 0.3.190
-      '@anthropic-ai/claude-agent-sdk-linux-x64': 0.3.190
-      '@anthropic-ai/claude-agent-sdk-linux-x64-musl': 0.3.190
-      '@anthropic-ai/claude-agent-sdk-win32-arm64': 0.3.190
-      '@anthropic-ai/claude-agent-sdk-win32-x64': 0.3.190
+      '@anthropic-ai/claude-agent-sdk-darwin-arm64': 0.3.191
+      '@anthropic-ai/claude-agent-sdk-darwin-x64': 0.3.191
+      '@anthropic-ai/claude-agent-sdk-linux-arm64': 0.3.191
+      '@anthropic-ai/claude-agent-sdk-linux-arm64-musl': 0.3.191
+      '@anthropic-ai/claude-agent-sdk-linux-x64': 0.3.191
+      '@anthropic-ai/claude-agent-sdk-linux-x64-musl': 0.3.191
+      '@anthropic-ai/claude-agent-sdk-win32-arm64': 0.3.191
+      '@anthropic-ai/claude-agent-sdk-win32-x64': 0.3.191
 
-  '@anthropic-ai/sdk@0.105.0(zod@4.1.11)':
+  '@anthropic-ai/sdk@0.106.0(zod@4.1.11)':
     dependencies:
       json-schema-to-ts: 3.1.1
       standardwebhooks: 1.0.0
@@ -6794,122 +6794,122 @@ snapshots:
 
   '@inquirer/ansi@2.0.7': {}
 
-  '@inquirer/checkbox@5.2.1(@types/node@26.0.0)':
+  '@inquirer/checkbox@5.2.1(@types/node@26.0.1)':
     dependencies:
       '@inquirer/ansi': 2.0.7
-      '@inquirer/core': 11.2.1(@types/node@26.0.0)
+      '@inquirer/core': 11.2.1(@types/node@26.0.1)
       '@inquirer/figures': 2.0.7
-      '@inquirer/type': 4.0.7(@types/node@26.0.0)
+      '@inquirer/type': 4.0.7(@types/node@26.0.1)
     optionalDependencies:
-      '@types/node': 26.0.0
+      '@types/node': 26.0.1
 
-  '@inquirer/confirm@6.1.1(@types/node@26.0.0)':
+  '@inquirer/confirm@6.1.1(@types/node@26.0.1)':
     dependencies:
-      '@inquirer/core': 11.2.1(@types/node@26.0.0)
-      '@inquirer/type': 4.0.7(@types/node@26.0.0)
+      '@inquirer/core': 11.2.1(@types/node@26.0.1)
+      '@inquirer/type': 4.0.7(@types/node@26.0.1)
     optionalDependencies:
-      '@types/node': 26.0.0
+      '@types/node': 26.0.1
 
-  '@inquirer/core@11.2.1(@types/node@26.0.0)':
+  '@inquirer/core@11.2.1(@types/node@26.0.1)':
     dependencies:
       '@inquirer/ansi': 2.0.7
       '@inquirer/figures': 2.0.7
-      '@inquirer/type': 4.0.7(@types/node@26.0.0)
+      '@inquirer/type': 4.0.7(@types/node@26.0.1)
       cli-width: 4.1.0
       fast-wrap-ansi: 0.2.2
       mute-stream: 3.0.0
       signal-exit: 4.1.0
     optionalDependencies:
-      '@types/node': 26.0.0
+      '@types/node': 26.0.1
 
-  '@inquirer/editor@5.2.2(@types/node@26.0.0)':
+  '@inquirer/editor@5.2.2(@types/node@26.0.1)':
     dependencies:
-      '@inquirer/core': 11.2.1(@types/node@26.0.0)
-      '@inquirer/external-editor': 3.0.3(@types/node@26.0.0)
-      '@inquirer/type': 4.0.7(@types/node@26.0.0)
+      '@inquirer/core': 11.2.1(@types/node@26.0.1)
+      '@inquirer/external-editor': 3.0.3(@types/node@26.0.1)
+      '@inquirer/type': 4.0.7(@types/node@26.0.1)
     optionalDependencies:
-      '@types/node': 26.0.0
+      '@types/node': 26.0.1
 
-  '@inquirer/expand@5.1.1(@types/node@26.0.0)':
+  '@inquirer/expand@5.1.1(@types/node@26.0.1)':
     dependencies:
-      '@inquirer/core': 11.2.1(@types/node@26.0.0)
-      '@inquirer/type': 4.0.7(@types/node@26.0.0)
+      '@inquirer/core': 11.2.1(@types/node@26.0.1)
+      '@inquirer/type': 4.0.7(@types/node@26.0.1)
     optionalDependencies:
-      '@types/node': 26.0.0
+      '@types/node': 26.0.1
 
-  '@inquirer/external-editor@3.0.3(@types/node@26.0.0)':
+  '@inquirer/external-editor@3.0.3(@types/node@26.0.1)':
     dependencies:
       chardet: 2.1.1
       iconv-lite: 0.7.2
     optionalDependencies:
-      '@types/node': 26.0.0
+      '@types/node': 26.0.1
 
   '@inquirer/figures@2.0.7': {}
 
-  '@inquirer/input@5.1.2(@types/node@26.0.0)':
+  '@inquirer/input@5.1.2(@types/node@26.0.1)':
     dependencies:
-      '@inquirer/core': 11.2.1(@types/node@26.0.0)
-      '@inquirer/type': 4.0.7(@types/node@26.0.0)
+      '@inquirer/core': 11.2.1(@types/node@26.0.1)
+      '@inquirer/type': 4.0.7(@types/node@26.0.1)
     optionalDependencies:
-      '@types/node': 26.0.0
+      '@types/node': 26.0.1
 
-  '@inquirer/number@4.1.1(@types/node@26.0.0)':
+  '@inquirer/number@4.1.1(@types/node@26.0.1)':
     dependencies:
-      '@inquirer/core': 11.2.1(@types/node@26.0.0)
-      '@inquirer/type': 4.0.7(@types/node@26.0.0)
+      '@inquirer/core': 11.2.1(@types/node@26.0.1)
+      '@inquirer/type': 4.0.7(@types/node@26.0.1)
     optionalDependencies:
-      '@types/node': 26.0.0
+      '@types/node': 26.0.1
 
-  '@inquirer/password@5.1.1(@types/node@26.0.0)':
-    dependencies:
-      '@inquirer/ansi': 2.0.7
-      '@inquirer/core': 11.2.1(@types/node@26.0.0)
-      '@inquirer/type': 4.0.7(@types/node@26.0.0)
-    optionalDependencies:
-      '@types/node': 26.0.0
-
-  '@inquirer/prompts@8.5.2(@types/node@26.0.0)':
-    dependencies:
-      '@inquirer/checkbox': 5.2.1(@types/node@26.0.0)
-      '@inquirer/confirm': 6.1.1(@types/node@26.0.0)
-      '@inquirer/editor': 5.2.2(@types/node@26.0.0)
-      '@inquirer/expand': 5.1.1(@types/node@26.0.0)
-      '@inquirer/input': 5.1.2(@types/node@26.0.0)
-      '@inquirer/number': 4.1.1(@types/node@26.0.0)
-      '@inquirer/password': 5.1.1(@types/node@26.0.0)
-      '@inquirer/rawlist': 5.3.1(@types/node@26.0.0)
-      '@inquirer/search': 4.2.1(@types/node@26.0.0)
-      '@inquirer/select': 5.2.1(@types/node@26.0.0)
-    optionalDependencies:
-      '@types/node': 26.0.0
-
-  '@inquirer/rawlist@5.3.1(@types/node@26.0.0)':
-    dependencies:
-      '@inquirer/core': 11.2.1(@types/node@26.0.0)
-      '@inquirer/type': 4.0.7(@types/node@26.0.0)
-    optionalDependencies:
-      '@types/node': 26.0.0
-
-  '@inquirer/search@4.2.1(@types/node@26.0.0)':
-    dependencies:
-      '@inquirer/core': 11.2.1(@types/node@26.0.0)
-      '@inquirer/figures': 2.0.7
-      '@inquirer/type': 4.0.7(@types/node@26.0.0)
-    optionalDependencies:
-      '@types/node': 26.0.0
-
-  '@inquirer/select@5.2.1(@types/node@26.0.0)':
+  '@inquirer/password@5.1.1(@types/node@26.0.1)':
     dependencies:
       '@inquirer/ansi': 2.0.7
-      '@inquirer/core': 11.2.1(@types/node@26.0.0)
-      '@inquirer/figures': 2.0.7
-      '@inquirer/type': 4.0.7(@types/node@26.0.0)
+      '@inquirer/core': 11.2.1(@types/node@26.0.1)
+      '@inquirer/type': 4.0.7(@types/node@26.0.1)
     optionalDependencies:
-      '@types/node': 26.0.0
+      '@types/node': 26.0.1
 
-  '@inquirer/type@4.0.7(@types/node@26.0.0)':
+  '@inquirer/prompts@8.5.2(@types/node@26.0.1)':
+    dependencies:
+      '@inquirer/checkbox': 5.2.1(@types/node@26.0.1)
+      '@inquirer/confirm': 6.1.1(@types/node@26.0.1)
+      '@inquirer/editor': 5.2.2(@types/node@26.0.1)
+      '@inquirer/expand': 5.1.1(@types/node@26.0.1)
+      '@inquirer/input': 5.1.2(@types/node@26.0.1)
+      '@inquirer/number': 4.1.1(@types/node@26.0.1)
+      '@inquirer/password': 5.1.1(@types/node@26.0.1)
+      '@inquirer/rawlist': 5.3.1(@types/node@26.0.1)
+      '@inquirer/search': 4.2.1(@types/node@26.0.1)
+      '@inquirer/select': 5.2.1(@types/node@26.0.1)
     optionalDependencies:
-      '@types/node': 26.0.0
+      '@types/node': 26.0.1
+
+  '@inquirer/rawlist@5.3.1(@types/node@26.0.1)':
+    dependencies:
+      '@inquirer/core': 11.2.1(@types/node@26.0.1)
+      '@inquirer/type': 4.0.7(@types/node@26.0.1)
+    optionalDependencies:
+      '@types/node': 26.0.1
+
+  '@inquirer/search@4.2.1(@types/node@26.0.1)':
+    dependencies:
+      '@inquirer/core': 11.2.1(@types/node@26.0.1)
+      '@inquirer/figures': 2.0.7
+      '@inquirer/type': 4.0.7(@types/node@26.0.1)
+    optionalDependencies:
+      '@types/node': 26.0.1
+
+  '@inquirer/select@5.2.1(@types/node@26.0.1)':
+    dependencies:
+      '@inquirer/ansi': 2.0.7
+      '@inquirer/core': 11.2.1(@types/node@26.0.1)
+      '@inquirer/figures': 2.0.7
+      '@inquirer/type': 4.0.7(@types/node@26.0.1)
+    optionalDependencies:
+      '@types/node': 26.0.1
+
+  '@inquirer/type@4.0.7(@types/node@26.0.1)':
+    optionalDependencies:
+      '@types/node': 26.0.1
 
   '@isaacs/balanced-match@4.0.1': {}
 
@@ -7231,10 +7231,10 @@ snapshots:
   '@oxc-transform/binding-win32-x64-msvc@0.111.0':
     optional: true
 
-  '@pencil.dev/cli@0.2.7(@anthropic-ai/sdk@0.105.0(zod@4.1.11))(@modelcontextprotocol/sdk@1.29.0(zod@4.1.11))(@types/node@26.0.0)(zod@4.1.11)':
+  '@pencil.dev/cli@0.2.7(@anthropic-ai/sdk@0.106.0(zod@4.1.11))(@modelcontextprotocol/sdk@1.29.0(zod@4.1.11))(@types/node@26.0.1)(zod@4.1.11)':
     dependencies:
-      '@anthropic-ai/claude-agent-sdk': 0.3.190(@anthropic-ai/sdk@0.105.0(zod@4.1.11))(@modelcontextprotocol/sdk@1.29.0(zod@4.1.11))(zod@4.1.11)
-      '@inquirer/prompts': 8.5.2(@types/node@26.0.0)
+      '@anthropic-ai/claude-agent-sdk': 0.3.191(@anthropic-ai/sdk@0.106.0(zod@4.1.11))(@modelcontextprotocol/sdk@1.29.0(zod@4.1.11))(zod@4.1.11)
+      '@inquirer/prompts': 8.5.2(@types/node@26.0.1)
       '@node-ipc/node-ipc': 11.0.3
       '@openai/codex-sdk': 0.133.0
       eventemitter3: 5.0.4
@@ -7478,7 +7478,7 @@ snapshots:
 
   '@types/cross-spawn@6.0.6':
     dependencies:
-      '@types/node': 26.0.0
+      '@types/node': 26.0.1
 
   '@types/debug@4.1.13':
     dependencies:
@@ -7490,7 +7490,7 @@ snapshots:
 
   '@types/is-utf8@0.2.3':
     dependencies:
-      '@types/node': 26.0.0
+      '@types/node': 26.0.1
 
   '@types/json-schema@7.0.15': {}
 
@@ -7502,7 +7502,7 @@ snapshots:
     dependencies:
       undici-types: 5.26.5
 
-  '@types/node@26.0.0':
+  '@types/node@26.0.1':
     dependencies:
       undici-types: 8.3.0
 
@@ -7657,7 +7657,7 @@ snapshots:
       etag: 1.8.1
       fs-extra: 11.1.0
 
-  '@vercel/go@3.10.0': {}
+  '@vercel/go@3.10.1': {}
 
   '@vercel/h3@0.1.106(rollup@4.62.2)':
     dependencies:
@@ -7775,7 +7775,7 @@ snapshots:
       smol-toml: 1.5.2
       zod: 3.22.4
 
-  '@vercel/python@6.47.1':
+  '@vercel/python@6.47.2':
     dependencies:
       '@vercel/python-analysis': 0.11.1
 
@@ -8122,7 +8122,7 @@ snapshots:
       http-errors: 2.0.1
       iconv-lite: 0.7.2
       on-finished: 2.4.1
-      qs: 6.15.2
+      qs: 6.15.3
       raw-body: 3.0.2
       type-is: 2.1.0
     transitivePeerDependencies:
@@ -9241,7 +9241,7 @@ snapshots:
       once: 1.4.0
       parseurl: 1.3.3
       proxy-addr: 2.0.7
-      qs: 6.15.2
+      qs: 6.15.3
       range-parser: 1.2.1
       router: 2.2.0
       send: 1.2.1
@@ -9777,17 +9777,17 @@ snapshots:
       inquirer: 6.5.2
       rxjs: 6.6.7
 
-  inquirer@13.4.3(@types/node@26.0.0):
+  inquirer@13.4.3(@types/node@26.0.1):
     dependencies:
       '@inquirer/ansi': 2.0.7
-      '@inquirer/core': 11.2.1(@types/node@26.0.0)
-      '@inquirer/prompts': 8.5.2(@types/node@26.0.0)
-      '@inquirer/type': 4.0.7(@types/node@26.0.0)
+      '@inquirer/core': 11.2.1(@types/node@26.0.1)
+      '@inquirer/prompts': 8.5.2(@types/node@26.0.1)
+      '@inquirer/type': 4.0.7(@types/node@26.0.1)
       mute-stream: 3.0.0
       run-async: 4.0.6
       rxjs: 7.8.2
     optionalDependencies:
-      '@types/node': 26.0.0
+      '@types/node': 26.0.1
 
   inquirer@6.5.2:
     dependencies:
@@ -10660,7 +10660,7 @@ snapshots:
 
   normalize-url@6.1.0: {}
 
-  np@11.2.1(@types/node@26.0.0)(typescript@5.9.3):
+  np@11.2.1(@types/node@26.0.1)(typescript@5.9.3):
     dependencies:
       chalk: 5.6.2
       chalk-template: 1.1.2
@@ -10675,7 +10675,7 @@ snapshots:
       hosted-git-info: 9.0.3
       ignore-walk: 8.0.0
       import-local: 3.2.0
-      inquirer: 13.4.3(@types/node@26.0.0)
+      inquirer: 13.4.3(@types/node@26.0.1)
       is-installed-globally: 1.0.0
       is-interactive: 2.0.0
       is-scoped: 3.0.0
@@ -11364,8 +11364,9 @@ snapshots:
     dependencies:
       side-channel: 1.1.1
 
-  qs@6.15.2:
+  qs@6.15.3:
     dependencies:
+      es-define-property: 1.0.1
       side-channel: 1.1.1
 
   qs@6.5.5: {}
@@ -12306,7 +12307,7 @@ snapshots:
 
   vendors@1.0.4: {}
 
-  vercel@54.17.2(@emnapi/core@1.11.0)(@emnapi/runtime@1.11.1)(rollup@4.62.2):
+  vercel@54.17.3(@emnapi/core@1.11.0)(@emnapi/runtime@1.11.1)(rollup@4.62.2):
     dependencies:
       '@vercel/backends': 0.8.18(@emnapi/core@1.11.0)(@emnapi/runtime@1.11.1)(rollup@4.62.2)
       '@vercel/blob': 2.4.0
@@ -12319,7 +12320,7 @@ snapshots:
       '@vercel/express': 0.1.109(@emnapi/core@1.11.0)(@emnapi/runtime@1.11.1)(rollup@4.62.2)
       '@vercel/fastify': 0.1.100(rollup@4.62.2)
       '@vercel/fun': 1.3.0
-      '@vercel/go': 3.10.0
+      '@vercel/go': 3.10.1
       '@vercel/h3': 0.1.106(rollup@4.62.2)
       '@vercel/hono': 0.2.100(rollup@4.62.2)
       '@vercel/hydrogen': 1.4.0
@@ -12328,7 +12329,7 @@ snapshots:
       '@vercel/next': 4.20.1(rollup@4.62.2)
       '@vercel/node': 5.8.21(rollup@4.62.2)
       '@vercel/prepare-flags-definitions': 0.3.0
-      '@vercel/python': 6.47.1
+      '@vercel/python': 6.47.2
       '@vercel/redwood': 2.5.0(rollup@4.62.2)
       '@vercel/remix-builder': 5.9.1(rollup@4.62.2)
       '@vercel/ruby': 2.5.1
