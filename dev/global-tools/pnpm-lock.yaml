@@ -108,8 +108,8 @@ importers:
         specifier: 4.1.0
         version: 4.1.0
       vercel:
-        specifier: 54.18.6
-        version: 54.18.6(@emnapi/core@1.11.0)(@emnapi/runtime@1.11.1)(rollup@4.62.2)
+        specifier: 54.18.7
+        version: 54.18.7(@emnapi/core@1.11.0)(@emnapi/runtime@1.11.1)(rollup@4.62.2)
       wait-on:
         specifier: 9.0.10
         version: 9.0.10
@@ -119,52 +119,52 @@ importers:
 
 packages:
 
-  '@anthropic-ai/claude-agent-sdk-darwin-arm64@0.3.195':
-    resolution: {integrity: sha512-WIMM/8HRCLsTDHFTIwQvvE8WCA/oaMJtdQxsP7iNyfzIGwXbuOyU95V8vYIhZfaO2yaSpbBRncunq4CtR5H4ng==}
+  '@anthropic-ai/claude-agent-sdk-darwin-arm64@0.3.196':
+    resolution: {integrity: sha512-k1MKRDhSiNKpkTwhtU8QKGzfuRfr3YXS6oqsTuldMROX56L5iMXjzC7AYU1/KmPTeMl3SCQBQeDu0i8ciA0hQA==}
     cpu: [arm64]
     os: [darwin]
 
-  '@anthropic-ai/claude-agent-sdk-darwin-x64@0.3.195':
-    resolution: {integrity: sha512-RY7DB+4LXosE0MJ+XELmakfPrDN1YX4lkk9CTDm28jGCVcESRz9kAEqbyaiC48dZcmN9V1NCLutzINGdcr1TBg==}
+  '@anthropic-ai/claude-agent-sdk-darwin-x64@0.3.196':
+    resolution: {integrity: sha512-bBwx/7yKZMQ9NSUt4bg8P+zp6pgd/O/DTkzdqsRIivBvARmwo1QY/2qGrLO8RH0T8CG2lTjFNfDfOlJWbAkvAg==}
     cpu: [x64]
     os: [darwin]
 
-  '@anthropic-ai/claude-agent-sdk-linux-arm64-musl@0.3.195':
-    resolution: {integrity: sha512-ZmyBA/AFzhgutcxb7dbhCm6GTjJytwNYXTxJoKE2B3A409WCYccjMqeji6vCMNxyyfylglGo5D8dVMIxW9aoug==}
+  '@anthropic-ai/claude-agent-sdk-linux-arm64-musl@0.3.196':
+    resolution: {integrity: sha512-BhLxfx4j6mC3Uzmve1IbhFS1uvNlwATeo6uWyYDOMW4n3XKjiSgjD8bTfkamijrxCMvJo5swLju2y14ayDsokA==}
     cpu: [arm64]
     os: [linux]
     libc: [musl]
 
-  '@anthropic-ai/claude-agent-sdk-linux-arm64@0.3.195':
-    resolution: {integrity: sha512-JuIq5Fnz/F1snl0aqi1gcuRZqPWoPNrL9dJ0DuievCxKkO8hnEz/Mmn5Zos7x1X8HE//ZnEvmQXoEQEZXonJew==}
+  '@anthropic-ai/claude-agent-sdk-linux-arm64@0.3.196':
+    resolution: {integrity: sha512-fR5fy+pSQSpKZK0zTtAl3LZEGQTuwVK7svutH1bZUS5RGT2HdUWc71oltSZgW4upGaslj+gyusHGJHA5eAc+dw==}
     cpu: [arm64]
     os: [linux]
     libc: [glibc]
 
-  '@anthropic-ai/claude-agent-sdk-linux-x64-musl@0.3.195':
-    resolution: {integrity: sha512-nf8Q/LauB+ZOC6QDjxNhbsvwUtYjKYnaWJLTYFwhkmsLujePnety1AtT/1ubaUoq5AM1j297DhMlYTasa79OUA==}
+  '@anthropic-ai/claude-agent-sdk-linux-x64-musl@0.3.196':
+    resolution: {integrity: sha512-EOiNbxCXQLYzV7SQhMWkUC1ScWyTw/Qp+JyV2sEmIbzl/e7KMOxNE9J20k+lpPs6CXdxVzuMwH7yAGuDu5y+IQ==}
     cpu: [x64]
     os: [linux]
     libc: [musl]
 
-  '@anthropic-ai/claude-agent-sdk-linux-x64@0.3.195':
-    resolution: {integrity: sha512-s1lNi1cL93luoqsItH+fNO4KpIhdkvnVhWGGQUQ/8ftwa2gfmcIQnOg1hG8Ks+KzeD3UUQ8L9YEVHVADnFI/9A==}
+  '@anthropic-ai/claude-agent-sdk-linux-x64@0.3.196':
+    resolution: {integrity: sha512-9spZON7/tn0q9J+jICrdfHi7o7Fmjs9pIohCCxL+Yv7HbBXWVtEYJbYipBGLTl8ICG3mgPeEVMNsvOuh/jDTuA==}
     cpu: [x64]
     os: [linux]
     libc: [glibc]
 
-  '@anthropic-ai/claude-agent-sdk-win32-arm64@0.3.195':
-    resolution: {integrity: sha512-hbkDE+xPIZzRWm+D+BKrH9uJH6USIZdDIlsyrIlGi3JFHoieYoA1vdUNyldSS9+F3ZqQtfPjr2Qy08IVB6akYA==}
+  '@anthropic-ai/claude-agent-sdk-win32-arm64@0.3.196':
+    resolution: {integrity: sha512-0xXkAWlDof/qFi3k5KJZ5WYbgp1X8hZHjyasOWTZWAmldoYaENI0vkL+PVMarvoAFYRRqcWoS81FSgm0QgH2sA==}
     cpu: [arm64]
     os: [win32]
 
-  '@anthropic-ai/claude-agent-sdk-win32-x64@0.3.195':
-    resolution: {integrity: sha512-av0piEB3X1Dzhpr8A+DqHVZ9y8s1jpn8enzwX0TKKUPBn5IqLTWC7wD6v66aoUgu4f+g4ThZirmDZA6shyPEZQ==}
+  '@anthropic-ai/claude-agent-sdk-win32-x64@0.3.196':
+    resolution: {integrity: sha512-FxWLA3aOYgDf2J0o6Ov1/wgg9X6RkrgnX4ifUWO1i3+6mbc4efNLHkDZLxCHEnQgW8yBidX+iro19f9k64vV8A==}
     cpu: [x64]
     os: [win32]
 
-  '@anthropic-ai/claude-agent-sdk@0.3.195':
-    resolution: {integrity: sha512-FVmXu9pvOMbuBKWrF8YsYQdQ/upOpv5rS8lFAnFO5jbyXT/2hN7kEPd2vd2GJpaMvNcO/KptyQUK5AxjjTz3+w==}
+  '@anthropic-ai/claude-agent-sdk@0.3.196':
+    resolution: {integrity: sha512-yqsp1/04T2/tJ54jz+7YLsTZOPeQ/myUCrv17/IVZ9dbl+izIMP9ULuLpPCH5pj5msXxR80es+hpVgHoFuNm0A==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       '@anthropic-ai/sdk': '>=0.93.0'
@@ -1959,8 +1959,8 @@ packages:
   '@vercel/ruby@2.5.1':
     resolution: {integrity: sha512-e23M7pfORQyyxSUmeQ8PqEnyLJ4swhtNrnyctU5E02UCaUYFm5YAdNfdPYRP4It874H4Wyvm+LV8u7CPBrfcPA==}
 
-  '@vercel/rust@1.3.0':
-    resolution: {integrity: sha512-z1X0z1NM+ISunm/scgRpuENNwcKlh7DjXn0QvKE0n10DcaYqxkBQVK8iRA9X05xSK9AzPlnB9DHdGKiXZO5buw==}
+  '@vercel/rust@1.4.0':
+    resolution: {integrity: sha512-/zRJtaf3pvdxZ7+tShmIo8StdbkCSBDcY7Gy7LOwNTIxm6GU9vkS+BlCwJHkOu6qNkbcSRH6ZQIeo4vNmqzKdQ==}
 
   '@vercel/sandbox@2.1.1':
     resolution: {integrity: sha512-gKhW+YlvU15Qxya7jQKByB+sqA1dWat5zx/rvxT52E3Ryg9MAIXgqD5wd1d+CoJDbdHL26gIOcksTZY5sFpplA==}
@@ -3011,8 +3011,8 @@ packages:
   ee-first@1.1.1:
     resolution: {integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==}
 
-  electron-to-chromium@1.5.381:
-    resolution: {integrity: sha512-n9Wa6yB+vDsGuA8AKbl/0z7HbvWqt5jxIdvr1IUicd0ryPrk7/xzwqLv8D9AbbvZ6avVNtXYLTfmgFHkwkyelg==}
+  electron-to-chromium@1.5.382:
+    resolution: {integrity: sha512-8ETaWbV6SZOrno+G93Ffd9ENsMtetqdnqj4nlfxFW90Sm5GgnuV28Kf62hqQVD6VUgzm7qFQKsTsAPmeUiU3Ug==}
 
   elegant-spinner@1.0.1:
     resolution: {integrity: sha512-B+ZM+RXvRqQaAmkMlO/oSe5nMUOaUnyfGYCEHoR8wrXsZR2mA0XVibsxV1bvTwxdRWah1PkQqso2EzhILGHtEQ==}
@@ -4751,8 +4751,8 @@ packages:
     resolution: {integrity: sha512-y3b8Kpd8OAN444hxfBbFfj1FY/RjtTd8tzYwhUqNYXx0fXx2iX4maP4Qr6qhIKbQXI02wTLAda4fYUbDagTUFw==}
     engines: {node: '>=6'}
 
-  p-map@7.0.4:
-    resolution: {integrity: sha512-tkAQEw8ysMzmkhgw8k+1U/iPhWNhykKnSk4Rd5zLoPJCuJaGRPo6YposrZgaxHKzDHdDWWZvE/Sk7hsL2X/CpQ==}
+  p-map@7.0.5:
+    resolution: {integrity: sha512-e8vJF4XdVkzqqSHguEMz41mQO1wKwxKm5ENrUJQUu9kLDCtn83cxbyHZcszr4QC5zEA7WffRRC4gsTecC7J9oA==}
     engines: {node: '>=18'}
 
   p-memoize@8.0.0:
@@ -5992,8 +5992,8 @@ packages:
   vendors@1.0.4:
     resolution: {integrity: sha512-/juG65kTL4Cy2su4P8HjtkTxk6VmJDiOPBufWniqQ6wknac6jNiXS9vU+hO3wgusiyqWlzTbVHi0dyJqRONg3w==}
 
-  vercel@54.18.6:
-    resolution: {integrity: sha512-0rpxXpEtYvpyqzV80VHDSWw2r+KopWCUkPF43JY2TWKGCbi3Kh0Cdnt2vZFXAqLFHSGS83hnS0S/RHptQcyELQ==}
+  vercel@54.18.7:
+    resolution: {integrity: sha512-qOSlp029mwhEKwZTTXp4oMu3RGklGacSVTuLiH8l8bzmAcME1suDEk4ttdIzbbPiEDasyATJoQMBMh+pYkxrDQ==}
     engines: {node: '>= 18'}
     hasBin: true
 
@@ -6198,44 +6198,44 @@ packages:
 
 snapshots:
 
-  '@anthropic-ai/claude-agent-sdk-darwin-arm64@0.3.195':
+  '@anthropic-ai/claude-agent-sdk-darwin-arm64@0.3.196':
     optional: true
 
-  '@anthropic-ai/claude-agent-sdk-darwin-x64@0.3.195':
+  '@anthropic-ai/claude-agent-sdk-darwin-x64@0.3.196':
     optional: true
 
-  '@anthropic-ai/claude-agent-sdk-linux-arm64-musl@0.3.195':
+  '@anthropic-ai/claude-agent-sdk-linux-arm64-musl@0.3.196':
     optional: true
 
-  '@anthropic-ai/claude-agent-sdk-linux-arm64@0.3.195':
+  '@anthropic-ai/claude-agent-sdk-linux-arm64@0.3.196':
     optional: true
 
-  '@anthropic-ai/claude-agent-sdk-linux-x64-musl@0.3.195':
+  '@anthropic-ai/claude-agent-sdk-linux-x64-musl@0.3.196':
     optional: true
 
-  '@anthropic-ai/claude-agent-sdk-linux-x64@0.3.195':
+  '@anthropic-ai/claude-agent-sdk-linux-x64@0.3.196':
     optional: true
 
-  '@anthropic-ai/claude-agent-sdk-win32-arm64@0.3.195':
+  '@anthropic-ai/claude-agent-sdk-win32-arm64@0.3.196':
     optional: true
 
-  '@anthropic-ai/claude-agent-sdk-win32-x64@0.3.195':
+  '@anthropic-ai/claude-agent-sdk-win32-x64@0.3.196':
     optional: true
 
-  '@anthropic-ai/claude-agent-sdk@0.3.195(@anthropic-ai/sdk@0.107.0(zod@4.1.11))(@modelcontextprotocol/sdk@1.29.0(zod@4.1.11))(zod@4.1.11)':
+  '@anthropic-ai/claude-agent-sdk@0.3.196(@anthropic-ai/sdk@0.107.0(zod@4.1.11))(@modelcontextprotocol/sdk@1.29.0(zod@4.1.11))(zod@4.1.11)':
     dependencies:
       '@anthropic-ai/sdk': 0.107.0(zod@4.1.11)
       '@modelcontextprotocol/sdk': 1.29.0(zod@4.1.11)
       zod: 4.1.11
     optionalDependencies:
-      '@anthropic-ai/claude-agent-sdk-darwin-arm64': 0.3.195
-      '@anthropic-ai/claude-agent-sdk-darwin-x64': 0.3.195
-      '@anthropic-ai/claude-agent-sdk-linux-arm64': 0.3.195
-      '@anthropic-ai/claude-agent-sdk-linux-arm64-musl': 0.3.195
-      '@anthropic-ai/claude-agent-sdk-linux-x64': 0.3.195
-      '@anthropic-ai/claude-agent-sdk-linux-x64-musl': 0.3.195
-      '@anthropic-ai/claude-agent-sdk-win32-arm64': 0.3.195
-      '@anthropic-ai/claude-agent-sdk-win32-x64': 0.3.195
+      '@anthropic-ai/claude-agent-sdk-darwin-arm64': 0.3.196
+      '@anthropic-ai/claude-agent-sdk-darwin-x64': 0.3.196
+      '@anthropic-ai/claude-agent-sdk-linux-arm64': 0.3.196
+      '@anthropic-ai/claude-agent-sdk-linux-arm64-musl': 0.3.196
+      '@anthropic-ai/claude-agent-sdk-linux-x64': 0.3.196
+      '@anthropic-ai/claude-agent-sdk-linux-x64-musl': 0.3.196
+      '@anthropic-ai/claude-agent-sdk-win32-arm64': 0.3.196
+      '@anthropic-ai/claude-agent-sdk-win32-x64': 0.3.196
 
   '@anthropic-ai/sdk@0.107.0(zod@4.1.11)':
     dependencies:
@@ -7241,7 +7241,7 @@ snapshots:
 
   '@pencil.dev/cli@0.2.7(@anthropic-ai/sdk@0.107.0(zod@4.1.11))(@modelcontextprotocol/sdk@1.29.0(zod@4.1.11))(@types/node@26.0.1)(zod@4.1.11)':
     dependencies:
-      '@anthropic-ai/claude-agent-sdk': 0.3.195(@anthropic-ai/sdk@0.107.0(zod@4.1.11))(@modelcontextprotocol/sdk@1.29.0(zod@4.1.11))(zod@4.1.11)
+      '@anthropic-ai/claude-agent-sdk': 0.3.196(@anthropic-ai/sdk@0.107.0(zod@4.1.11))(@modelcontextprotocol/sdk@1.29.0(zod@4.1.11))(zod@4.1.11)
       '@inquirer/prompts': 8.5.2(@types/node@26.0.1)
       '@node-ipc/node-ipc': 11.0.3
       '@openai/codex-sdk': 0.133.0
@@ -7815,9 +7815,10 @@ snapshots:
 
   '@vercel/ruby@2.5.1': {}
 
-  '@vercel/rust@1.3.0':
+  '@vercel/rust@1.4.0':
     dependencies:
       execa: 5.1.1
+      get-port: 5.1.1
       smol-toml: 1.5.2
 
   '@vercel/sandbox@2.1.1':
@@ -8182,7 +8183,7 @@ snapshots:
   browserslist@1.7.7:
     dependencies:
       caniuse-db: 1.0.30001800
-      electron-to-chromium: 1.5.381
+      electron-to-chromium: 1.5.382
 
   buffer-crc32@0.2.13: {}
 
@@ -8848,7 +8849,7 @@ snapshots:
       is-glob: 4.0.3
       is-path-cwd: 3.0.0
       is-path-inside: 4.0.0
-      p-map: 7.0.4
+      p-map: 7.0.5
       presentable-error: 0.0.1
       slash: 5.1.0
 
@@ -8928,7 +8929,7 @@ snapshots:
 
   ee-first@1.1.1: {}
 
-  electron-to-chromium@1.5.381: {}
+  electron-to-chromium@1.5.382: {}
 
   elegant-spinner@1.0.1: {}
 
@@ -10727,7 +10728,7 @@ snapshots:
       ky: 1.14.3
       lodash.zip: 4.2.0
       org-regex: 1.0.0
-      p-map: 7.0.4
+      p-map: 7.0.5
       registry-auth-token: 5.1.1
       registry-url: 6.0.1
       validate-npm-package-name: 5.0.1
@@ -10895,7 +10896,7 @@ snapshots:
 
   p-map@2.1.0: {}
 
-  p-map@7.0.4: {}
+  p-map@7.0.5: {}
 
   p-memoize@8.0.0:
     dependencies:
@@ -12325,7 +12326,7 @@ snapshots:
 
   vendors@1.0.4: {}
 
-  vercel@54.18.6(@emnapi/core@1.11.0)(@emnapi/runtime@1.11.1)(rollup@4.62.2):
+  vercel@54.18.7(@emnapi/core@1.11.0)(@emnapi/runtime@1.11.1)(rollup@4.62.2):
     dependencies:
       '@vercel/backends': 0.8.21(@emnapi/core@1.11.0)(@emnapi/runtime@1.11.1)(rollup@4.62.2)
       '@vercel/blob': 2.4.0
@@ -12351,7 +12352,7 @@ snapshots:
       '@vercel/redwood': 2.5.0(rollup@4.62.2)
       '@vercel/remix-builder': 5.9.1(rollup@4.62.2)
       '@vercel/ruby': 2.5.1
-      '@vercel/rust': 1.3.0
+      '@vercel/rust': 1.4.0
       '@vercel/static-build': 2.11.4
       chokidar: 4.0.0
       esbuild: 0.27.0
