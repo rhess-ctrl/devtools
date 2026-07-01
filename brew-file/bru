@@ -21,7 +21,7 @@ then
     echo "-- cleanup"
     # brew bundle cleanup --force
     # using --force will NUKE the entire set of vscode extensions... :facepalm:
-    brew bundle cleanup --zap
+    brew bundle cleanup --zap --force
     echo "-- trust"
     bru::trust
     echo "-- outdated"
