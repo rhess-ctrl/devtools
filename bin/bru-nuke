@@ -13,7 +13,8 @@ then
     echo "-- trust"
     bru::trust
     echo "-- cleanup [ nuke ]"
-    brew bundle cleanup --force
+    # brew bundle cleanup --force
+    brew cleanup
     echo "-- trust"
     bru::trust
     echo "-- doctor"
