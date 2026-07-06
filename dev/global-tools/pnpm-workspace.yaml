@@ -66,6 +66,7 @@ minimumReleaseAgeExclude:
   - create-astro@5.2.0 || 5.2.1
   - create-vite@9.1.1
   - prettier@3.9.4
+  - np@11.2.2
 onlyBuiltDependencies:
   - '@socketsupply/socket-darwin-arm64'
   - core-js
