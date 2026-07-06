@@ -1,5 +1,6 @@
 tap "github/gh"
 tap "misterTea/et"
+tap "teamookla/speedtest"
 tap "wedow/tools"
 
 brew "ack"
@@ -44,6 +45,7 @@ brew "imagemagick"
 brew "node"
 brew "pandoc"
 brew "php"
+brew "speedtest"
 brew "wget"
 
 brew "amp"

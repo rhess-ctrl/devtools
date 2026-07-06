@@ -13,6 +13,7 @@ bru::trust() {
   local TAPS=(
     charmbracelet/tap
     github/gh
+    teamookla/speedtest
     wedow/tools
   )
   for formula in "${FORMULA[@]}"
