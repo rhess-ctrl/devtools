@@ -5,10 +5,10 @@ fnox            1.29.0            ~/github/eswat2/devtools/mise/config.toml  lat
 go              1.26.4            ~/github/eswat2/devtools/mise/config.toml  latest
 node            24.18.0           ~/github/eswat2/devtools/mise/config.toml  lts
 pipx            1.15.0            ~/github/eswat2/devtools/mise/config.toml  latest
-pixi            0.72.0            ~/github/eswat2/devtools/mise/config.toml  latest
+pixi            0.72.1            ~/github/eswat2/devtools/mise/config.toml  latest
 python          3.14.6            ~/github/eswat2/devtools/mise/config.toml  3.14
 ruff            0.15.20           ~/github/eswat2/devtools/mise/config.toml  latest
 rust            1.96.1 (symlink)  ~/github/eswat2/devtools/mise/config.toml  latest
 ty              0.0.56            ~/github/eswat2/devtools/mise/config.toml  latest
-usage           3.5.3             ~/github/eswat2/devtools/mise/config.toml  latest
-uv              0.11.26           ~/github/eswat2/devtools/mise/config.toml  latest
+usage           3.5.4             ~/github/eswat2/devtools/mise/config.toml  latest
+uv              0.11.27           ~/github/eswat2/devtools/mise/config.toml  latest

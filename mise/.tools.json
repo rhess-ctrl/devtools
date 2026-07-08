@@ -92,9 +92,9 @@
   ],
   "pixi": [
     {
-      "version": "0.72.0",
+      "version": "0.72.1",
       "requested_version": "latest",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/pixi/0.72.0",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/pixi/0.72.1",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
@@ -158,9 +158,9 @@
   ],
   "usage": [
     {
-      "version": "3.5.3",
+      "version": "3.5.4",
       "requested_version": "latest",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/usage/3.5.3",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/usage/3.5.4",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
@@ -171,9 +171,9 @@
   ],
   "uv": [
     {
-      "version": "0.11.26",
+      "version": "0.11.27",
       "requested_version": "latest",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/uv/0.11.26",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/uv/0.11.27",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
