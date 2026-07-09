@@ -53,9 +53,9 @@
   ],
   "go": [
     {
-      "version": "1.26.4",
+      "version": "1.26.5",
       "requested_version": "latest",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/go/1.26.4",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/go/1.26.5",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
