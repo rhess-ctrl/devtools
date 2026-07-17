@@ -118,9 +118,9 @@
   ],
   "ruff": [
     {
-      "version": "0.15.21",
+      "version": "0.15.22",
       "requested_version": "latest",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/ruff/0.15.21",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/ruff/0.15.22",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"

@@ -16,7 +16,7 @@ importers:
         version: 0.11.14(typescript@5.9.3)(yaml@2.9.0)
       '@pencil.dev/cli':
         specifier: ^0.2.8
-        version: 0.2.8(@anthropic-ai/sdk@0.111.0(zod@4.1.11))(@modelcontextprotocol/sdk@1.29.0(zod@4.1.11))(@types/node@26.0.1)(zod@4.1.11)
+        version: 0.2.8(@anthropic-ai/sdk@0.112.1(zod@4.1.11))(@modelcontextprotocol/sdk@1.29.0(zod@4.1.11))(@types/node@26.1.1)(zod@4.1.11)
       '@socketsupply/socket':
         specifier: 0.5.4
         version: 0.5.4
@@ -76,7 +76,7 @@ importers:
         version: 3.1.14
       np:
         specifier: 12.0.0
-        version: 12.0.0(@types/node@26.0.1)(typescript@5.9.3)
+        version: 12.0.0(@types/node@26.1.1)(typescript@5.9.3)
       npm-check-updates:
         specifier: 22.2.9
         version: 22.2.9
@@ -119,60 +119,60 @@ importers:
 
 packages:
 
-  '@anthropic-ai/claude-agent-sdk-darwin-arm64@0.3.211':
-    resolution: {integrity: sha512-Iwhm4kfcs20LdXffZ2RGRjj+BFdUOrT/JjhGtICjlGlBPlrLkkkAiHtGzqO9K36v5B/kSIHwOw9CM836kYYPHQ==}
+  '@anthropic-ai/claude-agent-sdk-darwin-arm64@0.3.212':
+    resolution: {integrity: sha512-t9t5fP94XNslh5hIWlmwE0F7hrhEpnbzM6ddF9qjqyO3zT6XZQ3U/fT2wuM8WYdSpyAsOO+3WiABe1buzNVQbA==}
     cpu: [arm64]
     os: [darwin]
 
-  '@anthropic-ai/claude-agent-sdk-darwin-x64@0.3.211':
-    resolution: {integrity: sha512-sMBW1CLe2Hq4PwwvEbz9r8LxF84UErgB45TSf+iEa8M/EjYZCsXSoTRT0vKnN4TvrAN5mWoKgi39dkUxS9ybsA==}
+  '@anthropic-ai/claude-agent-sdk-darwin-x64@0.3.212':
+    resolution: {integrity: sha512-0dgxPaf0+9lpOOpKYRXPtcXridq27QjhLFz/7UjVANy7roqcojdnwX4Wpjf8hII/URPkjLH+9PlAgZT3Ml1YIg==}
     cpu: [x64]
     os: [darwin]
 
-  '@anthropic-ai/claude-agent-sdk-linux-arm64-musl@0.3.211':
-    resolution: {integrity: sha512-X1eg+lCwNH2VXyqLQR722dsDDtWPfUnz7OtnmPVoNMxcMexDlSLMMuvm5fNNi94kYT0pxmBdhIvudew145JuHg==}
+  '@anthropic-ai/claude-agent-sdk-linux-arm64-musl@0.3.212':
+    resolution: {integrity: sha512-oeQr+cQk65eost/O+ZAROQkME0o3affxfLiRWpJjb/focycvA3Z/Z1vI3z6QL+bswMcEGsHp88cXBLoDYC0nNQ==}
     cpu: [arm64]
     os: [linux]
     libc: [musl]
 
-  '@anthropic-ai/claude-agent-sdk-linux-arm64@0.3.211':
-    resolution: {integrity: sha512-orZm8p+BzVRZ7I8c5yD43hEZ5TvBZ+UbKTZTlvID00Y8HSn3M3rNX3sW4RUvNGF2e0eNMaXKysPyEHPEj3kqpg==}
+  '@anthropic-ai/claude-agent-sdk-linux-arm64@0.3.212':
+    resolution: {integrity: sha512-laU4i0eN5yq/H/utAfHKDjyugjvSnFuAfMhHYv8idF7PQxl+6YDahDd4gqVPdIifcZvrAsi1HXfpdKayYv6dJg==}
     cpu: [arm64]
     os: [linux]
     libc: [glibc]
 
-  '@anthropic-ai/claude-agent-sdk-linux-x64-musl@0.3.211':
-    resolution: {integrity: sha512-cR12YFMVGSj38074OYkkjgwhYeblgVRK3Uw7ZXw3ZTOevjQLASPajVruFuDRW07ixxTa1ZWxqI3kSsIl71RXYA==}
+  '@anthropic-ai/claude-agent-sdk-linux-x64-musl@0.3.212':
+    resolution: {integrity: sha512-MYs7C9UOqhwWv4GgEbGdD37BUp8C8ff6WPDupFHW6/html2wK0DAei72sWjTghoEiUJUlRcxay1nxPCiwB9w1A==}
     cpu: [x64]
     os: [linux]
     libc: [musl]
 
-  '@anthropic-ai/claude-agent-sdk-linux-x64@0.3.211':
-    resolution: {integrity: sha512-ohDS5EGKQvKiUUMtDNPjyWUDvaeIa+DlzUVjrZ8Y4hPtoWFpvOBtOFIYChJGpllwZ4YULS4H3gywVnLGB4do6Q==}
+  '@anthropic-ai/claude-agent-sdk-linux-x64@0.3.212':
+    resolution: {integrity: sha512-sUELD4LP2JLQeFZdven/7NPWS6/TIlE8aNwQJBj8+8RNF4XketoKUbmRdIBO6q8YpXFGn+4DVzirb+Cz6DIbuA==}
     cpu: [x64]
     os: [linux]
     libc: [glibc]
 
-  '@anthropic-ai/claude-agent-sdk-win32-arm64@0.3.211':
-    resolution: {integrity: sha512-AOIQRFO0YMDUCrG8W0NUWitBQQUB6fYdNW3SMcPPq3mXpYC/pCNURFyvRdrFm729xXkxDAP5OMLk9x2/IFrTmA==}
+  '@anthropic-ai/claude-agent-sdk-win32-arm64@0.3.212':
+    resolution: {integrity: sha512-fCtzLDJHy8jO4oaK/GC971f3npRWSdVhzDbh2uOQeqsWnHpGnHkxpUVBa7fVeEW5oTvXlRATgjDODjO+3CVLIg==}
     cpu: [arm64]
     os: [win32]
 
-  '@anthropic-ai/claude-agent-sdk-win32-x64@0.3.211':
-    resolution: {integrity: sha512-pwzNuJg2xRBsv3kSSVVhgLdGAFxd5DqPkQX5ZLrT4uBZDJ+QM4xWKZyN8ZoFLLzNl+u0/4U83Q1ZQ0NdG/9JsQ==}
+  '@anthropic-ai/claude-agent-sdk-win32-x64@0.3.212':
+    resolution: {integrity: sha512-2DCQL7ZfzpoGo4kCzu+jqOifPOKUe+Zc6OgTiSDvatz/JGWxs0kV3jOTTjtxGCCUKpdKnflRjHzOHFjIKjODxA==}
     cpu: [x64]
     os: [win32]
 
-  '@anthropic-ai/claude-agent-sdk@0.3.211':
-    resolution: {integrity: sha512-JhbLu6o1v2g9fjqkO+LDNPWrE0bgd9UeRQQ41JBGouAgows3KyPPYgU2WU0q7M2onuwQxR5plGDpas01F+oaUA==}
+  '@anthropic-ai/claude-agent-sdk@0.3.212':
+    resolution: {integrity: sha512-BSowuUv7+EoeBo36oZbSox8uyY3dqyMLFolAoMyKW3uqAfZLDV8MpvjDsv+WDE+OGCkuWK60JIqfhyPhctGTgg==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       '@anthropic-ai/sdk': '>=0.93.0'
       '@modelcontextprotocol/sdk': ^1.29.0
       zod: ^4.0.0
 
-  '@anthropic-ai/sdk@0.111.0':
-    resolution: {integrity: sha512-1hUqKi+uJQoS5X90+InwHbFAXMvgq0DnsC5hVLEeSRaODiU5WvmqDAcVCmGS2wC0pN9Z8jtWCbWw7JLzeDdm/Q==}
+  '@anthropic-ai/sdk@0.112.1':
+    resolution: {integrity: sha512-vPRhHWxG9gIDyI9anVET2tBkmMBOXyTpIFvQgUVveiAV0ihmQgBYzQHb/s9+pZ/FxprSWcQnj15YnRfPxOIEmg==}
     hasBin: true
     peerDependencies:
       zod: ^3.25.0 || ^4.0.0
@@ -1832,8 +1832,8 @@ packages:
   '@types/node@20.11.0':
     resolution: {integrity: sha512-o9bjXmDNcF7GbM4CNQpmi+TutCgap/K3w1JyKgxAjqx41zp9qlIAVFi0IhCNsJcXolEqLWhbFbEeL0PvYm4pcQ==}
 
-  '@types/node@26.0.1':
-    resolution: {integrity: sha512-fc3KiUoBt6kie0N9bIW3E47vZsuaMf0PM2AaUpLCLT0s/LvX1nxAim6Fc049cNxODPpGm6qRAuUOB86SkRuPQw==}
+  '@types/node@26.1.1':
+    resolution: {integrity: sha512-nxAkRSVkN1Y0JC1W8ky/fTfkGsMmcrRsbx+3XoZE+rMOX71kLYTV7fLXpqud1GpbpP5TuffXFqfX7fH2GgZREw==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -3221,8 +3221,8 @@ packages:
   exponential-backoff@3.1.3:
     resolution: {integrity: sha512-ZgEeZXj30q+I0EN+CbSSpIyPaJ5HVQD18Z1m+u1FXbAeT94mr1zw50q4q6jiiC447Nl/YTcIYSAftiGqetwXCA==}
 
-  express-rate-limit@8.5.2:
-    resolution: {integrity: sha512-5Kb34ipNX694DH48vN9irak1Qx30nb0PLYHXfJgw4YEjiC3ZEmZJhwOp+VfiCYwFzvFTdB9QkArYS5kXa2cx2A==}
+  express-rate-limit@8.6.0:
+    resolution: {integrity: sha512-XKJXDsASUOo0LLtFwW5hCcQGH0N4WQc/Rn8/Pvoia+TJFOkkFPvrtW9lZOeeNcxQJspvOIERMwiRLsVFlhHEkA==}
     engines: {node: '>= 16'}
     peerDependencies:
       express: '>= 4.11'
@@ -6149,46 +6149,46 @@ packages:
 
 snapshots:
 
-  '@anthropic-ai/claude-agent-sdk-darwin-arm64@0.3.211':
+  '@anthropic-ai/claude-agent-sdk-darwin-arm64@0.3.212':
     optional: true
 
-  '@anthropic-ai/claude-agent-sdk-darwin-x64@0.3.211':
+  '@anthropic-ai/claude-agent-sdk-darwin-x64@0.3.212':
     optional: true
 
-  '@anthropic-ai/claude-agent-sdk-linux-arm64-musl@0.3.211':
+  '@anthropic-ai/claude-agent-sdk-linux-arm64-musl@0.3.212':
     optional: true
 
-  '@anthropic-ai/claude-agent-sdk-linux-arm64@0.3.211':
+  '@anthropic-ai/claude-agent-sdk-linux-arm64@0.3.212':
     optional: true
 
-  '@anthropic-ai/claude-agent-sdk-linux-x64-musl@0.3.211':
+  '@anthropic-ai/claude-agent-sdk-linux-x64-musl@0.3.212':
     optional: true
 
-  '@anthropic-ai/claude-agent-sdk-linux-x64@0.3.211':
+  '@anthropic-ai/claude-agent-sdk-linux-x64@0.3.212':
     optional: true
 
-  '@anthropic-ai/claude-agent-sdk-win32-arm64@0.3.211':
+  '@anthropic-ai/claude-agent-sdk-win32-arm64@0.3.212':
     optional: true
 
-  '@anthropic-ai/claude-agent-sdk-win32-x64@0.3.211':
+  '@anthropic-ai/claude-agent-sdk-win32-x64@0.3.212':
     optional: true
 
-  '@anthropic-ai/claude-agent-sdk@0.3.211(@anthropic-ai/sdk@0.111.0(zod@4.1.11))(@modelcontextprotocol/sdk@1.29.0(zod@4.1.11))(zod@4.1.11)':
+  '@anthropic-ai/claude-agent-sdk@0.3.212(@anthropic-ai/sdk@0.112.1(zod@4.1.11))(@modelcontextprotocol/sdk@1.29.0(zod@4.1.11))(zod@4.1.11)':
     dependencies:
-      '@anthropic-ai/sdk': 0.111.0(zod@4.1.11)
+      '@anthropic-ai/sdk': 0.112.1(zod@4.1.11)
       '@modelcontextprotocol/sdk': 1.29.0(zod@4.1.11)
       zod: 4.1.11
     optionalDependencies:
-      '@anthropic-ai/claude-agent-sdk-darwin-arm64': 0.3.211
-      '@anthropic-ai/claude-agent-sdk-darwin-x64': 0.3.211
-      '@anthropic-ai/claude-agent-sdk-linux-arm64': 0.3.211
-      '@anthropic-ai/claude-agent-sdk-linux-arm64-musl': 0.3.211
-      '@anthropic-ai/claude-agent-sdk-linux-x64': 0.3.211
-      '@anthropic-ai/claude-agent-sdk-linux-x64-musl': 0.3.211
-      '@anthropic-ai/claude-agent-sdk-win32-arm64': 0.3.211
-      '@anthropic-ai/claude-agent-sdk-win32-x64': 0.3.211
+      '@anthropic-ai/claude-agent-sdk-darwin-arm64': 0.3.212
+      '@anthropic-ai/claude-agent-sdk-darwin-x64': 0.3.212
+      '@anthropic-ai/claude-agent-sdk-linux-arm64': 0.3.212
+      '@anthropic-ai/claude-agent-sdk-linux-arm64-musl': 0.3.212
+      '@anthropic-ai/claude-agent-sdk-linux-x64': 0.3.212
+      '@anthropic-ai/claude-agent-sdk-linux-x64-musl': 0.3.212
+      '@anthropic-ai/claude-agent-sdk-win32-arm64': 0.3.212
+      '@anthropic-ai/claude-agent-sdk-win32-x64': 0.3.212
 
-  '@anthropic-ai/sdk@0.111.0(zod@4.1.11)':
+  '@anthropic-ai/sdk@0.112.1(zod@4.1.11)':
     dependencies:
       json-schema-to-ts: 3.1.1
       standardwebhooks: 1.0.0
@@ -6748,122 +6748,122 @@ snapshots:
 
   '@inquirer/ansi@2.0.7': {}
 
-  '@inquirer/checkbox@5.2.1(@types/node@26.0.1)':
+  '@inquirer/checkbox@5.2.1(@types/node@26.1.1)':
     dependencies:
       '@inquirer/ansi': 2.0.7
-      '@inquirer/core': 11.2.1(@types/node@26.0.1)
+      '@inquirer/core': 11.2.1(@types/node@26.1.1)
       '@inquirer/figures': 2.0.7
-      '@inquirer/type': 4.0.7(@types/node@26.0.1)
+      '@inquirer/type': 4.0.7(@types/node@26.1.1)
     optionalDependencies:
-      '@types/node': 26.0.1
+      '@types/node': 26.1.1
 
-  '@inquirer/confirm@6.1.1(@types/node@26.0.1)':
+  '@inquirer/confirm@6.1.1(@types/node@26.1.1)':
     dependencies:
-      '@inquirer/core': 11.2.1(@types/node@26.0.1)
-      '@inquirer/type': 4.0.7(@types/node@26.0.1)
+      '@inquirer/core': 11.2.1(@types/node@26.1.1)
+      '@inquirer/type': 4.0.7(@types/node@26.1.1)
     optionalDependencies:
-      '@types/node': 26.0.1
+      '@types/node': 26.1.1
 
-  '@inquirer/core@11.2.1(@types/node@26.0.1)':
+  '@inquirer/core@11.2.1(@types/node@26.1.1)':
     dependencies:
       '@inquirer/ansi': 2.0.7
       '@inquirer/figures': 2.0.7
-      '@inquirer/type': 4.0.7(@types/node@26.0.1)
+      '@inquirer/type': 4.0.7(@types/node@26.1.1)
       cli-width: 4.1.0
       fast-wrap-ansi: 0.2.2
       mute-stream: 3.0.0
       signal-exit: 4.1.0
     optionalDependencies:
-      '@types/node': 26.0.1
+      '@types/node': 26.1.1
 
-  '@inquirer/editor@5.2.2(@types/node@26.0.1)':
+  '@inquirer/editor@5.2.2(@types/node@26.1.1)':
     dependencies:
-      '@inquirer/core': 11.2.1(@types/node@26.0.1)
-      '@inquirer/external-editor': 3.0.3(@types/node@26.0.1)
-      '@inquirer/type': 4.0.7(@types/node@26.0.1)
+      '@inquirer/core': 11.2.1(@types/node@26.1.1)
+      '@inquirer/external-editor': 3.0.3(@types/node@26.1.1)
+      '@inquirer/type': 4.0.7(@types/node@26.1.1)
     optionalDependencies:
-      '@types/node': 26.0.1
+      '@types/node': 26.1.1
 
-  '@inquirer/expand@5.1.1(@types/node@26.0.1)':
+  '@inquirer/expand@5.1.1(@types/node@26.1.1)':
     dependencies:
-      '@inquirer/core': 11.2.1(@types/node@26.0.1)
-      '@inquirer/type': 4.0.7(@types/node@26.0.1)
+      '@inquirer/core': 11.2.1(@types/node@26.1.1)
+      '@inquirer/type': 4.0.7(@types/node@26.1.1)
     optionalDependencies:
-      '@types/node': 26.0.1
+      '@types/node': 26.1.1
 
-  '@inquirer/external-editor@3.0.3(@types/node@26.0.1)':
+  '@inquirer/external-editor@3.0.3(@types/node@26.1.1)':
     dependencies:
       chardet: 2.1.1
       iconv-lite: 0.7.2
     optionalDependencies:
-      '@types/node': 26.0.1
+      '@types/node': 26.1.1
 
   '@inquirer/figures@2.0.7': {}
 
-  '@inquirer/input@5.1.2(@types/node@26.0.1)':
+  '@inquirer/input@5.1.2(@types/node@26.1.1)':
     dependencies:
-      '@inquirer/core': 11.2.1(@types/node@26.0.1)
-      '@inquirer/type': 4.0.7(@types/node@26.0.1)
+      '@inquirer/core': 11.2.1(@types/node@26.1.1)
+      '@inquirer/type': 4.0.7(@types/node@26.1.1)
     optionalDependencies:
-      '@types/node': 26.0.1
+      '@types/node': 26.1.1
 
-  '@inquirer/number@4.1.1(@types/node@26.0.1)':
+  '@inquirer/number@4.1.1(@types/node@26.1.1)':
     dependencies:
-      '@inquirer/core': 11.2.1(@types/node@26.0.1)
-      '@inquirer/type': 4.0.7(@types/node@26.0.1)
+      '@inquirer/core': 11.2.1(@types/node@26.1.1)
+      '@inquirer/type': 4.0.7(@types/node@26.1.1)
     optionalDependencies:
-      '@types/node': 26.0.1
+      '@types/node': 26.1.1
 
-  '@inquirer/password@5.1.1(@types/node@26.0.1)':
-    dependencies:
-      '@inquirer/ansi': 2.0.7
-      '@inquirer/core': 11.2.1(@types/node@26.0.1)
-      '@inquirer/type': 4.0.7(@types/node@26.0.1)
-    optionalDependencies:
-      '@types/node': 26.0.1
-
-  '@inquirer/prompts@8.5.2(@types/node@26.0.1)':
-    dependencies:
-      '@inquirer/checkbox': 5.2.1(@types/node@26.0.1)
-      '@inquirer/confirm': 6.1.1(@types/node@26.0.1)
-      '@inquirer/editor': 5.2.2(@types/node@26.0.1)
-      '@inquirer/expand': 5.1.1(@types/node@26.0.1)
-      '@inquirer/input': 5.1.2(@types/node@26.0.1)
-      '@inquirer/number': 4.1.1(@types/node@26.0.1)
-      '@inquirer/password': 5.1.1(@types/node@26.0.1)
-      '@inquirer/rawlist': 5.3.1(@types/node@26.0.1)
-      '@inquirer/search': 4.2.1(@types/node@26.0.1)
-      '@inquirer/select': 5.2.1(@types/node@26.0.1)
-    optionalDependencies:
-      '@types/node': 26.0.1
-
-  '@inquirer/rawlist@5.3.1(@types/node@26.0.1)':
-    dependencies:
-      '@inquirer/core': 11.2.1(@types/node@26.0.1)
-      '@inquirer/type': 4.0.7(@types/node@26.0.1)
-    optionalDependencies:
-      '@types/node': 26.0.1
-
-  '@inquirer/search@4.2.1(@types/node@26.0.1)':
-    dependencies:
-      '@inquirer/core': 11.2.1(@types/node@26.0.1)
-      '@inquirer/figures': 2.0.7
-      '@inquirer/type': 4.0.7(@types/node@26.0.1)
-    optionalDependencies:
-      '@types/node': 26.0.1
-
-  '@inquirer/select@5.2.1(@types/node@26.0.1)':
+  '@inquirer/password@5.1.1(@types/node@26.1.1)':
     dependencies:
       '@inquirer/ansi': 2.0.7
-      '@inquirer/core': 11.2.1(@types/node@26.0.1)
-      '@inquirer/figures': 2.0.7
-      '@inquirer/type': 4.0.7(@types/node@26.0.1)
+      '@inquirer/core': 11.2.1(@types/node@26.1.1)
+      '@inquirer/type': 4.0.7(@types/node@26.1.1)
     optionalDependencies:
-      '@types/node': 26.0.1
+      '@types/node': 26.1.1
 
-  '@inquirer/type@4.0.7(@types/node@26.0.1)':
+  '@inquirer/prompts@8.5.2(@types/node@26.1.1)':
+    dependencies:
+      '@inquirer/checkbox': 5.2.1(@types/node@26.1.1)
+      '@inquirer/confirm': 6.1.1(@types/node@26.1.1)
+      '@inquirer/editor': 5.2.2(@types/node@26.1.1)
+      '@inquirer/expand': 5.1.1(@types/node@26.1.1)
+      '@inquirer/input': 5.1.2(@types/node@26.1.1)
+      '@inquirer/number': 4.1.1(@types/node@26.1.1)
+      '@inquirer/password': 5.1.1(@types/node@26.1.1)
+      '@inquirer/rawlist': 5.3.1(@types/node@26.1.1)
+      '@inquirer/search': 4.2.1(@types/node@26.1.1)
+      '@inquirer/select': 5.2.1(@types/node@26.1.1)
     optionalDependencies:
-      '@types/node': 26.0.1
+      '@types/node': 26.1.1
+
+  '@inquirer/rawlist@5.3.1(@types/node@26.1.1)':
+    dependencies:
+      '@inquirer/core': 11.2.1(@types/node@26.1.1)
+      '@inquirer/type': 4.0.7(@types/node@26.1.1)
+    optionalDependencies:
+      '@types/node': 26.1.1
+
+  '@inquirer/search@4.2.1(@types/node@26.1.1)':
+    dependencies:
+      '@inquirer/core': 11.2.1(@types/node@26.1.1)
+      '@inquirer/figures': 2.0.7
+      '@inquirer/type': 4.0.7(@types/node@26.1.1)
+    optionalDependencies:
+      '@types/node': 26.1.1
+
+  '@inquirer/select@5.2.1(@types/node@26.1.1)':
+    dependencies:
+      '@inquirer/ansi': 2.0.7
+      '@inquirer/core': 11.2.1(@types/node@26.1.1)
+      '@inquirer/figures': 2.0.7
+      '@inquirer/type': 4.0.7(@types/node@26.1.1)
+    optionalDependencies:
+      '@types/node': 26.1.1
+
+  '@inquirer/type@4.0.7(@types/node@26.1.1)':
+    optionalDependencies:
+      '@types/node': 26.1.1
 
   '@isaacs/balanced-match@4.0.1': {}
 
@@ -6923,7 +6923,7 @@ snapshots:
       eventsource: 3.0.7
       eventsource-parser: 3.1.0
       express: 5.2.1
-      express-rate-limit: 8.5.2(express@5.2.1)
+      express-rate-limit: 8.6.0(express@5.2.1)
       hono: 4.12.30
       jose: 6.2.3
       json-schema-typed: 8.0.2
@@ -7178,10 +7178,10 @@ snapshots:
   '@oxc-transform/binding-win32-x64-msvc@0.111.0':
     optional: true
 
-  '@pencil.dev/cli@0.2.8(@anthropic-ai/sdk@0.111.0(zod@4.1.11))(@modelcontextprotocol/sdk@1.29.0(zod@4.1.11))(@types/node@26.0.1)(zod@4.1.11)':
+  '@pencil.dev/cli@0.2.8(@anthropic-ai/sdk@0.112.1(zod@4.1.11))(@modelcontextprotocol/sdk@1.29.0(zod@4.1.11))(@types/node@26.1.1)(zod@4.1.11)':
     dependencies:
-      '@anthropic-ai/claude-agent-sdk': 0.3.211(@anthropic-ai/sdk@0.111.0(zod@4.1.11))(@modelcontextprotocol/sdk@1.29.0(zod@4.1.11))(zod@4.1.11)
-      '@inquirer/prompts': 8.5.2(@types/node@26.0.1)
+      '@anthropic-ai/claude-agent-sdk': 0.3.212(@anthropic-ai/sdk@0.112.1(zod@4.1.11))(@modelcontextprotocol/sdk@1.29.0(zod@4.1.11))(zod@4.1.11)
+      '@inquirer/prompts': 8.5.2(@types/node@26.1.1)
       '@node-ipc/node-ipc': 11.0.3
       '@openai/codex-sdk': 0.142.5
       eventemitter3: 5.0.4
@@ -7423,7 +7423,7 @@ snapshots:
 
   '@types/cross-spawn@6.0.6':
     dependencies:
-      '@types/node': 26.0.1
+      '@types/node': 26.1.1
 
   '@types/debug@4.1.13':
     dependencies:
@@ -7435,7 +7435,7 @@ snapshots:
 
   '@types/is-utf8@0.2.3':
     dependencies:
-      '@types/node': 26.0.1
+      '@types/node': 26.1.1
 
   '@types/json-schema@7.0.15': {}
 
@@ -7447,7 +7447,7 @@ snapshots:
     dependencies:
       undici-types: 5.26.5
 
-  '@types/node@26.0.1':
+  '@types/node@26.1.1':
     dependencies:
       undici-types: 8.3.0
 
@@ -9140,10 +9140,13 @@ snapshots:
 
   exponential-backoff@3.1.3: {}
 
-  express-rate-limit@8.5.2(express@5.2.1):
+  express-rate-limit@8.6.0(express@5.2.1):
     dependencies:
+      debug: 4.4.3(supports-color@5.5.0)
       express: 5.2.1
       ip-address: 10.2.0
+    transitivePeerDependencies:
+      - supports-color
 
   express@5.2.1:
     dependencies:
@@ -9688,16 +9691,16 @@ snapshots:
       inquirer: 6.5.2
       rxjs: 6.6.7
 
-  inquirer@14.0.2(@types/node@26.0.1):
+  inquirer@14.0.2(@types/node@26.1.1):
     dependencies:
       '@inquirer/ansi': 2.0.7
-      '@inquirer/core': 11.2.1(@types/node@26.0.1)
-      '@inquirer/prompts': 8.5.2(@types/node@26.0.1)
-      '@inquirer/type': 4.0.7(@types/node@26.0.1)
+      '@inquirer/core': 11.2.1(@types/node@26.1.1)
+      '@inquirer/prompts': 8.5.2(@types/node@26.1.1)
+      '@inquirer/type': 4.0.7(@types/node@26.1.1)
       mute-stream: 3.0.0
       run-async: 4.0.6
     optionalDependencies:
-      '@types/node': 26.0.1
+      '@types/node': 26.1.1
 
   inquirer@6.5.2:
     dependencies:
@@ -10570,7 +10573,7 @@ snapshots:
 
   normalize-url@6.1.0: {}
 
-  np@12.0.0(@types/node@26.0.1)(typescript@5.9.3):
+  np@12.0.0(@types/node@26.1.1)(typescript@5.9.3):
     dependencies:
       chalk: 5.6.2
       chalk-template: 1.1.2
@@ -10585,7 +10588,7 @@ snapshots:
       hosted-git-info: 9.0.3
       ignore-walk: 8.0.0
       import-local: 3.2.0
-      inquirer: 14.0.2(@types/node@26.0.1)
+      inquirer: 14.0.2(@types/node@26.1.1)
       is-installed-globally: 1.0.0
       is-interactive: 2.0.0
       is-scoped: 3.0.0
