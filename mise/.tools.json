@@ -79,9 +79,9 @@
   ],
   "pipx": [
     {
-      "version": "1.16.2",
+      "version": "1.16.3",
       "requested_version": "latest",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/pipx/1.16.2",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/pipx/1.16.3",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
