@@ -92,9 +92,9 @@
   ],
   "pixi": [
     {
-      "version": "0.73.0",
+      "version": "0.74.0",
       "requested_version": "latest",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/pixi/0.73.0",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/pixi/0.74.0",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
