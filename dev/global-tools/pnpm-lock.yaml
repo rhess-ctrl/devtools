@@ -108,8 +108,8 @@ importers:
         specifier: 4.1.0
         version: 4.1.0
       vercel:
-        specifier: 57.0.0
-        version: 57.0.0(supports-color@5.5.0)
+        specifier: 58.0.0
+        version: 58.0.0(supports-color@5.5.0)
       wait-on:
         specifier: 9.1.0
         version: 9.1.0(debug@4.4.3(supports-color@5.5.0))(supports-color@5.5.0)
@@ -1604,8 +1604,8 @@ packages:
     resolution: {integrity: sha512-ncQ8CRb6XoEAYJwjOTRGpACRT6h/AeY+/33gLyeVxG5BIes27OPm1jmqreF+JHjcTmGhClTP+kBpmyLfbV0xew==}
     engines: {node: '>=20.0.0'}
 
-  '@vercel/build-utils@13.35.0':
-    resolution: {integrity: sha512-UQmy2Ht1S3Evz7V9IfA1MyK452gjfPwZRnjGVRV/iVrB9MSCg4tMKmXTVYIarRMuUPbBmnJpoJ1mXPI/pHkJvg==}
+  '@vercel/build-utils@13.36.0':
+    resolution: {integrity: sha512-5Az1XAzro80WJDuANR2UpDWyYnMi2S4Ms1tYvg1YfwiruipyRr0FUf8s0WG8ErBZTBWf95nfZfofpcRJIBDV5w==}
 
   '@vercel/cli-auth@0.3.1':
     resolution: {integrity: sha512-TaMXMiPrwcLoLxu6ExcJ8yEw8b8Qss6UZkNYF4xIq+/VdvAk0l8JCpeAwzuHgKuJqmIDrOvtfjHO2+T/MBR3dg==}
@@ -1628,8 +1628,8 @@ packages:
   '@vercel/prepare-flags-definitions@0.3.0':
     resolution: {integrity: sha512-/0nuDFwYje0nqZnVKSd2VfJy2wOPQwbkas1qO1JQgtb0sLl+EeSCW4O9hrvq55pN50PNlAZ/APSeWHIAT9ZGHg==}
 
-  '@vercel/python-analysis@0.11.1':
-    resolution: {integrity: sha512-EPPLuXJQhIDUx08H9nG76AR2HSgBquwe3OAX5s2w20M923iaWeGGVkhX/4yZ89CJfXEZgE1Aj/mX7lVHOVIcYA==}
+  '@vercel/python-analysis@0.12.0':
+    resolution: {integrity: sha512-T9YgtINVJfZmDhXe6ULKoLC1Zr3LU3Cl4CgC+m+S1KsNDPlfGfXdr93K7aOqkMaJEDLpUH8dqrPP3/TuZXTjRw==}
 
   '@vercel/sandbox@2.4.0':
     resolution: {integrity: sha512-pifnr8hex/rgQ3EPyLYHYwHyf0Kwmc4Vbya9kHGk4aERFVGj44P+742S8/SDdt2guMxBriXBOMkMLq1Kaiyyeg==}
@@ -2839,8 +2839,8 @@ packages:
   exponential-backoff@3.1.3:
     resolution: {integrity: sha512-ZgEeZXj30q+I0EN+CbSSpIyPaJ5HVQD18Z1m+u1FXbAeT94mr1zw50q4q6jiiC447Nl/YTcIYSAftiGqetwXCA==}
 
-  express-rate-limit@8.6.0:
-    resolution: {integrity: sha512-XKJXDsASUOo0LLtFwW5hCcQGH0N4WQc/Rn8/Pvoia+TJFOkkFPvrtW9lZOeeNcxQJspvOIERMwiRLsVFlhHEkA==}
+  express-rate-limit@8.6.1:
+    resolution: {integrity: sha512-0D493aP61w0TJ2A0wy27riRsO7FMQ7FK+KUHOKCSfPvYo0R55aiC6emCVgFUeShH0fq0ICPVzNcgoS+BsbXQCA==}
     engines: {node: '>= 16'}
     peerDependencies:
       express: '>= 4.11'
@@ -3249,8 +3249,8 @@ packages:
     resolution: {integrity: sha512-4fCk79wshMdzMp2rH06qWrJE4iolqLhCUH+OiuIgU++RB0+94NlDL81atO7GX55uUKueo0txHNtvEyI6D7WdMw==}
     engines: {node: '>=0.10.0'}
 
-  iconv-lite@0.7.2:
-    resolution: {integrity: sha512-im9DjEDQ55s9fL4EYzOAv0yMqmMBSZp6G0VvFyTMPKWxiSBHUj9NW/qqLmXUwXrrM7AvqSlTCfvqRb0cM8yYqw==}
+  iconv-lite@0.7.3:
+    resolution: {integrity: sha512-IKXpvIzjnC9XTAUbVBcMfGS0EPaIXtW6v+zr+RRp+hqULEpo0owZax6wyRwPOJbWbzjYspQwusTsfVr0ifh4uQ==}
     engines: {node: '>=0.10.0'}
 
   iftype@3.0.2:
@@ -3583,6 +3583,9 @@ packages:
 
   jose@6.2.3:
     resolution: {integrity: sha512-YYVDInQKFJfR/xa3ojUTl8c2KoTwiL1R5Wg9YCydwH0x0B9grbzlg5HC7mMjCtUJjbQ/YnGEZIhI5tCgfTb4Hw==}
+
+  jose@6.2.4:
+    resolution: {integrity: sha512-N8acGzVsQy6M/fjFcxtysNc4Q379TcM5dM/qKkNtsHFji88yANnXTr7BLeP75iPnFwBfQzM/jg2BZ9+HZrHCZA==}
 
   js-base64@2.6.4:
     resolution: {integrity: sha512-pZe//GGmwJndub7ZghVHz7vjb2LgC1m8B07Au3eYqeqv9emhESByMXxaEgkUkEqJe87oBbSniGYoQNIBklc7IQ==}
@@ -4636,8 +4639,8 @@ packages:
     resolution: {integrity: sha512-kA5WQoNVo4t9lNx2kQNFCxKeBl5IbbSNBl1M/tLkw9WCn+hxNBAW5Qh8gdhs63CJnhjJ2zQWFoqPJP2sK1AV5A==}
     engines: {node: '>= 0.6'}
 
-  range-parser@1.2.1:
-    resolution: {integrity: sha512-Hrgsx+orqoygnmhFbKaHE6c296J+HTAQXoxEF6gNupROmmGJRoyzfG3ccAveqCBrwr/2yxQ5BVd/GTl5agOwSg==}
+  range-parser@1.3.0:
+    resolution: {integrity: sha512-hek2mFQpPuI4E1BBKrSto+BU3e3x4xuarsbiwr3+lf7p44juvFMV0XFWQAP3xUyqXA4RrXLIoaSUGbSt056ZMw==}
     engines: {node: '>= 0.6'}
 
   raw-body@2.4.1:
@@ -5427,30 +5430,30 @@ packages:
   vendors@1.0.4:
     resolution: {integrity: sha512-/juG65kTL4Cy2su4P8HjtkTxk6VmJDiOPBufWniqQ6wknac6jNiXS9vU+hO3wgusiyqWlzTbVHi0dyJqRONg3w==}
 
-  vercel@57.0.0:
-    resolution: {integrity: sha512-usxKPD1Lgewjq713pc1yE0MF2R5lLmWf1ws/WHyY5EQST/WZnkPPx6JkUirzMd1uxyO9PIjUR1c73AQsP6p7Xg==}
+  vercel@58.0.0:
+    resolution: {integrity: sha512-Y9sPxy/oR5o8KcVLjxxJ1bsUvSKyigEOb26jBn9LDNgR3VW8iAVb0qm+824WZ5viqVuGMzxsj4wJedVH4ih4Mg==}
     engines: {node: '>= 18'}
     hasBin: true
     peerDependencies:
-      '@vercel/backends': 0.8.26
+      '@vercel/backends': 0.8.27
       '@vercel/container': 0.1.0
-      '@vercel/elysia': 0.1.103
-      '@vercel/express': 0.1.117
-      '@vercel/fastify': 0.1.106
+      '@vercel/elysia': 0.1.104
+      '@vercel/express': 0.1.118
+      '@vercel/fastify': 0.1.107
       '@vercel/go': 3.10.2
-      '@vercel/h3': 0.1.112
-      '@vercel/hono': 0.2.106
+      '@vercel/h3': 0.1.113
+      '@vercel/hono': 0.2.107
       '@vercel/hydrogen': 1.4.0
-      '@vercel/koa': 0.1.86
-      '@vercel/nestjs': 0.2.107
+      '@vercel/koa': 0.1.87
+      '@vercel/nestjs': 0.2.108
       '@vercel/next': 4.20.4
-      '@vercel/node': 5.8.27
-      '@vercel/python': 6.52.0
+      '@vercel/node': 5.9.0
+      '@vercel/python': 6.53.0
       '@vercel/redwood': 2.5.0
       '@vercel/remix-builder': 5.9.1
       '@vercel/ruby': 2.5.1
       '@vercel/rust': 1.4.0
-      '@vercel/static-build': 2.11.9
+      '@vercel/static-build': 2.11.10
     peerDependenciesMeta:
       '@vercel/backends':
         optional: true
@@ -6336,7 +6339,7 @@ snapshots:
   '@inquirer/external-editor@3.0.3(@types/node@26.1.1)':
     dependencies:
       chardet: 2.1.1
-      iconv-lite: 0.7.2
+      iconv-lite: 0.7.3
     optionalDependencies:
       '@types/node': 26.1.1
 
@@ -6452,9 +6455,9 @@ snapshots:
       eventsource: 3.0.7
       eventsource-parser: 3.1.0
       express: 5.2.1(supports-color@5.5.0)
-      express-rate-limit: 8.6.0(express@5.2.1(supports-color@5.5.0))(supports-color@5.5.0)
+      express-rate-limit: 8.6.1(express@5.2.1(supports-color@5.5.0))(supports-color@5.5.0)
       hono: 4.12.32
-      jose: 6.2.3
+      jose: 6.2.4
       json-schema-typed: 8.0.2
       pkce-challenge: 5.0.1
       raw-body: 3.0.2
@@ -6870,9 +6873,9 @@ snapshots:
       throttleit: 2.1.0
       undici: 6.28.0
 
-  '@vercel/build-utils@13.35.0':
+  '@vercel/build-utils@13.36.0':
     dependencies:
-      '@vercel/python-analysis': 0.11.1
+      '@vercel/python-analysis': 0.12.0
       cjs-module-lexer: 1.2.3
       es-module-lexer: 1.5.0
 
@@ -6919,7 +6922,7 @@ snapshots:
 
   '@vercel/prepare-flags-definitions@0.3.0': {}
 
-  '@vercel/python-analysis@0.11.1':
+  '@vercel/python-analysis@0.12.0':
     dependencies:
       '@bytecodealliance/preview2-shim': 0.17.6
       '@renovatebot/pep440': 4.2.1
@@ -7199,7 +7202,7 @@ snapshots:
       content-type: 2.0.0
       debug: 4.4.3(supports-color@5.5.0)
       http-errors: 2.0.1
-      iconv-lite: 0.7.2
+      iconv-lite: 0.7.3
       on-finished: 2.4.1
       qs: 6.15.3
       raw-body: 3.0.2
@@ -8242,7 +8245,7 @@ snapshots:
 
   exponential-backoff@3.1.3: {}
 
-  express-rate-limit@8.6.0(express@5.2.1(supports-color@5.5.0))(supports-color@5.5.0):
+  express-rate-limit@8.6.1(express@5.2.1(supports-color@5.5.0))(supports-color@5.5.0):
     dependencies:
       debug: 4.4.3(supports-color@5.5.0)
       express: 5.2.1(supports-color@5.5.0)
@@ -8273,7 +8276,7 @@ snapshots:
       parseurl: 1.3.3
       proxy-addr: 2.0.7
       qs: 6.15.3
-      range-parser: 1.2.1
+      range-parser: 1.3.0
       router: 2.2.0(supports-color@5.5.0)
       send: 1.2.1(supports-color@5.5.0)
       serve-static: 2.2.1(supports-color@5.5.0)
@@ -8701,7 +8704,7 @@ snapshots:
     dependencies:
       safer-buffer: 2.1.2
 
-  iconv-lite@0.7.2:
+  iconv-lite@0.7.3:
     dependencies:
       safer-buffer: 2.1.2
 
@@ -8980,6 +8983,8 @@ snapshots:
   jose@5.9.6: {}
 
   jose@6.2.3: {}
+
+  jose@6.2.4: {}
 
   js-base64@2.6.4: {}
 
@@ -10270,7 +10275,7 @@ snapshots:
 
   range-parser@1.2.0: {}
 
-  range-parser@1.2.1: {}
+  range-parser@1.3.0: {}
 
   raw-body@2.4.1:
     dependencies:
@@ -10283,7 +10288,7 @@ snapshots:
     dependencies:
       bytes: 3.1.2
       http-errors: 2.0.1
-      iconv-lite: 0.7.2
+      iconv-lite: 0.7.3
       unpipe: 1.0.0
 
   rc@1.2.8:
@@ -10526,7 +10531,7 @@ snapshots:
       mime-types: 3.0.2
       ms: 2.1.3
       on-finished: 2.4.1
-      range-parser: 1.2.1
+      range-parser: 1.3.0
       statuses: 2.0.2
     transitivePeerDependencies:
       - supports-color
@@ -11148,10 +11153,10 @@ snapshots:
 
   vendors@1.0.4: {}
 
-  vercel@57.0.0(supports-color@5.5.0):
+  vercel@58.0.0(supports-color@5.5.0):
     dependencies:
       '@vercel/blob': 2.4.0
-      '@vercel/build-utils': 13.35.0
+      '@vercel/build-utils': 13.36.0
       '@vercel/cli-auth': 0.3.1
       '@vercel/cli-config': 0.2.1
       '@vercel/detect-agent': 1.2.3
