@@ -144,7 +144,7 @@ cask "ghostty"
 cask "graphql-playground"
 cask "llamachat"
 cask "localsend"
-cask "podman-desktop"
+# cask "podman-desktop"
 cask "wave"
 
 brew "charmbracelet/tap/charm"
