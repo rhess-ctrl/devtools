@@ -136,6 +136,7 @@ cask "font-source-sans-3"
 cask "font-space-mono"
 cask "font-victor-mono"
 
+cask "docker"
 cask "gcloud-cli"
 cask "ghostty"
 cask "graphql-playground"
