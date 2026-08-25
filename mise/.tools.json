@@ -1,9 +1,9 @@
 {
   "bun": [
     {
-      "version": "1.3.14",
+      "version": "1.4.0",
       "requested_version": "latest",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/bun/1.3.14",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/bun/1.4.0",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
@@ -40,9 +40,9 @@
   ],
   "fnox": [
     {
-      "version": "1.33.0",
+      "version": "1.33.1",
       "requested_version": "latest",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/fnox/1.33.0",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/fnox/1.33.1",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
@@ -53,9 +53,9 @@
   ],
   "go": [
     {
-      "version": "1.26.5",
+      "version": "1.27.0",
       "requested_version": "latest",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/go/1.26.5",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/go/1.27.0",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
@@ -79,9 +79,9 @@
   ],
   "pipx": [
     {
-      "version": "1.16.6",
+      "version": "1.16.7",
       "requested_version": "latest",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/pipx/1.16.6",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/pipx/1.16.7",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
@@ -92,9 +92,9 @@
   ],
   "pixi": [
     {
-      "version": "0.76.2",
+      "version": "0.77.0",
       "requested_version": "latest",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/pixi/0.76.2",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/pixi/0.77.0",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
@@ -118,9 +118,9 @@
   ],
   "ruff": [
     {
-      "version": "0.16.2",
+      "version": "0.16.3",
       "requested_version": "latest",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/ruff/0.16.2",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/ruff/0.16.3",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
@@ -145,9 +145,9 @@
   ],
   "ty": [
     {
-      "version": "0.0.70",
+      "version": "0.0.73",
       "requested_version": "latest",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/ty/0.0.70",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/ty/0.0.73",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
@@ -171,9 +171,9 @@
   ],
   "uv": [
     {
-      "version": "0.12.3",
+      "version": "0.12.5",
       "requested_version": "latest",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/uv/0.12.3",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/uv/0.12.5",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
