@@ -14,9 +14,9 @@
   ],
   "cargo-binstall": [
     {
-      "version": "1.21.1",
+      "version": "1.22.0",
       "requested_version": "latest",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/cargo-binstall/1.21.1",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/cargo-binstall/1.22.0",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
@@ -40,9 +40,9 @@
   ],
   "fnox": [
     {
-      "version": "1.33.1",
+      "version": "1.34.0",
       "requested_version": "latest",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/fnox/1.33.1",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/fnox/1.34.0",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
@@ -92,9 +92,9 @@
   ],
   "pixi": [
     {
-      "version": "0.77.0",
+      "version": "0.77.1",
       "requested_version": "latest",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/pixi/0.77.0",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/pixi/0.77.1",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
@@ -118,9 +118,9 @@
   ],
   "ruff": [
     {
-      "version": "0.16.3",
+      "version": "0.16.4",
       "requested_version": "latest",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/ruff/0.16.3",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/ruff/0.16.4",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
@@ -131,23 +131,23 @@
   ],
   "rust": [
     {
-      "version": "1.97.1",
+      "version": "1.98.0",
       "requested_version": "latest",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/rust/1.97.1",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/rust/1.98.0",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
       },
-      "symlinked_to": "/Users/RHESS/.local/share/mise/installs/rust/1.97.1",
+      "symlinked_to": "/Users/RHESS/.local/share/mise/installs/rust/1.98.0",
       "installed": true,
       "active": true
     }
   ],
   "ty": [
     {
-      "version": "0.0.73",
+      "version": "0.0.74",
       "requested_version": "latest",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/ty/0.0.73",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/ty/0.0.74",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
@@ -158,9 +158,9 @@
   ],
   "usage": [
     {
-      "version": "5.1.0",
+      "version": "6.3.0",
       "requested_version": "latest",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/usage/5.1.0",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/usage/6.3.0",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
