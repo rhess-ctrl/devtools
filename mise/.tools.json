@@ -158,9 +158,9 @@
   ],
   "usage": [
     {
-      "version": "6.3.0",
+      "version": "6.4.0",
       "requested_version": "latest",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/usage/6.3.0",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/usage/6.4.0",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"

@@ -10,5 +10,5 @@ python          3.14.7            ~/github/eswat2/devtools/mise/config.toml  3.1
 ruff            0.16.4            ~/github/eswat2/devtools/mise/config.toml  latest
 rust            1.98.0 (symlink)  ~/github/eswat2/devtools/mise/config.toml  latest
 ty              0.0.74            ~/github/eswat2/devtools/mise/config.toml  latest
-usage           6.3.0             ~/github/eswat2/devtools/mise/config.toml  latest
+usage           6.4.0             ~/github/eswat2/devtools/mise/config.toml  latest
 uv              0.12.5            ~/github/eswat2/devtools/mise/config.toml  latest
