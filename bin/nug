@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# ---------------------------------------------------------------------
+# NOTE:  nug == node update globals... [ run after a node version change ]
+# 
+# ├── @google/gemini-cli@0.47.0
+# ├── bare@1.29.5
+# ├── corepack@0.35.0
+# ├── npm@11.16.0
+# └── pnpm@11.9.0
+#
+npm install -g @google/gemini-cli
+npm install -g bare
+npm install -g pnpm@latest
