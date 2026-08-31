@@ -93,8 +93,16 @@
   "pixi": [
     {
       "version": "0.77.1",
-      "requested_version": "latest",
       "install_path": "/Users/RHESS/.local/share/mise/installs/pixi/0.77.1",
+      "scheduled_for_pruning": true,
+      "prune_after": "2026-09-01T15:45:17Z",
+      "installed": true,
+      "active": false
+    },
+    {
+      "version": "0.78.0",
+      "requested_version": "latest",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/pixi/0.78.0",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
@@ -159,8 +167,16 @@
   "usage": [
     {
       "version": "6.4.1",
-      "requested_version": "latest",
       "install_path": "/Users/RHESS/.local/share/mise/installs/usage/6.4.1",
+      "scheduled_for_pruning": true,
+      "prune_after": "2026-09-01T15:45:17Z",
+      "installed": true,
+      "active": false
+    },
+    {
+      "version": "6.5.0",
+      "requested_version": "latest",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/usage/6.5.0",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
@@ -172,8 +188,16 @@
   "uv": [
     {
       "version": "0.12.6",
-      "requested_version": "latest",
       "install_path": "/Users/RHESS/.local/share/mise/installs/uv/0.12.6",
+      "scheduled_for_pruning": true,
+      "prune_after": "2026-09-01T15:45:17Z",
+      "installed": true,
+      "active": false
+    },
+    {
+      "version": "0.12.7",
+      "requested_version": "latest",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/uv/0.12.7",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
