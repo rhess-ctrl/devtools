@@ -1,17 +1,14 @@
-bun             1.4.0                   ~/github/eswat2/devtools/mise/config.toml  latest
-cargo-binstall  1.22.0                  ~/github/eswat2/devtools/mise/config.toml  latest
-deno            2.9.6                   ~/github/eswat2/devtools/mise/config.toml  latest
-fnox            1.34.1                  ~/github/eswat2/devtools/mise/config.toml  latest
-go              1.27.0                  ~/github/eswat2/devtools/mise/config.toml  latest
-node            24.20.0                 ~/github/eswat2/devtools/mise/config.toml  lts
-pipx            1.16.7                  ~/github/eswat2/devtools/mise/config.toml  latest
-pixi            0.77.1 (pruned in 24h)
-pixi            0.78.0                  ~/github/eswat2/devtools/mise/config.toml  latest
-python          3.14.7                  ~/github/eswat2/devtools/mise/config.toml  3.14
-ruff            0.16.5                  ~/github/eswat2/devtools/mise/config.toml  latest
-rust            1.98.0 (symlink)        ~/github/eswat2/devtools/mise/config.toml  latest
-ty              0.0.75                  ~/github/eswat2/devtools/mise/config.toml  latest
-usage           6.4.1 (pruned in 24h)
-usage           6.5.0                   ~/github/eswat2/devtools/mise/config.toml  latest
-uv              0.12.6 (pruned in 24h)
-uv              0.12.7                  ~/github/eswat2/devtools/mise/config.toml  latest
+bun             1.4.0             ~/github/eswat2/devtools/mise/config.toml  latest
+cargo-binstall  1.22.0            ~/github/eswat2/devtools/mise/config.toml  latest
+deno            2.9.6             ~/github/eswat2/devtools/mise/config.toml  latest
+fnox            1.34.1            ~/github/eswat2/devtools/mise/config.toml  latest
+go              1.27.0            ~/github/eswat2/devtools/mise/config.toml  latest
+node            24.20.0           ~/github/eswat2/devtools/mise/config.toml  lts
+pipx            1.16.7            ~/github/eswat2/devtools/mise/config.toml  latest
+pixi            0.78.0            ~/github/eswat2/devtools/mise/config.toml  latest
+python          3.14.7            ~/github/eswat2/devtools/mise/config.toml  3.14
+ruff            0.16.5            ~/github/eswat2/devtools/mise/config.toml  latest
+rust            1.98.0 (symlink)  ~/github/eswat2/devtools/mise/config.toml  latest
+ty              0.0.75            ~/github/eswat2/devtools/mise/config.toml  latest
+usage           6.5.0             ~/github/eswat2/devtools/mise/config.toml  latest
+uv              0.12.7            ~/github/eswat2/devtools/mise/config.toml  latest
