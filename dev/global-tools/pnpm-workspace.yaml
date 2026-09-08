@@ -83,28 +83,28 @@ minimumReleaseAgeExclude:
   - '@vercel/detect-agent@1.2.4'
   - '@vercel/error-utils@2.2.1'
   - '@vercel/gatsby-plugin-vercel-analytics@1.0.12'
-  - '@cspell/cspell-bundled-dicts@10.1.1 || 10.2.0 || 10.2.1 || 10.2.2'
-  - '@cspell/cspell-json-reporter@10.1.1 || 10.2.0 || 10.2.1 || 10.2.2'
-  - '@cspell/cspell-performance-monitor@10.1.1 || 10.2.0 || 10.2.1 || 10.2.2'
-  - '@cspell/cspell-pipe@10.1.1 || 10.2.0 || 10.2.1 || 10.2.2'
-  - '@cspell/cspell-resolver@10.1.1 || 10.2.0 || 10.2.1 || 10.2.2'
-  - '@cspell/cspell-service-bus@10.1.1 || 10.2.0 || 10.2.1 || 10.2.2'
-  - '@cspell/cspell-types@10.1.1 || 10.2.0 || 10.2.1 || 10.2.2'
-  - '@cspell/cspell-worker@10.1.1 || 10.2.0 || 10.2.1 || 10.2.2'
-  - '@cspell/dynamic-import@10.1.1 || 10.2.0 || 10.2.1 || 10.2.2'
-  - '@cspell/filetypes@10.1.1 || 10.2.0 || 10.2.1 || 10.2.2'
-  - '@cspell/rpc@10.1.1 || 10.2.0 || 10.2.1 || 10.2.2'
-  - '@cspell/strong-weak-map@10.1.1 || 10.2.0 || 10.2.1 || 10.2.2'
-  - '@cspell/url@10.1.1 || 10.2.0 || 10.2.1 || 10.2.2'
-  - cspell-config-lib@10.1.1 || 10.2.0 || 10.2.1 || 10.2.2
-  - cspell-dictionary@10.1.1 || 10.2.0 || 10.2.1 || 10.2.2
-  - cspell-gitignore@10.1.1 || 10.2.0 || 10.2.1 || 10.2.2
-  - cspell-glob@10.1.1 || 10.2.0 || 10.2.1 || 10.2.2
-  - cspell-grammar@10.1.1 || 10.2.0 || 10.2.1 || 10.2.2
-  - cspell-io@10.1.1 || 10.2.0 || 10.2.1 || 10.2.2
-  - cspell-lib@10.1.1 || 10.2.0 || 10.2.1 || 10.2.2
-  - cspell-trie-lib@10.1.1 || 10.2.0 || 10.2.1 || 10.2.2
-  - cspell@10.1.1 || 10.2.0 || 10.2.1 || 10.2.2
+  - '@cspell/cspell-bundled-dicts@10.1.1 || 10.2.0 || 10.2.1 || 10.2.2 || 10.3.0'
+  - '@cspell/cspell-json-reporter@10.1.1 || 10.2.0 || 10.2.1 || 10.2.2 || 10.3.0'
+  - '@cspell/cspell-performance-monitor@10.1.1 || 10.2.0 || 10.2.1 || 10.2.2 || 10.3.0'
+  - '@cspell/cspell-pipe@10.1.1 || 10.2.0 || 10.2.1 || 10.2.2 || 10.3.0'
+  - '@cspell/cspell-resolver@10.1.1 || 10.2.0 || 10.2.1 || 10.2.2 || 10.3.0'
+  - '@cspell/cspell-service-bus@10.1.1 || 10.2.0 || 10.2.1 || 10.2.2 || 10.3.0'
+  - '@cspell/cspell-types@10.1.1 || 10.2.0 || 10.2.1 || 10.2.2 || 10.3.0'
+  - '@cspell/cspell-worker@10.1.1 || 10.2.0 || 10.2.1 || 10.2.2 || 10.3.0'
+  - '@cspell/dynamic-import@10.1.1 || 10.2.0 || 10.2.1 || 10.2.2 || 10.3.0'
+  - '@cspell/filetypes@10.1.1 || 10.2.0 || 10.2.1 || 10.2.2 || 10.3.0'
+  - '@cspell/rpc@10.1.1 || 10.2.0 || 10.2.1 || 10.2.2 || 10.3.0'
+  - '@cspell/strong-weak-map@10.1.1 || 10.2.0 || 10.2.1 || 10.2.2 || 10.3.0'
+  - '@cspell/url@10.1.1 || 10.2.0 || 10.2.1 || 10.2.2 || 10.3.0'
+  - cspell-config-lib@10.1.1 || 10.2.0 || 10.2.1 || 10.2.2 || 10.3.0
+  - cspell-dictionary@10.1.1 || 10.2.0 || 10.2.1 || 10.2.2 || 10.3.0
+  - cspell-gitignore@10.1.1 || 10.2.0 || 10.2.1 || 10.2.2 || 10.3.0
+  - cspell-glob@10.1.1 || 10.2.0 || 10.2.1 || 10.2.2 || 10.3.0
+  - cspell-grammar@10.1.1 || 10.2.0 || 10.2.1 || 10.2.2 || 10.3.0
+  - cspell-io@10.1.1 || 10.2.0 || 10.2.1 || 10.2.2 || 10.3.0
+  - cspell-lib@10.1.1 || 10.2.0 || 10.2.1 || 10.2.2 || 10.3.0
+  - cspell-trie-lib@10.1.1 || 10.2.0 || 10.2.1 || 10.2.2 || 10.3.0
+  - cspell@10.1.1 || 10.2.0 || 10.2.1 || 10.2.2 || 10.3.0
   - '@eslint/plugin-kit@0.7.3'
 onlyBuiltDependencies:
   - '@socketsupply/socket-darwin-arm64'
