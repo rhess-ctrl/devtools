@@ -1,9 +1,9 @@
 {
   "bun": [
     {
-      "version": "1.4.0",
+      "version": "1.4.2",
       "requested_version": "latest",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/bun/1.4.0",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/bun/1.4.2",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
@@ -14,9 +14,9 @@
   ],
   "cargo-binstall": [
     {
-      "version": "1.22.0",
+      "version": "1.23.0",
       "requested_version": "latest",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/cargo-binstall/1.22.0",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/cargo-binstall/1.23.0",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
@@ -92,9 +92,9 @@
   ],
   "pixi": [
     {
-      "version": "0.79.0",
+      "version": "0.80.0",
       "requested_version": "latest",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/pixi/0.79.0",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/pixi/0.80.0",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
@@ -118,9 +118,9 @@
   ],
   "ruff": [
     {
-      "version": "0.16.5",
+      "version": "0.16.6",
       "requested_version": "latest",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/ruff/0.16.5",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/ruff/0.16.6",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
@@ -171,9 +171,9 @@
   ],
   "uv": [
     {
-      "version": "0.12.9",
+      "version": "0.12.10",
       "requested_version": "latest",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/uv/0.12.9",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/uv/0.12.10",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
