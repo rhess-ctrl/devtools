@@ -13,6 +13,7 @@ bru::trust() {
   local TAPS=(
     charmbracelet/tap
     github/gh
+    hashicorp/tap
     teamookla/speedtest
     wedow/tools
   )
