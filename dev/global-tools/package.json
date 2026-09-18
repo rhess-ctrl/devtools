@@ -36,14 +36,14 @@
     "npm-check-updates": "23.1.0",
     "only-allow": "1.2.2",
     "portless": "0.15.6",
-    "prettier": "3.9.7",
+    "prettier": "3.9.8",
     "rollup": "4.63.3",
     "serve": "14.2.6",
     "sirv-cli": "3.0.1",
     "svgo": "4.1.0",
     "typescript": "5.9.3",
     "updtr": "4.1.0",
-    "vercel": "59.19.0",
+    "vercel": "59.23.1",
     "wait-on": "9.1.0",
     "zx": "8.8.5"
   }
