@@ -203,8 +203,8 @@ importers:
         specifier: 9.2.1
         version: 9.2.1
       cspell:
-        specifier: 10.3.3
-        version: 10.3.3
+        specifier: 10.3.4
+        version: 10.3.4
       cssnano-cli:
         specifier: 1.0.5
         version: 1.0.5
@@ -266,8 +266,8 @@ importers:
         specifier: 4.1.0
         version: 4.1.0
       vercel:
-        specifier: 60.0.0
-        version: 60.0.0(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(rollup@4.63.5)(supports-color@5.5.0)
+        specifier: 60.0.1
+        version: 60.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(rollup@4.63.5)(supports-color@5.5.0)
       wait-on:
         specifier: 9.1.0
         version: 9.1.0(debug@4.4.3(supports-color@5.5.0))(supports-color@5.5.0)
@@ -277,52 +277,52 @@ importers:
 
 packages:
 
-  '@anthropic-ai/claude-agent-sdk-darwin-arm64@0.3.280':
-    resolution: {integrity: sha512-Yws14X5g5hgDtF565Tld/+dILAhH9QZpundjKMyO3dFasq9miXZlhU0NwXqwTO2xP0jDjJ54zduIiJwkcfcvGw==}
+  '@anthropic-ai/claude-agent-sdk-darwin-arm64@0.3.282':
+    resolution: {integrity: sha512-NwvIIpEOORp16K7NgjWE2lt2Y+VmddvkkRoOpyKXz2H2bRixa5ToV+byp2gUaKVsCixBuAiQ2lL9e79gy5lbNQ==}
     cpu: [arm64]
     os: [darwin]
 
-  '@anthropic-ai/claude-agent-sdk-darwin-x64@0.3.280':
-    resolution: {integrity: sha512-B1eLx/oZ5RL1c3a13nQ4cRUksWyhGcVNS5vbCHnOVu4Pz+dH0moZ+iY8VaE6FvikVAQwFEW6VDU00b6m3tYdsQ==}
+  '@anthropic-ai/claude-agent-sdk-darwin-x64@0.3.282':
+    resolution: {integrity: sha512-MjVmeojCOIAdqt90j1B9ENfCwLIzMhSyzQJd6+rBn8KDKklduPLbs//rVhvIwR+MJBF67PDkczOb4VXiYPJRxA==}
     cpu: [x64]
     os: [darwin]
 
-  '@anthropic-ai/claude-agent-sdk-linux-arm64-musl@0.3.280':
-    resolution: {integrity: sha512-uDh+Ggjb36l+jcVgaYxSziGHmBSSR3clqvGlQ0Bgc1v5dLF4igwqZ6ZPW/hS9dArG27fislIOetH1waEgIr+GA==}
+  '@anthropic-ai/claude-agent-sdk-linux-arm64-musl@0.3.282':
+    resolution: {integrity: sha512-2/3EtJKfNQfjn1MtTRh7EpcqlAI/UCEaiHSdlPH+AZPDnQXiHLW6JITJNdsc3MMuwjnbsiL4NJBnDr35qkIb9A==}
     cpu: [arm64]
     os: [linux]
     libc: [musl]
 
-  '@anthropic-ai/claude-agent-sdk-linux-arm64@0.3.280':
-    resolution: {integrity: sha512-6s96OIvBHT2817hCFLIZ421JBpQnvrmZucpjlWsyCODKmwGsSxiEhlWqK2h5Q7lwS6F7bzeAhqjGvC7FzDl9Rw==}
+  '@anthropic-ai/claude-agent-sdk-linux-arm64@0.3.282':
+    resolution: {integrity: sha512-hL/G7pCQnS9m8RIqxCpljaQsvITKRYdqoNeDsJGIqaFpd79redTwlovRUBtFMeDAtASwtha1wLyh24v+gUb58A==}
     cpu: [arm64]
     os: [linux]
     libc: [glibc]
 
-  '@anthropic-ai/claude-agent-sdk-linux-x64-musl@0.3.280':
-    resolution: {integrity: sha512-IVbIgvi5C0sdLg/p9hpiVvAQ/ikvTKwOOEy5C1aT7w8XLqBgfpJbzzVuk06df1Q0HlILUmf63EKPmq48lbxtqA==}
+  '@anthropic-ai/claude-agent-sdk-linux-x64-musl@0.3.282':
+    resolution: {integrity: sha512-Q96hallUSHCCvmsMC08aO3YtivTbRIzzrgfdVjJAcOrQ+6tSwN0Ni4yMEwhWRnq3DVZlNDYIssd1/k7H4lS7Og==}
     cpu: [x64]
     os: [linux]
     libc: [musl]
 
-  '@anthropic-ai/claude-agent-sdk-linux-x64@0.3.280':
-    resolution: {integrity: sha512-vpPyxYLy+zNc7LwQDWsZf0GZtTYa0PJLxzuv2vK9iV2dG+hrbRNTl35NSKKRR9rMj6RpKz0i2NLyVQ+D4mREgw==}
+  '@anthropic-ai/claude-agent-sdk-linux-x64@0.3.282':
+    resolution: {integrity: sha512-NxinW4k1Xh3xTCPKpsw+XXV+O3zwLtLQeJnFucc/LKQQ3p4pXJ7/hW/DIiYdmhgIIaMFkP+2xP8G5+Y8swxB2w==}
     cpu: [x64]
     os: [linux]
     libc: [glibc]
 
-  '@anthropic-ai/claude-agent-sdk-win32-arm64@0.3.280':
-    resolution: {integrity: sha512-heTflHwciJF+Hrf7v0J53QBzD+9mxN9gt2VVmEJAN0+ejbPcOcqnGGZHvyc9aZUuGh5INN0ECaiL4Fn1X2vXQQ==}
+  '@anthropic-ai/claude-agent-sdk-win32-arm64@0.3.282':
+    resolution: {integrity: sha512-4v9guW9NSDJj+cTP+aND3Wz6gAFV5OU/VP4CFjc79KgdwPpAtwm2fw5BKhneAuoUc21KU9gHWBtLLOdBvONoZw==}
     cpu: [arm64]
     os: [win32]
 
-  '@anthropic-ai/claude-agent-sdk-win32-x64@0.3.280':
-    resolution: {integrity: sha512-N+Y1zJb19nx0oPTvzkl/E3ng9AtWGW+K4hySmSHCgYSsgIwfs1YzDj/F5eHDMrxgklTuzFp76TvL3S75z5ge+g==}
+  '@anthropic-ai/claude-agent-sdk-win32-x64@0.3.282':
+    resolution: {integrity: sha512-oOMNLTcLGqPBHvrTVRXNL6q8LK7DL3blkuBBrAgsmkgr+pxi0E74eQEk7XQ5dYwhETa2/ZfNIwNevcYB7LAVtg==}
     cpu: [x64]
     os: [win32]
 
-  '@anthropic-ai/claude-agent-sdk@0.3.280':
-    resolution: {integrity: sha512-aIQSTKcCJcOgi125GAGQaNZUYgxbEBQwV2Ac+Utp0+gGUjIEWjTqz4B8kXr9XjkcCTYiRUMTDsXPAUfIcBDjnw==}
+  '@anthropic-ai/claude-agent-sdk@0.3.282':
+    resolution: {integrity: sha512-6UAerS1udzndLEx+0XW3gQWiICgfu/a+2fx/aLY3gUy+1JUQESbwYkhR40+D6d+yjueCslkLmvkPlZQFZDph6A==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       '@anthropic-ai/sdk': '>=0.93.0'
@@ -371,36 +371,36 @@ packages:
     resolution: {integrity: sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==}
     engines: {node: '>=0.1.90'}
 
-  '@cspell/cspell-bundled-dicts@10.3.3':
-    resolution: {integrity: sha512-aX40uWqTN44EM81R/Xj/NMIbgdtBM0ulKPTDKhVJYIbCJarISLoxaJkERs9dHB5AwrDZViC6BXcpVYnoRV1kXg==}
+  '@cspell/cspell-bundled-dicts@10.3.4':
+    resolution: {integrity: sha512-43nfJOuuiWohR4kpH+uMsko2GMlW8ns+SolGcKK5fdp56POS45UbGKtGlmOmC5bi+1H/1bZmyHI/H7EX+wQNgA==}
     engines: {node: '>=22.18.0'}
 
-  '@cspell/cspell-json-reporter@10.3.3':
-    resolution: {integrity: sha512-ckDruMkywf8GP3YRTtkJ5yCV9VprsAOzACxArrkc1thGWVo6yiVJGgWL/bUEBPa/zK0uT/ekfbZ+s4ybZnTMNw==}
+  '@cspell/cspell-json-reporter@10.3.4':
+    resolution: {integrity: sha512-ycVkt2bS9QTpo0tqlWRnTzAdk6VR9ZJSV5nNo4QqDt7rFZl4m0NdQxryJn8+hnqQ0hc7UJN8kcSbWIjVFmoCHA==}
     engines: {node: '>=22.18.0'}
 
-  '@cspell/cspell-performance-monitor@10.3.3':
-    resolution: {integrity: sha512-RfHwlk45TwYS2oNuHUGH562NgKEFLotG9LHYjkTiPKC8tZfqaoBKT1BHK/g7H5XUe5L8/nhN0ycxI0bZ3InShA==}
+  '@cspell/cspell-performance-monitor@10.3.4':
+    resolution: {integrity: sha512-vJ1MIQRUTAbqY/VN1UiqBBeLiC159A2PtNE/Xn95ON6J6awiBCImp+7Qp4haNvzUXGFcsMhWuklxP4Bk8zNw6w==}
     engines: {node: '>=22.18.0'}
 
-  '@cspell/cspell-pipe@10.3.3':
-    resolution: {integrity: sha512-ZZ0dgTKbvWyb5cb4rhWTP9KCdyEGaIzc55Qvz6+mPWDTd/cQthsH4SECitZtWgzY8o/kLmlCEOrkqgli5kAHBQ==}
+  '@cspell/cspell-pipe@10.3.4':
+    resolution: {integrity: sha512-PcqO2pcnNad3uOP2wmq4XD7MVpN8jm3ippyl5OfQD9PflKlwHMawLG/bWQ1eCdtWlARRQIR63ghfgNFFpjfCeg==}
     engines: {node: '>=22.18.0'}
 
-  '@cspell/cspell-resolver@10.3.3':
-    resolution: {integrity: sha512-zy+3lykifrK3z6RW93mi5BLCdn4aPM1/ovfy8ekJO2I43FxpevbtNFfSoU1/ZYpWPAgEbz9CUjbMkWE7pgK+HA==}
+  '@cspell/cspell-resolver@10.3.4':
+    resolution: {integrity: sha512-7dizl4j0FWyUymxCBO6UFLmQhALxYCxgZ2bf3bNc/BUO8wf/MP9B2Os5DwDaX/jFpMtpNnZ2rM5RAxWW7UKizA==}
     engines: {node: '>=22.18.0'}
 
-  '@cspell/cspell-service-bus@10.3.3':
-    resolution: {integrity: sha512-zGQgksLrM36TinrflZvx3bp3DSRHog1wl4HZAYvVtp74eqZromUDoW0lziFFrumZnld+p92l8GSrXptnvYhjog==}
+  '@cspell/cspell-service-bus@10.3.4':
+    resolution: {integrity: sha512-D7C0Pr8bNHGzSn3HjiKrPXTD22Nui2Wk26aSZ4HFk6FMpxKe3pOT+STp9TYEK8D4hKA3sHLMef+YP4lCAPhD1g==}
     engines: {node: '>=22.18.0'}
 
-  '@cspell/cspell-types@10.3.3':
-    resolution: {integrity: sha512-sLw1ik9qrPc2NZJ93Y6eKXd2r5jpiu7ciOl2fVsvKo11GU6MmOqx7J9UJ3uUy5+xo6Zvpo/6JGD030l8OiYUOw==}
+  '@cspell/cspell-types@10.3.4':
+    resolution: {integrity: sha512-BFUDEATv9lhIa/JPK+BYulWEQcKmGHS0x8XLNeN+OeZtXNKOPGbvpgbXBRjQ33XqNuuOGRHulcok8M2998xA3w==}
     engines: {node: '>=22.18.0'}
 
-  '@cspell/cspell-worker@10.3.3':
-    resolution: {integrity: sha512-vNjZnGSlV6nzezFphZcWwlqZ7/EtLyfkzZ+np/A1BTi+gllLRjYAI/Zx20oN8g2wDzu8TSXyplNb6qSjh+BjHw==}
+  '@cspell/cspell-worker@10.3.4':
+    resolution: {integrity: sha512-KtJupFqoXR8tUwxiVDX0JA7cj98nTAJSZvukl++g1qQNlJZiVyxqlJ15lCo72A+YnfzOi2rUSoiChRERt1f2yg==}
     engines: {node: '>=22.18.0'}
 
   '@cspell/dict-ada@4.1.1':
@@ -585,24 +585,24 @@ packages:
   '@cspell/dict-zig@1.0.0':
     resolution: {integrity: sha512-XibBIxBlVosU06+M6uHWkFeT0/pW5WajDRYdXG2CgHnq85b0TI/Ks0FuBJykmsgi2CAD3Qtx8UHFEtl/DSFnAQ==}
 
-  '@cspell/dynamic-import@10.3.3':
-    resolution: {integrity: sha512-9/V6879khIUrZVsB3lV1Xv1uENvrurAdfLkj1A659RSjc4cGao3ZfWZ6iEV3hRRoroO6616xlvpE/Fd9ojTBtw==}
+  '@cspell/dynamic-import@10.3.4':
+    resolution: {integrity: sha512-qhnQpKALDV1grrGVMGZsvX1YCgP9Yq6is94V3LUvyK0r3Vx61UK/J4rwm4DUqUMshHL3i/5nE0HLcpjotHfIFA==}
     engines: {node: '>=22.18.0'}
 
-  '@cspell/filetypes@10.3.3':
-    resolution: {integrity: sha512-HFKLXlgeIn+r4qEdBkJNVbmNCMphDGrF/42BHBssydYaeS4j3eWQqsSg+rWNHFJDfK0gsHPuxRjWORbp4F9hzQ==}
+  '@cspell/filetypes@10.3.4':
+    resolution: {integrity: sha512-rMX/t5LUo8KkonCMeiAV5TWAcMqrABC5JOjq2SIt6krnpsqGJOTsBZYnJt24xQwpb0/WVpYrhLORkJQ3I6t3jg==}
     engines: {node: '>=22.18.0'}
 
-  '@cspell/rpc@10.3.3':
-    resolution: {integrity: sha512-VcAqdtyer/CT/bq5gs4i7V61+sQgjXn+aGA6bVq9qUyivieX7Yo/Ue3reN81UWdsj7whlK++oBaf1Ds4alhFOw==}
+  '@cspell/rpc@10.3.4':
+    resolution: {integrity: sha512-GfkT0IYgWKqFH8pEEwzAiVtSYDlp5hAZp6f8lxKMdshw+LEQ/g4OCIG4tr1eZao35xMO4oiImnuBJahhIdddlQ==}
     engines: {node: '>=22.18.0'}
 
-  '@cspell/strong-weak-map@10.3.3':
-    resolution: {integrity: sha512-cXMVHROQtAIraRc62dQ1nX5h4vlc7O1EUT+GotiTx+BuwSTiMgBr/zue1pr+yQXoltExQUUuudSNsLRf/wZn5A==}
+  '@cspell/strong-weak-map@10.3.4':
+    resolution: {integrity: sha512-0zibARpg8VECScJKGO/Eqr4rdHJvqP+lfNHxUk8ftYvbSHS8AQ//EEDcieM3Oyp7ILraVlVvanI6YeXFmdU7JA==}
     engines: {node: '>=22.18.0'}
 
-  '@cspell/url@10.3.3':
-    resolution: {integrity: sha512-ZhsdSzfwXA/TuyqDb0nl+A9Kfd0W+rBIDdPxeXLvVsKFCtxVDa0zUYyhWhrtT9RtsPZQfRqPTkr+DsfWOzu4EA==}
+  '@cspell/url@10.3.4':
+    resolution: {integrity: sha512-QGl/AmrVg+91ua2oVDFQSpIdqP1hUJjVeihYnsBIiQNjOfR8wPzj7aA8I9lyuC2/dC+iPDmmuI19KE65UwhPHg==}
     engines: {node: '>=22.18.0'}
 
   '@cspotcode/source-map-support@0.8.1':
@@ -2194,8 +2194,8 @@ packages:
     resolution: {integrity: sha512-g9XerViJ/paZujufXYcu5XYI2vU2rtB4sgdpjUHde5RnOkdmpu0ngH46LCFGHoPXO/C+qDPSczIHIRN+8Q2YKQ==}
     engines: {node: '>= 18'}
 
-  '@vercel/container@10.0.0':
-    resolution: {integrity: sha512-8WlGrNVYBC0ukRi3E/RCkGmc0PVZcn+phOkZ1HjnPhwcyrq/EvhdpPaUtuJsUtpdPbEEGCriDLM1v5jh5s6l2g==}
+  '@vercel/container@10.1.0':
+    resolution: {integrity: sha512-TusOgnjK7MLbkPmU6Kl/vws4ggCVh40kgoZEOml1k9APStac+cK1njb4WnkEh7ToMZXa6qL9ZmvSgmY0p3t0jw==}
     peerDependencies:
       '@vercel/build-utils': 14.12.0
 
@@ -2326,33 +2326,33 @@ packages:
   '@vercel/static-config@3.4.3':
     resolution: {integrity: sha512-BY1sL8rNJvIm3TK/8TQ+Q6jIx7NpO5xckQzv7s6c1ypHvRnTl+vf6rmgY5WFXmoYDeGm3tMy4jiy/5M/5jGr/g==}
 
-  '@vercel/vc-native-darwin-arm64@60.0.0':
-    resolution: {integrity: sha512-lkdPG2mxz00giXX5RhnXvDbKSlI3uWBED4Ese4+dwxlo3QHKQVokJmWPidc8xm3GPzSZ3M8YG1cqtB9uKs/7ww==}
+  '@vercel/vc-native-darwin-arm64@60.0.1':
+    resolution: {integrity: sha512-zNXlBGPFoo2FnyfAvSklWaerDz/bhz3R8fuLh5QQa0bu+ndR3kFA/FtegC69nQr85Jckn9V2gFOyiGVZKBR00A==}
     cpu: [arm64]
     os: [darwin]
 
-  '@vercel/vc-native-darwin-x64@60.0.0':
-    resolution: {integrity: sha512-tOPqVSPeu2n+ZZr5Hx5FWDfHdHULd/mIxvG12PMbAR1UU/bBPI00XHxzZcd+0+U1rS1keaxhHL4AvWUk2VG8DA==}
+  '@vercel/vc-native-darwin-x64@60.0.1':
+    resolution: {integrity: sha512-RNzhdpDHpLwtVswzP0xRZg7Y83lVSEWc4gQ9sMOU6LNDxVKscBmdyljL8Lcr9/BQQXeBbcQV8G+umh74iA2VEQ==}
     cpu: [x64]
     os: [darwin]
 
-  '@vercel/vc-native-linux-arm64@60.0.0':
-    resolution: {integrity: sha512-8butUf8MXTrDzdx2S+Q5DozHPNL+4/B1gEO6B7Uf2lKvHEQJXYl+XvZXZinn04JuRfdwHLlui7/oijDnpQFA3g==}
+  '@vercel/vc-native-linux-arm64@60.0.1':
+    resolution: {integrity: sha512-I4mILbSrE3V0LIaQhts5rU/wRHPvrtMOD1XNwe4LewVEKHMg+WoN1QxuITXO8AAvvotAfAzi5qmx9ijENe9Fzw==}
     cpu: [arm64]
     os: [linux]
 
-  '@vercel/vc-native-linux-x64@60.0.0':
-    resolution: {integrity: sha512-Zjzh5q0CqnTZ+B6lMtKX5/0XVLCsqv8gatjsPLUP8th4VQcBr89Y4K6Z7Cyx2oGM5SIvDOXSyVnYGtydf3LNHA==}
+  '@vercel/vc-native-linux-x64@60.0.1':
+    resolution: {integrity: sha512-3fCmzv5/io0I+kgQ4vIxho2HOimp4JqlHzFZwLe1ByFScdZmEhSLyvexFnvmOf7k+ZyoVD5fNPhjwOucL+2OPA==}
     cpu: [x64]
     os: [linux]
 
-  '@vercel/vc-native-win32-arm64@60.0.0':
-    resolution: {integrity: sha512-c+SMvvsxi3+Gv42qP5xGfG2KQ64ev1lqo70WHF0Y72lQgy0FUBr9VGm7c2beM1lYqZQHUm9a3y+ihAL+AS9oNQ==}
+  '@vercel/vc-native-win32-arm64@60.0.1':
+    resolution: {integrity: sha512-FhRYbhfHn55D8498VUW5xxNmAjb7NmXFjH8JblXrd0BGCdVPgK8zFntochyN3fECowWHCy0NVt8RZggBkVxfpA==}
     cpu: [arm64]
     os: [win32]
 
-  '@vercel/vc-native-win32-x64@60.0.0':
-    resolution: {integrity: sha512-nIAqyLZU1dntzWbs5fEkaUqeJCa6lRS+7csT1KRBWPuxCdXHyxefYpNupfmDS+wNTd6oNnwJxMkJy3v79Db0oQ==}
+  '@vercel/vc-native-win32-x64@60.0.1':
+    resolution: {integrity: sha512-EIJQcCM4wn2L3Cw2OczDMzssWLTqf+X+ITYA3Us6L35nV2AiBc8iX17imxICHJSKmA/O41XZP16iluCCavSR+Q==}
     cpu: [x64]
     os: [win32]
 
@@ -2781,8 +2781,8 @@ packages:
   caniuse-api@1.6.1:
     resolution: {integrity: sha512-SBTl70K0PkDUIebbkXrxWqZlHNs0wRgRD6QZ8guctShjbh63gEPfF+Wj0Yw+75f5Y8tSzqAI/NcisYv/cCah2Q==}
 
-  caniuse-db@1.0.30001810:
-    resolution: {integrity: sha512-NdnrRgMKFjE7vphcIX2WMn0o7rj3fiaTO8PXyMyghJw+FNzRv49KAIrSZ2ImiFlkM2yJPIeX+8n4Tg6dSAbA0Q==}
+  caniuse-db@1.0.30001812:
+    resolution: {integrity: sha512-ctGD2sBzoAZ5zHChg0ut4kmNi6uuEJoIJC0yreBUhvhmK5kbgAnkGGCn3OTfQdBkgp+6UF6eVfAnZ0WGgH+R1w==}
 
   caseless@0.12.0:
     resolution: {integrity: sha512-4tYFyifaFfGacoiObjJegolkwSU4xQNGbVgUiNYVUxbQ2x2lUsFvY4hVgVzGiIe6WLOPqycWXA40l+PWsxthUw==}
@@ -3152,44 +3152,44 @@ packages:
     resolution: {integrity: sha512-x8dy3RnvYdlUcPOjkEHqozhiwzKNSq7GcPuXFbnyMOCHxX8V3OgIg/pYuabl2sbUPfIJaeAQB7PMOK8DFIdoRA==}
     engines: {node: '>=12'}
 
-  cspell-config-lib@10.3.3:
-    resolution: {integrity: sha512-6u5s+LLLqXxhhtSDz/ft40LIZ2u4YxEPJxaOnojXleMZzDxSQskyuAG72R2vIjJOYjxevK0vb/f3rnZ+cSmnVw==}
+  cspell-config-lib@10.3.4:
+    resolution: {integrity: sha512-/0YHlZq6jPwXZ4Jbwv6Zwv3OpJRwrO4uXcyZB7+RBcj2AdyLZHr6T1VFElESHxCSzWBdZ0rsBVlgUZaeQaSrTg==}
     engines: {node: '>=22.18.0'}
 
-  cspell-dictionary@10.3.3:
-    resolution: {integrity: sha512-uHYhIfByu1iB2tBZdxbCAh8mMqMrxcWi/u5d1kdXBPqCa5QpsFv316CaUNgcU/pmDp6ZAti4QhXbk0gSsKdIiA==}
+  cspell-dictionary@10.3.4:
+    resolution: {integrity: sha512-20jH9pCYfx1IiscrUcEa+ZxKeHafexE8WY6NW/l3UdXd38y4PhzeMovLG1QQEFoqN++KYsLO5Scn/A6sAEFFig==}
     engines: {node: '>=22.18.0'}
 
-  cspell-gitignore@10.3.3:
-    resolution: {integrity: sha512-iQuNSsL+M6f9b/xNItpVnmsKzucykx2+yXu7oHgoge7rx3aXbWKAuW+syociyXjXsOk3m6oHuXOQk8FqX2Jbnw==}
-    engines: {node: '>=22.18.0'}
-    hasBin: true
-
-  cspell-glob@10.3.3:
-    resolution: {integrity: sha512-oxqYJHjlZ+OzA5YDF2NCWvKNGJmuuvyqv+QZ7BYPOx3bkuouAK2q4GNme0lVHL6Vbj0tPgBY67eAMESz45r3yw==}
-    engines: {node: '>=22.18.0'}
-
-  cspell-grammar@10.3.3:
-    resolution: {integrity: sha512-cCGp22tH7Q8I6xmoxvI654FQrIXKz+AZ1XOuPgBbjFCsu6Fl8y27HM+9I9GbzrsGykyT+7cSpdhGID6Ay7Rn+w==}
+  cspell-gitignore@10.3.4:
+    resolution: {integrity: sha512-sXtjB8VagZ9+GbAATQr+2u+vk4HACpfG+uPNOxjAYcYSZTWhF/VTx2FW1M/lsqNda5yLizI0xCW1eyU2or3DkA==}
     engines: {node: '>=22.18.0'}
     hasBin: true
 
-  cspell-io@10.3.3:
-    resolution: {integrity: sha512-ifhTJgf8ISAvyB8i5NMTVXkRP4JvsoB6XOWtXPg8wqpBiGWHk2o/eGgNn8iap9dLWHU7GRxkE4R9Qdw5nXfuTg==}
+  cspell-glob@10.3.4:
+    resolution: {integrity: sha512-uCUL8rqw8cfL+WY9Av9WFxIqw84Ek/MGLZhx+ROkbvYAm0Vjv5anw3GlZrQQCdDtQi902KFRrcHanqBngAKKXQ==}
     engines: {node: '>=22.18.0'}
 
-  cspell-lib@10.3.3:
-    resolution: {integrity: sha512-KyJpUJu66COyz3ZW1hbJsTfJYJheoc/EEiMbKFSxJUIbbbX8byN2dVF3eq2t+t2Q5dORrQ2OnnfYwpw2WbKZzw==}
+  cspell-grammar@10.3.4:
+    resolution: {integrity: sha512-RBvvCtrKSv+QRyywsKa5XQCcN3xFAXBFtBdhJqt5irmrtQJGELkZAd/AwbFw6jOeHKPKR2OEhfqwcx6lP83gkg==}
+    engines: {node: '>=22.18.0'}
+    hasBin: true
+
+  cspell-io@10.3.4:
+    resolution: {integrity: sha512-/wl1ATfDNw4zTh0zy9I3y6uX2liZqrwF13uo2bon8+frEQOttg3NrsXS13Ox3G0cfMKY33aulRX+9uRSxMtqIA==}
     engines: {node: '>=22.18.0'}
 
-  cspell-trie-lib@10.3.3:
-    resolution: {integrity: sha512-NgdfYr4UvoAdG+ZYwi/WnXiGwOCU5azD7FciV03+dstkXA1ZxNWC7UjMjt4NtZvK/HfCSSLlUnMzLmCGX2TO9g==}
+  cspell-lib@10.3.4:
+    resolution: {integrity: sha512-1TVE9OExPc9cbD65HoNWcBovkb3uu4M6hjZ2+36+P2JBqXmE3IwsyDy2fk5gdL+YYY/GTmEYW48NePQd9/gPvg==}
+    engines: {node: '>=22.18.0'}
+
+  cspell-trie-lib@10.3.4:
+    resolution: {integrity: sha512-JgdMuAfYEzUTfbi0yVId/Nu3uze119QqU4Ss3oSD8li3IrmgCcNIk/RcDtfx+6dl20bmnXacx+J2xfXj6gPfiA==}
     engines: {node: '>=22.18.0'}
     peerDependencies:
-      '@cspell/cspell-types': 10.3.3
+      '@cspell/cspell-types': 10.3.4
 
-  cspell@10.3.3:
-    resolution: {integrity: sha512-SOSiLenlYLE1AloLjz+osbwQAv8iRdoMOSzkbc0yK0QNHdlV9WR4qSIpzQ5DN8OwaPYp3M0rxM6sT1U6xR/ZSA==}
+  cspell@10.3.4:
+    resolution: {integrity: sha512-WuyGrlaJdZXW0AHqcTFTe5DQoyB36JcAZAbdZJb7i7cKyMX8oKyRWuGP8r+mw0QcsZNZpsnxRX0oMd/D8Wkccw==}
     engines: {node: '>=22.18.0'}
     hasBin: true
 
@@ -3983,8 +3983,8 @@ packages:
     resolution: {integrity: sha512-T2UbfbBEF32wiepXIsMlTW9+dDYC6wMh/t/vYA4tuOMKqWz/n3vr1NFSxQiyP+zk2mXsoMA/i/7qV6LKut1t1A==}
     engines: {node: '>= 0.4'}
 
-  hono@4.13.8:
-    resolution: {integrity: sha512-/Gng7NfoykZl2pjukW5Z6+8Yxm3BPRf86GTbQnt0SbySkvax4fyL4H3HhY1cCpBGmiW9XDRFzRV+CXK2W8QudQ==}
+  hono@4.13.9:
+    resolution: {integrity: sha512-7dMkQmZoC4E6F7AtaQSPhlWAdnBti+j7rreMZl8QB4jFiEhP9TWbGWUMi8WYzBCgmgulxuvLQupKqo+Co6Omyg==}
     engines: {node: '>=16.9.0'}
 
   hookified@1.15.1:
@@ -6272,8 +6272,8 @@ packages:
     resolution: {integrity: sha512-RYONW2MeafgYlkVOKYKkA/Ag7BmXqgIWCa8t1m0JcxrQg9pI9lEqRhAOruOBCbAohOa/gkCF+iPi9hrgvTzu6Q==}
     engines: {node: '>=20.18.1'}
 
-  undici@8.11.0:
-    resolution: {integrity: sha512-AdzuGcAkzhbha3GgCSoUBx2P0quwym6qdFNCQz/fDGZc8w9XJ741wHUbt2kTmfPz+ZIOMkySFkiY7RXmiDDC8w==}
+  undici@8.11.2:
+    resolution: {integrity: sha512-u4UB2/IrKdU6lFxumHmmo1a3fCQO5tzQllRorfoRS63txhrB7xTpSn1PftwC4qEHkOaqP95fCWW4lJzwErwzhQ==}
     engines: {node: '>=22.19.0'}
 
   unicons@0.0.3:
@@ -6283,8 +6283,8 @@ packages:
     resolution: {integrity: sha512-+QBBXBCvifc56fsbuxZQ6Sic3wqqc3WWaqxs58gvJrcOuN83HGTCwz3oS5phzU9LthRNE9VrJCFCLUgHeeFnfA==}
     engines: {node: '>=18'}
 
-  unicorn-magic@0.4.0:
-    resolution: {integrity: sha512-wH590V9VNgYH9g3lH9wWjTrUoKsjLF6sGLjhR4sH1LWpLmCOH0Zf7PukhDA8BiS7KHe4oPNkcTHqYkj7SOGUOw==}
+  unicorn-magic@0.4.1:
+    resolution: {integrity: sha512-lzlXPoVB0Uy/FvTaUgX39RbixYiSKoc3JSoSf01+0c2B6FR3qdYIPN7Qjo/AV7n6sqLCk0509cT3LRj1oSZ1+A==}
     engines: {node: '>=20'}
 
   uniq@1.0.1:
@@ -6368,8 +6368,8 @@ packages:
   vendors@1.0.4:
     resolution: {integrity: sha512-/juG65kTL4Cy2su4P8HjtkTxk6VmJDiOPBufWniqQ6wknac6jNiXS9vU+hO3wgusiyqWlzTbVHi0dyJqRONg3w==}
 
-  vercel@60.0.0:
-    resolution: {integrity: sha512-1zRxhP9hG+hlieu76zocue01SaHGiCJuURKpqyV0m/Mzb9rdBZp+35ehcAj3AwPw71zdDLXYUHfdU3+/b5z+dA==}
+  vercel@60.0.1:
+    resolution: {integrity: sha512-ksKKohvAz15dU42TBHUOYi8NGnSYntn3qMfY3LIFPbs1WbGQA+P9PU5xzHEQ9ktTt2SJWzHXh/jIPNAgGyCfGg==}
     engines: {node: '>= 18'}
     hasBin: true
 
@@ -6587,44 +6587,44 @@ packages:
 
 snapshots:
 
-  '@anthropic-ai/claude-agent-sdk-darwin-arm64@0.3.280':
+  '@anthropic-ai/claude-agent-sdk-darwin-arm64@0.3.282':
     optional: true
 
-  '@anthropic-ai/claude-agent-sdk-darwin-x64@0.3.280':
+  '@anthropic-ai/claude-agent-sdk-darwin-x64@0.3.282':
     optional: true
 
-  '@anthropic-ai/claude-agent-sdk-linux-arm64-musl@0.3.280':
+  '@anthropic-ai/claude-agent-sdk-linux-arm64-musl@0.3.282':
     optional: true
 
-  '@anthropic-ai/claude-agent-sdk-linux-arm64@0.3.280':
+  '@anthropic-ai/claude-agent-sdk-linux-arm64@0.3.282':
     optional: true
 
-  '@anthropic-ai/claude-agent-sdk-linux-x64-musl@0.3.280':
+  '@anthropic-ai/claude-agent-sdk-linux-x64-musl@0.3.282':
     optional: true
 
-  '@anthropic-ai/claude-agent-sdk-linux-x64@0.3.280':
+  '@anthropic-ai/claude-agent-sdk-linux-x64@0.3.282':
     optional: true
 
-  '@anthropic-ai/claude-agent-sdk-win32-arm64@0.3.280':
+  '@anthropic-ai/claude-agent-sdk-win32-arm64@0.3.282':
     optional: true
 
-  '@anthropic-ai/claude-agent-sdk-win32-x64@0.3.280':
+  '@anthropic-ai/claude-agent-sdk-win32-x64@0.3.282':
     optional: true
 
-  '@anthropic-ai/claude-agent-sdk@0.3.280(@anthropic-ai/sdk@0.128.0(zod@4.1.11))(@modelcontextprotocol/sdk@1.30.1(supports-color@5.5.0)(zod@4.1.11))(zod@4.1.11)':
+  '@anthropic-ai/claude-agent-sdk@0.3.282(@anthropic-ai/sdk@0.128.0(zod@4.1.11))(@modelcontextprotocol/sdk@1.30.1(supports-color@5.5.0)(zod@4.1.11))(zod@4.1.11)':
     dependencies:
       '@anthropic-ai/sdk': 0.128.0(zod@4.1.11)
       '@modelcontextprotocol/sdk': 1.30.1(supports-color@5.5.0)(zod@4.1.11)
       zod: 4.1.11
     optionalDependencies:
-      '@anthropic-ai/claude-agent-sdk-darwin-arm64': 0.3.280
-      '@anthropic-ai/claude-agent-sdk-darwin-x64': 0.3.280
-      '@anthropic-ai/claude-agent-sdk-linux-arm64': 0.3.280
-      '@anthropic-ai/claude-agent-sdk-linux-arm64-musl': 0.3.280
-      '@anthropic-ai/claude-agent-sdk-linux-x64': 0.3.280
-      '@anthropic-ai/claude-agent-sdk-linux-x64-musl': 0.3.280
-      '@anthropic-ai/claude-agent-sdk-win32-arm64': 0.3.280
-      '@anthropic-ai/claude-agent-sdk-win32-x64': 0.3.280
+      '@anthropic-ai/claude-agent-sdk-darwin-arm64': 0.3.282
+      '@anthropic-ai/claude-agent-sdk-darwin-x64': 0.3.282
+      '@anthropic-ai/claude-agent-sdk-linux-arm64': 0.3.282
+      '@anthropic-ai/claude-agent-sdk-linux-arm64-musl': 0.3.282
+      '@anthropic-ai/claude-agent-sdk-linux-x64': 0.3.282
+      '@anthropic-ai/claude-agent-sdk-linux-x64-musl': 0.3.282
+      '@anthropic-ai/claude-agent-sdk-win32-arm64': 0.3.282
+      '@anthropic-ai/claude-agent-sdk-win32-x64': 0.3.282
 
   '@anthropic-ai/sdk@0.128.0(zod@4.1.11)':
     dependencies:
@@ -6670,7 +6670,7 @@ snapshots:
   '@colors/colors@1.5.0':
     optional: true
 
-  '@cspell/cspell-bundled-dicts@10.3.3':
+  '@cspell/cspell-bundled-dicts@10.3.4':
     dependencies:
       '@cspell/dict-ada': 4.1.1
       '@cspell/dict-al': 1.1.1
@@ -6732,25 +6732,25 @@ snapshots:
       '@cspell/dict-vue': 3.0.5
       '@cspell/dict-zig': 1.0.0
 
-  '@cspell/cspell-json-reporter@10.3.3':
+  '@cspell/cspell-json-reporter@10.3.4':
     dependencies:
-      '@cspell/cspell-types': 10.3.3
+      '@cspell/cspell-types': 10.3.4
 
-  '@cspell/cspell-performance-monitor@10.3.3': {}
+  '@cspell/cspell-performance-monitor@10.3.4': {}
 
-  '@cspell/cspell-pipe@10.3.3': {}
+  '@cspell/cspell-pipe@10.3.4': {}
 
-  '@cspell/cspell-resolver@10.3.3':
+  '@cspell/cspell-resolver@10.3.4':
     dependencies:
       global-directory: 5.0.0
 
-  '@cspell/cspell-service-bus@10.3.3': {}
+  '@cspell/cspell-service-bus@10.3.4': {}
 
-  '@cspell/cspell-types@10.3.3': {}
+  '@cspell/cspell-types@10.3.4': {}
 
-  '@cspell/cspell-worker@10.3.3':
+  '@cspell/cspell-worker@10.3.4':
     dependencies:
-      cspell-lib: 10.3.3
+      cspell-lib: 10.3.4
 
   '@cspell/dict-ada@4.1.1': {}
 
@@ -6879,18 +6879,18 @@ snapshots:
 
   '@cspell/dict-zig@1.0.0': {}
 
-  '@cspell/dynamic-import@10.3.3':
+  '@cspell/dynamic-import@10.3.4':
     dependencies:
-      '@cspell/url': 10.3.3
+      '@cspell/url': 10.3.4
       import-meta-resolve: 4.2.0
 
-  '@cspell/filetypes@10.3.3': {}
+  '@cspell/filetypes@10.3.4': {}
 
-  '@cspell/rpc@10.3.3': {}
+  '@cspell/rpc@10.3.4': {}
 
-  '@cspell/strong-weak-map@10.3.3': {}
+  '@cspell/strong-weak-map@10.3.4': {}
 
-  '@cspell/url@10.3.3': {}
+  '@cspell/url@10.3.4': {}
 
   '@cspotcode/source-map-support@0.8.1':
     dependencies:
@@ -7085,9 +7085,9 @@ snapshots:
     dependencies:
       '@hapi/hoek': 11.0.7
 
-  '@hono/node-server@2.1.1(hono@4.13.8)':
+  '@hono/node-server@2.1.1(hono@4.13.9)':
     dependencies:
-      hono: 4.13.8
+      hono: 4.13.9
 
   '@humanfs/core@0.19.2':
     dependencies:
@@ -7377,7 +7377,7 @@ snapshots:
 
   '@modelcontextprotocol/sdk@1.30.1(supports-color@5.5.0)(zod@4.1.11)':
     dependencies:
-      '@hono/node-server': 2.1.1(hono@4.13.8)
+      '@hono/node-server': 2.1.1(hono@4.13.9)
       ajv: 8.20.0
       ajv-formats: 3.0.1(ajv@8.20.0)
       content-type: 1.0.5
@@ -7387,7 +7387,7 @@ snapshots:
       eventsource-parser: 3.1.1
       express: 5.2.1(supports-color@5.5.0)
       express-rate-limit: 8.7.0(express@5.2.1(supports-color@5.5.0))(supports-color@5.5.0)
-      hono: 4.13.8
+      hono: 4.13.9
       jose: 6.2.12
       json-schema-typed: 8.0.2
       pkce-challenge: 5.0.1
@@ -7720,7 +7720,7 @@ snapshots:
 
   '@pencil.dev/cli@0.2.9(@anthropic-ai/sdk@0.128.0(zod@4.1.11))(@modelcontextprotocol/sdk@1.30.1(supports-color@5.5.0)(zod@4.1.11))(@types/node@26.6.2)(zod@4.1.11)':
     dependencies:
-      '@anthropic-ai/claude-agent-sdk': 0.3.280(@anthropic-ai/sdk@0.128.0(zod@4.1.11))(@modelcontextprotocol/sdk@1.30.1(supports-color@5.5.0)(zod@4.1.11))(zod@4.1.11)
+      '@anthropic-ai/claude-agent-sdk': 0.3.282(@anthropic-ai/sdk@0.128.0(zod@4.1.11))(@modelcontextprotocol/sdk@1.30.1(supports-color@5.5.0)(zod@4.1.11))(zod@4.1.11)
       '@inquirer/prompts': 8.7.2(@types/node@26.6.2)
       '@node-ipc/node-ipc': 11.0.3
       '@openai/codex-sdk': 0.142.5
@@ -8072,7 +8072,7 @@ snapshots:
     dependencies:
       execa: 5.1.1
 
-  '@vercel/container@10.0.0(@vercel/build-utils@14.12.0)':
+  '@vercel/container@10.1.0(@vercel/build-utils@14.12.0)':
     dependencies:
       '@vercel/build-utils': 14.12.0
       smol-toml: 1.5.2
@@ -8390,22 +8390,22 @@ snapshots:
       - '@emnapi/core'
       - '@emnapi/runtime'
 
-  '@vercel/vc-native-darwin-arm64@60.0.0':
+  '@vercel/vc-native-darwin-arm64@60.0.1':
     optional: true
 
-  '@vercel/vc-native-darwin-x64@60.0.0':
+  '@vercel/vc-native-darwin-x64@60.0.1':
     optional: true
 
-  '@vercel/vc-native-linux-arm64@60.0.0':
+  '@vercel/vc-native-linux-arm64@60.0.1':
     optional: true
 
-  '@vercel/vc-native-linux-x64@60.0.0':
+  '@vercel/vc-native-linux-x64@60.0.1':
     optional: true
 
-  '@vercel/vc-native-win32-arm64@60.0.0':
+  '@vercel/vc-native-win32-arm64@60.0.1':
     optional: true
 
-  '@vercel/vc-native-win32-x64@60.0.0':
+  '@vercel/vc-native-win32-x64@60.0.1':
     optional: true
 
   '@web/config-loader@0.1.3':
@@ -8625,7 +8625,7 @@ snapshots:
   autoprefixer@6.7.7:
     dependencies:
       browserslist: 1.7.7
-      caniuse-db: 1.0.30001810
+      caniuse-db: 1.0.30001812
       normalize-range: 0.1.2
       num2fraction: 1.2.2
       postcss: 5.2.18
@@ -8733,7 +8733,7 @@ snapshots:
 
   browserslist@1.7.7:
     dependencies:
-      caniuse-db: 1.0.30001810
+      caniuse-db: 1.0.30001812
       electron-to-chromium: 1.5.438
 
   buffer-crc32@0.2.13: {}
@@ -8777,11 +8777,11 @@ snapshots:
   caniuse-api@1.6.1:
     dependencies:
       browserslist: 1.7.7
-      caniuse-db: 1.0.30001810
+      caniuse-db: 1.0.30001812
       lodash.memoize: 4.1.2
       lodash.uniq: 4.5.0
 
-  caniuse-db@1.0.30001810: {}
+  caniuse-db@1.0.30001812: {}
 
   caseless@0.12.0: {}
 
@@ -9177,60 +9177,60 @@ snapshots:
     dependencies:
       type-fest: 1.4.0
 
-  cspell-config-lib@10.3.3:
+  cspell-config-lib@10.3.4:
     dependencies:
-      '@cspell/cspell-types': 10.3.3
+      '@cspell/cspell-types': 10.3.4
       comment-json: 5.0.0
       smol-toml: 1.9.0
       yaml: 2.9.1
 
-  cspell-dictionary@10.3.3:
+  cspell-dictionary@10.3.4:
     dependencies:
-      '@cspell/cspell-performance-monitor': 10.3.3
-      '@cspell/cspell-pipe': 10.3.3
-      '@cspell/cspell-types': 10.3.3
-      cspell-trie-lib: 10.3.3(@cspell/cspell-types@10.3.3)
+      '@cspell/cspell-performance-monitor': 10.3.4
+      '@cspell/cspell-pipe': 10.3.4
+      '@cspell/cspell-types': 10.3.4
+      cspell-trie-lib: 10.3.4(@cspell/cspell-types@10.3.4)
       fast-equals: 6.0.4
 
-  cspell-gitignore@10.3.3:
+  cspell-gitignore@10.3.4:
     dependencies:
-      '@cspell/url': 10.3.3
-      cspell-glob: 10.3.3
-      cspell-io: 10.3.3
+      '@cspell/url': 10.3.4
+      cspell-glob: 10.3.4
+      cspell-io: 10.3.4
 
-  cspell-glob@10.3.3:
+  cspell-glob@10.3.4:
     dependencies:
-      '@cspell/url': 10.3.3
+      '@cspell/url': 10.3.4
       picomatch: 4.0.7
 
-  cspell-grammar@10.3.3:
+  cspell-grammar@10.3.4:
     dependencies:
-      '@cspell/cspell-pipe': 10.3.3
-      '@cspell/cspell-types': 10.3.3
+      '@cspell/cspell-pipe': 10.3.4
+      '@cspell/cspell-types': 10.3.4
 
-  cspell-io@10.3.3:
+  cspell-io@10.3.4:
     dependencies:
-      '@cspell/cspell-service-bus': 10.3.3
-      '@cspell/url': 10.3.3
+      '@cspell/cspell-service-bus': 10.3.4
+      '@cspell/url': 10.3.4
 
-  cspell-lib@10.3.3:
+  cspell-lib@10.3.4:
     dependencies:
-      '@cspell/cspell-bundled-dicts': 10.3.3
-      '@cspell/cspell-performance-monitor': 10.3.3
-      '@cspell/cspell-pipe': 10.3.3
-      '@cspell/cspell-resolver': 10.3.3
-      '@cspell/cspell-types': 10.3.3
-      '@cspell/dynamic-import': 10.3.3
-      '@cspell/filetypes': 10.3.3
-      '@cspell/rpc': 10.3.3
-      '@cspell/strong-weak-map': 10.3.3
-      '@cspell/url': 10.3.3
-      cspell-config-lib: 10.3.3
-      cspell-dictionary: 10.3.3
-      cspell-glob: 10.3.3
-      cspell-grammar: 10.3.3
-      cspell-io: 10.3.3
-      cspell-trie-lib: 10.3.3(@cspell/cspell-types@10.3.3)
+      '@cspell/cspell-bundled-dicts': 10.3.4
+      '@cspell/cspell-performance-monitor': 10.3.4
+      '@cspell/cspell-pipe': 10.3.4
+      '@cspell/cspell-resolver': 10.3.4
+      '@cspell/cspell-types': 10.3.4
+      '@cspell/dynamic-import': 10.3.4
+      '@cspell/filetypes': 10.3.4
+      '@cspell/rpc': 10.3.4
+      '@cspell/strong-weak-map': 10.3.4
+      '@cspell/url': 10.3.4
+      cspell-config-lib: 10.3.4
+      cspell-dictionary: 10.3.4
+      cspell-glob: 10.3.4
+      cspell-grammar: 10.3.4
+      cspell-io: 10.3.4
+      cspell-trie-lib: 10.3.4(@cspell/cspell-types@10.3.4)
       env-paths: 4.0.0
       gensequence: 8.0.8
       import-fresh: 4.0.0
@@ -9239,29 +9239,29 @@ snapshots:
       vscode-uri: 3.2.0
       xdg-basedir: 5.1.0
 
-  cspell-trie-lib@10.3.3(@cspell/cspell-types@10.3.3):
+  cspell-trie-lib@10.3.4(@cspell/cspell-types@10.3.4):
     dependencies:
-      '@cspell/cspell-types': 10.3.3
+      '@cspell/cspell-types': 10.3.4
 
-  cspell@10.3.3:
+  cspell@10.3.4:
     dependencies:
-      '@cspell/cspell-json-reporter': 10.3.3
-      '@cspell/cspell-performance-monitor': 10.3.3
-      '@cspell/cspell-pipe': 10.3.3
-      '@cspell/cspell-types': 10.3.3
-      '@cspell/cspell-worker': 10.3.3
-      '@cspell/dynamic-import': 10.3.3
-      '@cspell/url': 10.3.3
+      '@cspell/cspell-json-reporter': 10.3.4
+      '@cspell/cspell-performance-monitor': 10.3.4
+      '@cspell/cspell-pipe': 10.3.4
+      '@cspell/cspell-types': 10.3.4
+      '@cspell/cspell-worker': 10.3.4
+      '@cspell/dynamic-import': 10.3.4
+      '@cspell/url': 10.3.4
       ansi-regex: 6.3.0
       chalk: 6.0.0
       chalk-template: 1.1.2
       commander: 15.0.0
-      cspell-config-lib: 10.3.3
-      cspell-dictionary: 10.3.3
-      cspell-gitignore: 10.3.3
-      cspell-glob: 10.3.3
-      cspell-io: 10.3.3
-      cspell-lib: 10.3.3
+      cspell-config-lib: 10.3.4
+      cspell-dictionary: 10.3.4
+      cspell-gitignore: 10.3.4
+      cspell-glob: 10.3.4
+      cspell-io: 10.3.4
+      cspell-lib: 10.3.4
       flatted: 3.4.4
       semver: 7.8.5
       tinyglobby: 0.2.17
@@ -10183,7 +10183,7 @@ snapshots:
     dependencies:
       function-bind: 1.1.2
 
-  hono@4.13.8: {}
+  hono@4.13.9: {}
 
   hookified@1.15.1: {}
 
@@ -11174,7 +11174,7 @@ snapshots:
       semver: 7.8.5
       tar: 7.5.22
       tinyglobby: 0.2.17
-      undici: 8.11.0
+      undici: 8.11.2
       which: 7.0.0
 
   node-oauth1@1.3.0: {}
@@ -11983,7 +11983,7 @@ snapshots:
       normalize-package-data: 8.0.0
       parse-json: 8.3.0
       type-fest: 5.10.0
-      unicorn-magic: 0.4.0
+      unicorn-magic: 0.4.1
 
   readdirp@3.6.0:
     dependencies:
@@ -12796,13 +12796,13 @@ snapshots:
 
   undici@7.29.1: {}
 
-  undici@8.11.0: {}
+  undici@8.11.2: {}
 
   unicons@0.0.3: {}
 
   unicorn-magic@0.3.0: {}
 
-  unicorn-magic@0.4.0: {}
+  unicorn-magic@0.4.1: {}
 
   uniq@1.0.1: {}
 
@@ -12891,14 +12891,14 @@ snapshots:
 
   vendors@1.0.4: {}
 
-  vercel@60.0.0(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(rollup@4.63.5)(supports-color@5.5.0):
+  vercel@60.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(rollup@4.63.5)(supports-color@5.5.0):
     dependencies:
       '@vercel/backends': 10.0.0(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@14.12.0)(rollup@4.63.5)(supports-color@5.5.0)
       '@vercel/blob': 2.8.0
       '@vercel/build-utils': 14.12.0
       '@vercel/cli-auth': 0.3.9
       '@vercel/cli-config': 0.3.0
-      '@vercel/container': 10.0.0(@vercel/build-utils@14.12.0)
+      '@vercel/container': 10.1.0(@vercel/build-utils@14.12.0)
       '@vercel/detect-agent': 1.2.5
       '@vercel/elysia': 10.0.0(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@14.12.0)(rollup@4.63.5)(supports-color@5.5.0)
       '@vercel/express': 10.0.0(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@14.12.0)(rollup@4.63.5)(supports-color@5.5.0)
@@ -12931,12 +12931,12 @@ snapshots:
       uuid: 14.0.1
       zod: 4.1.11
     optionalDependencies:
-      '@vercel/vc-native-darwin-arm64': 60.0.0
-      '@vercel/vc-native-darwin-x64': 60.0.0
-      '@vercel/vc-native-linux-arm64': 60.0.0
-      '@vercel/vc-native-linux-x64': 60.0.0
-      '@vercel/vc-native-win32-arm64': 60.0.0
-      '@vercel/vc-native-win32-x64': 60.0.0
+      '@vercel/vc-native-darwin-arm64': 60.0.1
+      '@vercel/vc-native-darwin-x64': 60.0.1
+      '@vercel/vc-native-linux-arm64': 60.0.1
+      '@vercel/vc-native-linux-x64': 60.0.1
+      '@vercel/vc-native-win32-arm64': 60.0.1
+      '@vercel/vc-native-win32-x64': 60.0.1
     transitivePeerDependencies:
       - '@emnapi/core'
       - '@emnapi/runtime'

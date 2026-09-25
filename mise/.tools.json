@@ -79,9 +79,9 @@
   ],
   "pipx": [
     {
-      "version": "1.17.5",
+      "version": "1.17.6",
       "requested_version": "latest",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/pipx/1.17.5",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/pipx/1.17.6",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
@@ -158,9 +158,9 @@
   ],
   "usage": [
     {
-      "version": "6.11.0",
+      "version": "6.11.1",
       "requested_version": "latest",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/usage/6.11.0",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/usage/6.11.1",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
@@ -171,9 +171,9 @@
   ],
   "uv": [
     {
-      "version": "0.12.17",
+      "version": "0.12.18",
       "requested_version": "latest",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/uv/0.12.17",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/uv/0.12.18",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
