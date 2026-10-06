@@ -40,14 +40,6 @@
   ],
   "fnox": [
     {
-      "version": "1.35.3",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/fnox/1.35.3",
-      "scheduled_for_pruning": true,
-      "prune_after": "2026-10-02T16:33:04Z",
-      "installed": true,
-      "active": false
-    },
-    {
       "version": "1.36.0",
       "requested_version": "latest",
       "install_path": "/Users/RHESS/.local/share/mise/installs/fnox/1.36.0",
@@ -86,14 +78,6 @@
     }
   ],
   "pipx": [
-    {
-      "version": "1.17.6",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/pipx/1.17.6",
-      "scheduled_for_pruning": true,
-      "prune_after": "2026-10-02T16:33:04Z",
-      "installed": true,
-      "active": false
-    },
     {
       "version": "1.17.8",
       "requested_version": "latest",
@@ -174,14 +158,6 @@
   ],
   "usage": [
     {
-      "version": "6.11.1",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/usage/6.11.1",
-      "scheduled_for_pruning": true,
-      "prune_after": "2026-10-02T16:33:04Z",
-      "installed": true,
-      "active": false
-    },
-    {
       "version": "6.12.0",
       "requested_version": "latest",
       "install_path": "/Users/RHESS/.local/share/mise/installs/usage/6.12.0",
@@ -194,14 +170,6 @@
     }
   ],
   "uv": [
-    {
-      "version": "0.12.19",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/uv/0.12.19",
-      "scheduled_for_pruning": true,
-      "prune_after": "2026-10-02T16:33:04Z",
-      "installed": true,
-      "active": false
-    },
     {
       "version": "0.12.21",
       "requested_version": "latest",
