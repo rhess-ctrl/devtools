@@ -5,7 +5,7 @@
   "private": true,
   "author": "Richard Hess",
   "license": "MIT",
-  "packageManager": "pnpm@12.9.1",
+  "packageManager": "pnpm@12.10.1",
   "scripts": {
     "preinstall": "npx only-allow pnpm"
   },
@@ -37,13 +37,13 @@
     "only-allow": "1.2.2",
     "portless": "0.15.7",
     "prettier": "3.9.9",
-    "rollup": "4.64.0",
+    "rollup": "4.64.1",
     "serve": "14.2.6",
     "sirv-cli": "3.0.1",
     "svgo": "4.1.0",
     "typescript": "5.9.3",
     "updtr": "4.1.0",
-    "vercel": "62.4.0",
+    "vercel": "62.7.0",
     "wait-on": "9.5.1",
     "zx": "8.8.5"
   }
