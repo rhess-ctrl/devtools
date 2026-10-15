@@ -1,14 +1,6 @@
 {
   "bun": [
     {
-      "version": "1.4.2",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/bun/1.4.2",
-      "scheduled_for_pruning": true,
-      "prune_after": "2026-10-14T13:14:51Z",
-      "installed": true,
-      "active": false
-    },
-    {
       "version": "1.4.3",
       "requested_version": "latest",
       "install_path": "/Users/RHESS/.local/share/mise/installs/bun/1.4.3",
@@ -21,14 +13,6 @@
     }
   ],
   "cargo-binstall": [
-    {
-      "version": "1.25.2",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/cargo-binstall/1.25.2",
-      "scheduled_for_pruning": true,
-      "prune_after": "2026-10-14T13:14:51Z",
-      "installed": true,
-      "active": false
-    },
     {
       "version": "1.25.3",
       "requested_version": "latest",
@@ -69,14 +53,6 @@
   ],
   "go": [
     {
-      "version": "1.27.1",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/go/1.27.1",
-      "scheduled_for_pruning": true,
-      "prune_after": "2026-10-14T13:14:51Z",
-      "installed": true,
-      "active": false
-    },
-    {
       "version": "1.27.2",
       "requested_version": "latest",
       "install_path": "/Users/RHESS/.local/share/mise/installs/go/1.27.2",
@@ -102,14 +78,6 @@
     }
   ],
   "pipx": [
-    {
-      "version": "1.17.11",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/pipx/1.17.11",
-      "scheduled_for_pruning": true,
-      "prune_after": "2026-10-14T13:14:51Z",
-      "installed": true,
-      "active": false
-    },
     {
       "version": "1.17.14",
       "requested_version": "latest",
@@ -150,14 +118,6 @@
   ],
   "ruff": [
     {
-      "version": "0.16.10",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/ruff/0.16.10",
-      "scheduled_for_pruning": true,
-      "prune_after": "2026-10-14T13:14:51Z",
-      "installed": true,
-      "active": false
-    },
-    {
       "version": "0.17.0",
       "requested_version": "latest",
       "install_path": "/Users/RHESS/.local/share/mise/installs/ruff/0.17.0",
@@ -185,14 +145,6 @@
   ],
   "ty": [
     {
-      "version": "0.0.84",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/ty/0.0.84",
-      "scheduled_for_pruning": true,
-      "prune_after": "2026-10-14T13:14:51Z",
-      "installed": true,
-      "active": false
-    },
-    {
       "version": "0.0.86",
       "requested_version": "latest",
       "install_path": "/Users/RHESS/.local/share/mise/installs/ty/0.0.86",
@@ -218,14 +170,6 @@
     }
   ],
   "uv": [
-    {
-      "version": "0.12.23",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/uv/0.12.23",
-      "scheduled_for_pruning": true,
-      "prune_after": "2026-10-14T13:14:51Z",
-      "installed": true,
-      "active": false
-    },
     {
       "version": "0.13.0",
       "requested_version": "latest",
