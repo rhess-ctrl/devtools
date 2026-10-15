@@ -66,9 +66,9 @@
   ],
   "node": [
     {
-      "version": "24.21.0",
+      "version": "24.22.0",
       "requested_version": "lts",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/node/24.21.0",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/node/24.22.0",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
@@ -92,9 +92,9 @@
   ],
   "pixi": [
     {
-      "version": "0.81.0",
+      "version": "0.82.0",
       "requested_version": "latest",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/pixi/0.81.0",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/pixi/0.82.0",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
@@ -145,9 +145,9 @@
   ],
   "ty": [
     {
-      "version": "0.0.86",
+      "version": "0.0.87",
       "requested_version": "latest",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/ty/0.0.86",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/ty/0.0.87",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
@@ -171,9 +171,9 @@
   ],
   "uv": [
     {
-      "version": "0.13.0",
+      "version": "0.13.1",
       "requested_version": "latest",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/uv/0.13.0",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/uv/0.13.1",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
