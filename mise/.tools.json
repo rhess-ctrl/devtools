@@ -159,8 +159,16 @@
   "usage": [
     {
       "version": "7.0.0",
-      "requested_version": "latest",
       "install_path": "/Users/RHESS/.local/share/mise/installs/usage/7.0.0",
+      "scheduled_for_pruning": true,
+      "prune_after": "2026-10-16T21:00:53Z",
+      "installed": true,
+      "active": false
+    },
+    {
+      "version": "7.0.1",
+      "requested_version": "latest",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/usage/7.0.1",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
