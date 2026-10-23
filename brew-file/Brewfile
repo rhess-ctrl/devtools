@@ -81,7 +81,7 @@ brew "procs"
 brew "ripgrep"
 brew "tokei"
 
-brew "mprocs"
+brew "dekit"
 brew "ntfy"
 brew "ots"
 brew "qrcp"
