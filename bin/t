@@ -12,7 +12,7 @@ APPS=(
     direnv
     elvish
     lua
-    op
+    dekit
     rustc
     git
     nit
