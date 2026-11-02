@@ -10,4 +10,4 @@
 #
 npm install -g @google/gemini-cli
 npm install -g bare
-npm install -g pnpm@latest
+# npm install -g pnpm@latest
