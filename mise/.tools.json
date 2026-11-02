@@ -41,8 +41,16 @@
   "fnox": [
     {
       "version": "1.43.0",
-      "requested_version": "latest",
       "install_path": "/Users/RHESS/.local/share/mise/installs/fnox/1.43.0",
+      "scheduled_for_pruning": true,
+      "prune_after": "2026-10-31T20:30:01Z",
+      "installed": true,
+      "active": false
+    },
+    {
+      "version": "1.45.0",
+      "requested_version": "latest",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/fnox/1.45.0",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
@@ -67,8 +75,14 @@
   "node": [
     {
       "version": "24.22.1",
-      "requested_version": "lts",
       "install_path": "/Users/RHESS/.local/share/mise/installs/node/24.22.1",
+      "installed": true,
+      "active": false
+    },
+    {
+      "version": "26.13.0",
+      "requested_version": "lts",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/node/26.13.0",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
@@ -79,17 +93,17 @@
   ],
   "pipx": [
     {
-      "version": "1.18.4",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/pipx/1.18.4",
+      "version": "1.18.5",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/pipx/1.18.5",
       "scheduled_for_pruning": true,
-      "prune_after": "2026-10-29T18:34:56Z",
+      "prune_after": "2026-10-31T20:30:01Z",
       "installed": true,
       "active": false
     },
     {
-      "version": "1.18.5",
+      "version": "1.18.9",
       "requested_version": "latest",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/pipx/1.18.5",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/pipx/1.18.9",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
@@ -126,14 +140,6 @@
   ],
   "ruff": [
     {
-      "version": "0.17.2",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/ruff/0.17.2",
-      "scheduled_for_pruning": true,
-      "prune_after": "2026-10-29T18:34:56Z",
-      "installed": true,
-      "active": false
-    },
-    {
       "version": "0.17.3",
       "requested_version": "latest",
       "install_path": "/Users/RHESS/.local/share/mise/installs/ruff/0.17.3",
@@ -162,8 +168,16 @@
   "ty": [
     {
       "version": "0.0.92",
-      "requested_version": "latest",
       "install_path": "/Users/RHESS/.local/share/mise/installs/ty/0.0.92",
+      "scheduled_for_pruning": true,
+      "prune_after": "2026-10-31T20:30:01Z",
+      "installed": true,
+      "active": false
+    },
+    {
+      "version": "0.0.95",
+      "requested_version": "latest",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/ty/0.0.95",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
@@ -186,14 +200,6 @@
     }
   ],
   "uv": [
-    {
-      "version": "0.13.5",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/uv/0.13.5",
-      "scheduled_for_pruning": true,
-      "prune_after": "2026-10-29T18:34:56Z",
-      "installed": true,
-      "active": false
-    },
     {
       "version": "0.13.6",
       "requested_version": "latest",
