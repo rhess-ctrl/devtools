@@ -35,15 +35,15 @@
     "node-gyp": "13.1.0",
     "npm-check-updates": "23.1.1",
     "only-allow": "1.2.2",
-    "portless": "0.15.13",
+    "portless": "0.16.0",
     "prettier": "3.9.10",
-    "rollup": "4.67.4",
+    "rollup": "4.67.5",
     "serve": "14.2.6",
     "sirv-cli": "3.0.1",
     "svgo": "4.1.0",
     "typescript": "5.9.3",
     "updtr": "4.1.0",
-    "vercel": "65.10.0",
+    "vercel": "65.11.0",
     "wait-on": "9.5.1",
     "zx": "8.8.5"
   }

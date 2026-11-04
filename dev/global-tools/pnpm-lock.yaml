@@ -174,7 +174,7 @@ importers:
         version: 0.11.16(typescript@5.9.3)(yaml@2.9.1)
       '@pencil.dev/cli':
         specifier: ^0.2.9
-        version: 0.2.9(@anthropic-ai/sdk@1.3.0(zod@4.6.7))(@modelcontextprotocol/sdk@1.32.2(supports-color@5.5.0)(zod@4.6.7))(@types/node@26.6.6)(zod@4.6.7)
+        version: 0.2.9(@anthropic-ai/sdk@1.4.0(zod@4.6.7))(@modelcontextprotocol/sdk@1.32.2(supports-color@5.5.0)(zod@4.6.7))(@types/node@26.6.6)(zod@4.6.7)
       '@socketsupply/socket':
         specifier: 0.5.4
         version: 0.5.4
@@ -242,14 +242,14 @@ importers:
         specifier: 1.2.2
         version: 1.2.2
       portless:
-        specifier: 0.15.13
-        version: 0.15.13
+        specifier: 0.16.0
+        version: 0.16.0
       prettier:
         specifier: 3.9.10
         version: 3.9.10
       rollup:
-        specifier: 4.67.4
-        version: 4.67.4
+        specifier: 4.67.5
+        version: 4.67.5
       serve:
         specifier: 14.2.6
         version: 14.2.6(supports-color@5.5.0)
@@ -266,8 +266,8 @@ importers:
         specifier: 4.1.0
         version: 4.1.0
       vercel:
-        specifier: 65.10.0
-        version: 65.10.0(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(rollup@4.67.4)(supports-color@5.5.0)
+        specifier: 65.11.0
+        version: 65.11.0(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(rollup@4.67.5)(supports-color@5.5.0)
       wait-on:
         specifier: 9.5.1
         version: 9.5.1(debug@4.4.3(supports-color@5.5.0))(supports-color@5.5.0)
@@ -277,60 +277,60 @@ importers:
 
 packages:
 
-  '@anthropic-ai/claude-agent-sdk-darwin-arm64@0.3.316':
-    resolution: {integrity: sha512-1I1oJ/YGqq4pFQvJqycD2e8pbsUQLLR+DwEzG9jQAGCoSKkxP1TBfHpjSik/0byCixyzpYObrYXPC0PKBIR91g==}
+  '@anthropic-ai/claude-agent-sdk-darwin-arm64@0.3.317':
+    resolution: {integrity: sha512-SSXvZ04MpfA0hLfGrP9SBTNOgw2p2TsmJAUjr6GA5bM9LVLRLX6pmiIAaTtpaPhslK+zd6Nf5taU/XRldPyUBg==}
     cpu: [arm64]
     os: [darwin]
 
-  '@anthropic-ai/claude-agent-sdk-darwin-x64@0.3.316':
-    resolution: {integrity: sha512-gzNncKrID/6yJIKCAuF/pY1kfygQZ4dU0J+MNFl0bU+iQW65ERoIyoghYVfrAQ/gH2fuvnQtWxa8LQNScHgNMA==}
+  '@anthropic-ai/claude-agent-sdk-darwin-x64@0.3.317':
+    resolution: {integrity: sha512-GAmOMLr3g3nEQDFcYux5u/duNNXMvJxIBjowgAVp7ndPRbTHpv+jU0JVSa9LdvEycT4ssEvTR/R6eqQ1raBKbw==}
     cpu: [x64]
     os: [darwin]
 
-  '@anthropic-ai/claude-agent-sdk-linux-arm64-musl@0.3.316':
-    resolution: {integrity: sha512-1qqaEdsAs6eipEQQ4bMAWiwDjIouyA/YN5KQWS0/+kuPb+GKS8rUVW2dty2elV703hsMovb4IhMP4cv5K7R9YA==}
+  '@anthropic-ai/claude-agent-sdk-linux-arm64-musl@0.3.317':
+    resolution: {integrity: sha512-G3PD+FGezo6zuRLeVMxjynLLHWN9Sis/iwEPIYHjwvwNiomWaUTkmBxeStPOSsbP4gxJfj2sijef2LBf5Kp+7g==}
     cpu: [arm64]
     os: [linux]
     libc: [musl]
 
-  '@anthropic-ai/claude-agent-sdk-linux-arm64@0.3.316':
-    resolution: {integrity: sha512-+lm9XSw/em14yMZ41fbo80kfblbylfBQc9nYS6GgLoZVvgT3wSeEbv88v+mEK/jFw9g3VCH4ZI01sjNM34o7uw==}
+  '@anthropic-ai/claude-agent-sdk-linux-arm64@0.3.317':
+    resolution: {integrity: sha512-PnZDGAL3tNMC5TZVNf/Zef0Tz/LI/B1lfcXFazAh5ko/LzlkFSFTrAzD1K28WmQKNHeF0/cR6slxbxItXfMNfg==}
     cpu: [arm64]
     os: [linux]
     libc: [glibc]
 
-  '@anthropic-ai/claude-agent-sdk-linux-x64-musl@0.3.316':
-    resolution: {integrity: sha512-pMG9MRkjxMMbIxpwg/cKz6JorNjZtJOA9l/fifRQ/A01zGTKrRIaSCWoGg+Asmc64QBOa3aA4vzE/od9B1R0Tw==}
+  '@anthropic-ai/claude-agent-sdk-linux-x64-musl@0.3.317':
+    resolution: {integrity: sha512-1eJYducDiGtbv9WnpO5t6kf3Jz9rBVwRPhoX2IkOpKbSm8qKBYUn5dVFo8fmzFdIW5BIz4O2Xw5ExTkla2RTog==}
     cpu: [x64]
     os: [linux]
     libc: [musl]
 
-  '@anthropic-ai/claude-agent-sdk-linux-x64@0.3.316':
-    resolution: {integrity: sha512-+csYyGkHziNp4It+ZykqTmXRZBuNrieTiBnji+zwAxNmLLCWz8xEWjNmwhaLPIMpUiaYREkDhZXt/AS6xXta5w==}
+  '@anthropic-ai/claude-agent-sdk-linux-x64@0.3.317':
+    resolution: {integrity: sha512-cjbMfYdESAafCCedRETVIB+rF9HM9hpix/490p0YRccvBhc3uwYuvMQGEHJ9Z+rZujdy49+2lAxq0PZmiCZKjQ==}
     cpu: [x64]
     os: [linux]
     libc: [glibc]
 
-  '@anthropic-ai/claude-agent-sdk-win32-arm64@0.3.316':
-    resolution: {integrity: sha512-Xj4iTS8NsB6isGhnZEnaIXIpUcSspv/lyIVnfPZjVGwuttaVHjq4IxfDopsPaVsPuTKd+L7DLAaBram1k85U2g==}
+  '@anthropic-ai/claude-agent-sdk-win32-arm64@0.3.317':
+    resolution: {integrity: sha512-QaCbH22MDmMu1ozBd0QY9OnUA1AtLr6GSpPL2mxtfY5STDSen6UpNARtTP+hXE2UZ1WSeeFIE3BYea9ojBTfMA==}
     cpu: [arm64]
     os: [win32]
 
-  '@anthropic-ai/claude-agent-sdk-win32-x64@0.3.316':
-    resolution: {integrity: sha512-FzQA1zHbYJTtLR9nn1McwkGYeiEmroTmYjIg7xZqo5eweJ8U/DESZKR/QdfF04MXe2DF23oLL8WHjEa+WxbGQw==}
+  '@anthropic-ai/claude-agent-sdk-win32-x64@0.3.317':
+    resolution: {integrity: sha512-BPxd/DV67LOmPFcq9zrxvs0siTejMGuZDI4sisjFNTssl/Qqma26BXGdHejQlqJqksuzurx+MPq4Jxtzx5UIZw==}
     cpu: [x64]
     os: [win32]
 
-  '@anthropic-ai/claude-agent-sdk@0.3.316':
-    resolution: {integrity: sha512-mCMr0que5kIy80JslJub6WFDB2+GYRGWNeVgSZaBpkBwXrr4wnRMnnGHitkA2BEJ5QP5xWyc6YH/6do/edxCWg==}
+  '@anthropic-ai/claude-agent-sdk@0.3.317':
+    resolution: {integrity: sha512-qoRB5svuBNXm5N5miBj3RS2JyA7daGcdOCopQIdJXMxaYREIvR7P1FFiFhSLwIjh61D9ir8f/8OFm5LyDJspEA==}
     engines: {node: '>=18.14.0'}
     peerDependencies:
       '@anthropic-ai/sdk': '>=0.93.0'
       '@modelcontextprotocol/sdk': ^1.29.0
       zod: ^4.0.0
 
-  '@anthropic-ai/sdk@1.3.0':
-    resolution: {integrity: sha512-k7z9BlLLPxfZH+ov7dS6EnaN/wiZeV8YNT1LZfrpAHIy7oY7pHr4UzirF9f2OlHtFEnRBOX+AZQ91Y5fK+TPTw==}
+  '@anthropic-ai/sdk@1.4.0':
+    resolution: {integrity: sha512-tyuibnhQL57kLOx5oomY4Ld7jOVOPNC5v3IiyRtR3l+Friv66tI4VbuZYF2NMel/T0WMuQMBFOMKDBUbUh8gPA==}
     hasBin: true
     peerDependencies:
       zod: ^3.25.0 || ^4.0.0
@@ -1430,19 +1430,12 @@ packages:
     resolution: {integrity: sha512-d0d4Oyxm+v980PEq1ZH2PmS6cvpMIRc17eYpiU47KgW+lzxklMu6+HOEOPmxrpnF/XQZ0+Q78I2mgMhbIIo/dg==}
     engines: {node: '>= 10'}
 
-  '@napi-rs/lzma-linux-x64-gnu@1.5.1':
-    resolution: {integrity: sha512-oTXEIha4SsuXdTA4Iyskj0kpdx2yVXdhd75c2v3xGrHFfVMsbhTPZU/nMPL4sWKo4pBHm3aucLaqGlF696dTyQ==}
-    engines: {node: ^22.20 || ^24.12 || >=25}
-    cpu: [x64]
-    os: [linux]
-    libc: [glibc]
-
-  '@napi-rs/wasm-runtime@1.2.6':
-    resolution: {integrity: sha512-mRyDmEw9/fCDXCGfL1sbgIw/GUK0PVxRW4YwgPN61F3LQ+fSyoBFarJVzgGyhF6kRzEQZ0FejDqm4WLXSeqQmw==}
+  '@napi-rs/wasm-runtime@1.2.7':
+    resolution: {integrity: sha512-zJccwplOAbgfZju95IUHazLnx9RAPtPN2YGJXI6UbrgeaR9QfPjGrQL6ERkSAtnVCA4Q+83ApGyaX5zdpCaKkQ==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=23.5.0}
     peerDependencies:
-      '@emnapi/core': ^1.7.1 || 2.0.0-beta.2
-      '@emnapi/runtime': ^1.7.1 || 2.0.0-beta.2
+      '@emnapi/core': ^1.7.1 || 2.0.0-beta.2 || 2.0.0-beta.3
+      '@emnapi/runtime': ^1.7.1 || 2.0.0-beta.2 || 2.0.0-beta.3
 
   '@node-ipc/event-pubsub@6.0.2':
     resolution: {integrity: sha512-vdpnkrcBOHj/yQlSi78HiaPLWZFI/PdBRN34T64Th6Z4G600A7IDdb47/EFwKJh1trcR6q0ednyR8d8vJFsTcw==}
@@ -2005,146 +1998,146 @@ packages:
       rollup:
         optional: true
 
-  '@rollup/rollup-android-arm-eabi@4.67.4':
-    resolution: {integrity: sha512-/v/pUAPOcwp+r1Hjjdg0cBV1TE89CzGKrKh2FgkIQw2QBcIMmVPOCSfuOZStCn4Xh/98HXfo/ht6ztcssctPNg==}
+  '@rollup/rollup-android-arm-eabi@4.67.5':
+    resolution: {integrity: sha512-FdWPeulkH+FH+rBzyKBD59tuVN4tRKvmVilSJm0OcnoYsQTpd9UhD78OaPcsYqo2fX6hCwAG0YIjrDLoQ3pR3g==}
     cpu: [arm]
     os: [android]
 
-  '@rollup/rollup-android-arm64@4.67.4':
-    resolution: {integrity: sha512-6tmmB/P52Vt167FXXEw5auiEUgTtZz7aqUgWHqYXToIUE0HFDY6fTdAyeekjjsNk6O/8dtpSKtClxSj1mMneKQ==}
+  '@rollup/rollup-android-arm64@4.67.5':
+    resolution: {integrity: sha512-bmkDuBGnF+Ji8atWlXcNjxIC52ShCbdXPbW7Nz0lRoCFi1lrvsO0XobJY36kTj7duc1vOmGJeQ9vtVuGjnzihA==}
     cpu: [arm64]
     os: [android]
 
-  '@rollup/rollup-android-x64@4.67.4':
-    resolution: {integrity: sha512-8Z9Q4RmotVmuL4llOvqX814JNiOK1oqoBv+glG5KbpRfUiypqzz2/fxIzK4Pq129l4dT5a8Gszmpc0/XPYoFuQ==}
+  '@rollup/rollup-android-x64@4.67.5':
+    resolution: {integrity: sha512-6KvVfnqPTqmbQ5YobMl9HYiSymAsCt8HlNeriDshwJQcveXwT+vIMW6wGL1RcJbXH9+r3BAJvjab5+rIgtSEqA==}
     cpu: [x64]
     os: [android]
 
-  '@rollup/rollup-darwin-arm64@4.67.4':
-    resolution: {integrity: sha512-pnq6hssxTtwuRAl6Kdi/+IDY+b1IhkUetjhUkdLAAJCssjfqtL2Oqy/FXJVJFtAWOu1oRlArIvf0Yk1O92x2HQ==}
+  '@rollup/rollup-darwin-arm64@4.67.5':
+    resolution: {integrity: sha512-SNamgdrY69oPdBrQV9fKGo6PSmKcVhyn0D0jnDmcqgRJvrxQGGBhtekOHTUJ7TCgkW0nE8XMH9v2CwXmjNIzVA==}
     cpu: [arm64]
     os: [darwin]
 
-  '@rollup/rollup-darwin-x64@4.67.4':
-    resolution: {integrity: sha512-BeIrGZvHMVdJg/N+ohZfFywG/gF41684YhDj2wBvouj7m9ziP1tZDUNwzXRiDY+3WIKngaC4hiUBqVtBPGP5og==}
+  '@rollup/rollup-darwin-x64@4.67.5':
+    resolution: {integrity: sha512-HNdl34thiJtHDSglogjmAlQ296L8cc8zA7ODH65nnmY7E+jPP55WEbh8J5583rWFLMjxyYywxZuwPOwRvEi5tA==}
     cpu: [x64]
     os: [darwin]
 
-  '@rollup/rollup-freebsd-arm64@4.67.4':
-    resolution: {integrity: sha512-fRFX/oqNg/g780DKoS8RIfYcZD59Ru5O/bSeK1N7gQljBFrTxJY/q5EX4eMs5SrJf32VgVBVVYCdfPpzAwPPnQ==}
+  '@rollup/rollup-freebsd-arm64@4.67.5':
+    resolution: {integrity: sha512-WvZYtANNswfHzSNHaJAoG6Ipfc4SyZIDYuIjFdHv07xXxhHl+Xx8o+bNDWsxpOADFT2mKXcXVrfOG4OlWTLo8Q==}
     cpu: [arm64]
     os: [freebsd]
 
-  '@rollup/rollup-freebsd-x64@4.67.4':
-    resolution: {integrity: sha512-bSrBRopG1q+0RuOsW0NtYTtIODlvNA3T3ebx5WnQVdSxWIoXFmj+rZdHUHdSLgFdZ5M6VGmekYE7r4RMGQXjfg==}
+  '@rollup/rollup-freebsd-x64@4.67.5':
+    resolution: {integrity: sha512-EUU+Wgf9NyHekceC+DxAdm42f6bq2ezH/7DEb/JnCb8SAUhG2xph5BiVukxplWal2m5pP8CzJZE+FLwRopywjQ==}
     cpu: [x64]
     os: [freebsd]
 
-  '@rollup/rollup-linux-arm-gnueabihf@4.67.4':
-    resolution: {integrity: sha512-L8IvdrJVtl65g1ozwDSyjGPG+FmibhCdFUwmqTItJLw0S3+Oj4QzFs7rfgTUiK7rsPjkCLdG1/GApFxoynXFJQ==}
+  '@rollup/rollup-linux-arm-gnueabihf@4.67.5':
+    resolution: {integrity: sha512-dgU1CvUuE2IkaJBAeuAbxpDdMHAdZBT5oth5u22DtuoMg4gXXYr2+Sm30RigPJG1F2VEoiGJUziGLuIh9+jPxA==}
     cpu: [arm]
     os: [linux]
     libc: [glibc]
 
-  '@rollup/rollup-linux-arm-musleabihf@4.67.4':
-    resolution: {integrity: sha512-h7PcoQOzC31jshNpQ48J0akB9tsghjkSjSl5AZ6XsVGTxVsln7t7C4SQyw62tNVSaz2SeHgk4VT2ELbL17BSHQ==}
+  '@rollup/rollup-linux-arm-musleabihf@4.67.5':
+    resolution: {integrity: sha512-rdgJcJig2VngYlcTCRQw2BA8kLWM6QwDFe9uLFo81lya0jPC1r8wZu92sAvTUIv48GWlkRVi6/fpsa5CoFSKoQ==}
     cpu: [arm]
     os: [linux]
     libc: [musl]
 
-  '@rollup/rollup-linux-arm64-gnu@4.67.4':
-    resolution: {integrity: sha512-KSPuOBNHoOl7AsVjeY1KZci8+0up0U4TFAHU5IzBYN8P+Z6cB9DZq28+JQycZW7f6WLLa/tSzhV7Rdy95bVi+g==}
+  '@rollup/rollup-linux-arm64-gnu@4.67.5':
+    resolution: {integrity: sha512-+jtCiQnrEFHWAUAcUpP7wppb1p6HKOgBP3mXx75cEYpDF2Y5MEqBky2HNz+osFuVx5uX44gnMTmbe5RJauzn6A==}
     cpu: [arm64]
     os: [linux]
     libc: [glibc]
 
-  '@rollup/rollup-linux-arm64-musl@4.67.4':
-    resolution: {integrity: sha512-0E/mKmVk1PlQeQYygIwQm0jlwjANTzGSiNBMPrFx+rdFGFj/2Axh4p6XwcrystQIqXZVudTaGsdbDpzYgJ4wSA==}
+  '@rollup/rollup-linux-arm64-musl@4.67.5':
+    resolution: {integrity: sha512-heflX7ENhL8eHmLcUxDEHCSK8CKLyPprysb2JGoSTh5Ip7nHrzIRc+2USyxul3nxi98H8pGxJIEDEpURlS1X5A==}
     cpu: [arm64]
     os: [linux]
     libc: [musl]
 
-  '@rollup/rollup-linux-loong64-gnu@4.67.4':
-    resolution: {integrity: sha512-Fvw7dOSc2Sa9UOipRZVI0zOgdLCzsjVyD/6JuHXzUHTXFu7mMgmeX/0/bCVBIut1dz+nWz3pV4WpS/Qg0XVnxw==}
+  '@rollup/rollup-linux-loong64-gnu@4.67.5':
+    resolution: {integrity: sha512-rRtNU0zBfRHkJ8pscHN9qRtUYLq8Rao4EX7aVWvKcFmJUANkCCXFRU7ovNBEMhpEONyUEB/3DRVDXwDDguSfHA==}
     cpu: [loong64]
     os: [linux]
     libc: [glibc]
 
-  '@rollup/rollup-linux-loong64-musl@4.67.4':
-    resolution: {integrity: sha512-jzxbVHaE7V3F+P0wEK7UydQtvv7Twfdtx58jI5/3VRx1jJxyrn+qFwfXmqjVFxPhBl+zjaRs+ZJMFJw7vdHaQA==}
+  '@rollup/rollup-linux-loong64-musl@4.67.5':
+    resolution: {integrity: sha512-/6auyi9yj8MD/Q+8P+f2ay57jQ7a0j7Yp1JK86pecH6ZnRViQZ5GOjoRSjGArFeTSHFznRbM2QPQcBgDPyNMfQ==}
     cpu: [loong64]
     os: [linux]
     libc: [musl]
 
-  '@rollup/rollup-linux-ppc64-gnu@4.67.4':
-    resolution: {integrity: sha512-fhtrzp9p4GjEJVaigaap9g6X9nP6xgJtKiLLXSDgpE18HXufA5aqfltGn+KAqMtVZReJZfOrXm//y5YSA9BWbA==}
+  '@rollup/rollup-linux-ppc64-gnu@4.67.5':
+    resolution: {integrity: sha512-Hsc0vlt+vPvqzUkHKffWKf3YE/yexrY+yeFf7IsUvDC6PV7YGCsA/gJvPa+WJdgxGJnwuoO1HmLkbahaLKabYQ==}
     cpu: [ppc64]
     os: [linux]
     libc: [glibc]
 
-  '@rollup/rollup-linux-ppc64-musl@4.67.4':
-    resolution: {integrity: sha512-uynaF7IUHwAckV0S+yC1f5esy9gB+aqCBsPH5BOck32TYdCuAn2lVG5tvUcFnEsrviGEmRZxE1NHSOieUPYJEg==}
+  '@rollup/rollup-linux-ppc64-musl@4.67.5':
+    resolution: {integrity: sha512-Jx5TMMSPJwHY7F/JwPdS6nuBwny2ECRK+EsAJV5HZrfiddeSS6ZrohkLkFZm3rjqBUuQ4FPX5gGMtakUuQO6fQ==}
     cpu: [ppc64]
     os: [linux]
     libc: [musl]
 
-  '@rollup/rollup-linux-riscv64-gnu@4.67.4':
-    resolution: {integrity: sha512-uaqRFdfb8eIa2bVHN/FE3ndCvR0zV2xv0AwjCfxrqSu6l6fp/54VhjfhslKlf2RIik9L1jwlt4E56PeVX6tQtQ==}
+  '@rollup/rollup-linux-riscv64-gnu@4.67.5':
+    resolution: {integrity: sha512-fGWcq2lo/XCqAkBLOokg66D/z+MUouryB8i+QdU9RR6O5knG7rucc0WFPqWYL1Wk/wuiJouDfmyBxmZKRM9bag==}
     cpu: [riscv64]
     os: [linux]
     libc: [glibc]
 
-  '@rollup/rollup-linux-riscv64-musl@4.67.4':
-    resolution: {integrity: sha512-JZRow7kmxUDEASnxHuVG5itTm+nTXi9BQUABcVUnUEngC+OPwMrpx1uJ9hIA/v+IcAEBL52ktCSPXk5OJn9Jqg==}
+  '@rollup/rollup-linux-riscv64-musl@4.67.5':
+    resolution: {integrity: sha512-JwO/Ys3jybc0UW3V5XO2CMnp0RhvoczDDQTgAEE1IctT+HRY3W5parIIWLUpmAK4gHSeeYJofm2iQPFA62K6ag==}
     cpu: [riscv64]
     os: [linux]
     libc: [musl]
 
-  '@rollup/rollup-linux-s390x-gnu@4.67.4':
-    resolution: {integrity: sha512-rdrh4e+Lq9fCNKoDPaCqeHXbQCe7yl77Ukl45tlSClwYdZ1gpFGZz1XLJdYtY++FRlfL5aHvb6/0n3GDW/Nxsw==}
+  '@rollup/rollup-linux-s390x-gnu@4.67.5':
+    resolution: {integrity: sha512-vVD4iqel6J6A1xAJlb4mxEO9i1wOJ4/SkcKoDKAuK/wqEBPOA7/P5dDyZvNx46ocHwOUwzo3WjhTdKqET9kEAg==}
     cpu: [s390x]
     os: [linux]
     libc: [glibc]
 
-  '@rollup/rollup-linux-x64-gnu@4.67.4':
-    resolution: {integrity: sha512-wL7MS4r0fYcxluF3ne2plofHZiB/LsqNCnyaUlyiKpAJLb6agPSFz7DEFCfkonWAZXMrLwCmC08b2ZEnEdJkog==}
+  '@rollup/rollup-linux-x64-gnu@4.67.5':
+    resolution: {integrity: sha512-HmEfNh5Cdd/NHxgqwMzKnjlvicQQA+D+w+vQXDJSV0x/aHiQSjVwh1Th5RoA7QsMieIaxibt/5iJq68BraTSUg==}
     cpu: [x64]
     os: [linux]
     libc: [glibc]
 
-  '@rollup/rollup-linux-x64-musl@4.67.4':
-    resolution: {integrity: sha512-4H0XHfd2VufGjX7NjUyeue78sD0bRIoKSGjGqO+F5nSvL6jN48NAU7esdmtFEYxZXwObLtt3MJ/kHS0jASMW3g==}
+  '@rollup/rollup-linux-x64-musl@4.67.5':
+    resolution: {integrity: sha512-NfmALpbe009nYzZ2QqlSW6nzbGddXpqk3nwualrIr+4QflQCTGMzt3QKK20yARiAnSV9fJdM5WNwIYUf31x3uA==}
     cpu: [x64]
     os: [linux]
     libc: [musl]
 
-  '@rollup/rollup-openbsd-x64@4.67.4':
-    resolution: {integrity: sha512-osRHQbE55pZpCLetpMsFmhkapyZnAUH73qRKMh+npi3boUom6u6hdaTTPSxlInXxwJHsn9r2uDhdz0V7Yoxx2A==}
+  '@rollup/rollup-openbsd-x64@4.67.5':
+    resolution: {integrity: sha512-ngcE7Udpy/iJ3lexVhYcbpUV2OJIakRGus3snc6K52BnAAJetDBG1Ku5Eh3CECtnW3mpBYWg5VCD4tTaOXKOVQ==}
     cpu: [x64]
     os: [openbsd]
 
-  '@rollup/rollup-openharmony-arm64@4.67.4':
-    resolution: {integrity: sha512-95+exYEyOwrZePsE0czi4q7X5lxKPa21+lmyAZlwbYENITQ0Unk4HAQAFp/p+KhXBHBx9mUABXRYjOC5A1wY3Q==}
+  '@rollup/rollup-openharmony-arm64@4.67.5':
+    resolution: {integrity: sha512-DZ01A2EdTYX8xVeGoGiWkJBRWDh+/BOflwGPVsBay43PDxcq8ez0xuovZnPnk1xjE3CdI0pdZXxsJp/Xjmf7uQ==}
     cpu: [arm64]
     os: [openharmony]
 
-  '@rollup/rollup-win32-arm64-msvc@4.67.4':
-    resolution: {integrity: sha512-FOXOcKhNQpO4Po+Ynan6IbtM67SrXZbgpRJWVYwz53CT5veI7sVzDwVBmWS65N5Imv+wK3SVhIPAl+C5DXXNCg==}
+  '@rollup/rollup-win32-arm64-msvc@4.67.5':
+    resolution: {integrity: sha512-nJKiMKDO140DUCEcQZl+f4HiGPMBxrW2webjuWJ2E3qPeoruHf2zByml4TP52lA1zDi6L4I92D/5stxeA/6pig==}
     cpu: [arm64]
     os: [win32]
 
-  '@rollup/rollup-win32-ia32-msvc@4.67.4':
-    resolution: {integrity: sha512-cklKh0gJOkAZQcWziQa3hrjxZKN+PCHZ7SPTyGJDAiBVr05ZXlEjGFCG7zFJMaVibxsmzAe1FimN4u/HBns9+Q==}
+  '@rollup/rollup-win32-ia32-msvc@4.67.5':
+    resolution: {integrity: sha512-ykLkBCf+Kls24QmqM3IRf1T4sGMh0rXPyymtj+hXlWKPJnXbXraHqUUsKtOIxqLasjT1i7DhfQGAaZYeiHbSOw==}
     cpu: [ia32]
     os: [win32]
 
-  '@rollup/rollup-win32-x64-gnu@4.67.4':
-    resolution: {integrity: sha512-AegwxJPc9bvUp8fQtlsUHkFMOMkGylWU7glyL+YD4vwG+QaYoGXYLSsQoeTD7kvoLZrVlMWNVhTg1dedY5C1VQ==}
+  '@rollup/rollup-win32-x64-gnu@4.67.5':
+    resolution: {integrity: sha512-NiFPUFw8cHhkmBlL1k1eaz+5AXXm89rztj+DQdDuQ7VGPM0+ADFhezQ2KcBMF50UEFzGUr0+DVjVND743XwKWQ==}
     cpu: [x64]
     os: [win32]
 
-  '@rollup/rollup-win32-x64-msvc@4.67.4':
-    resolution: {integrity: sha512-RJZnrwTWj7Iq2ooBwoGbDdC65tDwYawneGcAfFMJqVUrRZMcskka6nTkBpXR/47G7kzn3EW2qupExnaBy11vwg==}
+  '@rollup/rollup-win32-x64-msvc@4.67.5':
+    resolution: {integrity: sha512-Khj/vrKCpdbiAWYbJAeSy4D5iep+qwW/86lNoKvdleJYGxgbRE7h87+5d5T9D7gt8NcqhNFpreRgIg8T4bLzKQ==}
     cpu: [x64]
     os: [win32]
 
@@ -2302,8 +2295,8 @@ packages:
     resolution: {integrity: sha512-g9XerViJ/paZujufXYcu5XYI2vU2rtB4sgdpjUHde5RnOkdmpu0ngH46LCFGHoPXO/C+qDPSczIHIRN+8Q2YKQ==}
     engines: {node: '>= 18'}
 
-  '@vercel/cli-support@65.10.0':
-    resolution: {integrity: sha512-HLxM6JtOEVPiaaqJVkzsnM4f61mzhi4WaVoO9fsi1+JRtuXpk3zZz2ZJkTrrxyczqUQJWe/2JTycCjQkaU5Bsg==}
+  '@vercel/cli-support@65.11.0':
+    resolution: {integrity: sha512-9zZUeBOU7jF3vR6kDN4xuM2RxxbgIHjtvAEWVJaHe6tO22jPPxFd0X/kWmm+TY7gSy7gnbwciqZOBYe89rJHvw==}
     engines: {node: '>= 20'}
     os: ['!darwin', '!linux', '!win32']
 
@@ -2443,47 +2436,47 @@ packages:
   '@vercel/static-config@3.4.4':
     resolution: {integrity: sha512-WppaPyEKQhO8qo5gVee3mSo1QSCgDZaUcUDHrqICSlt90oYeC/SHTmKCPWY1x1NB9hU+kR2oDzJwAeRKKv5NIw==}
 
-  '@vercel/vc-native-darwin-arm64@65.10.0':
-    resolution: {integrity: sha512-HSQsnaz4sQHrQqzBRcdvMDH86qN/LW1W+12r1+4Kjap+mUveYrcGqdVdX4K64OsoM5ajyURGZ9VDGhobxq6/gw==}
+  '@vercel/vc-native-darwin-arm64@65.11.0':
+    resolution: {integrity: sha512-mvNIMqLt8LhVbJ3MTtMZMu6NjQeZgXWe4SuQiIF3Xy5L7cfLeqQCpN7XW99KH5qpI27jNrI6ux5MO6LaX0+5Og==}
     cpu: [arm64]
     os: [darwin]
 
-  '@vercel/vc-native-darwin-x64@65.10.0':
-    resolution: {integrity: sha512-oD4C+TokU9YFAyl4Z7GDlemD3HsngiwsNonBR7/6BzL/Nw5aQjp2M4BV9AMan+u30s6uklro/VBo0qjI6H6orA==}
+  '@vercel/vc-native-darwin-x64@65.11.0':
+    resolution: {integrity: sha512-uJx9hZd83B/1eE2YOvvRfj7sGjkXQ/TANWaZpoSuORaI5+kLHR0rz1hu/cZCClmyO7rZpjoBkcWVAL1NvhmXsg==}
     cpu: [x64]
     os: [darwin]
 
-  '@vercel/vc-native-linux-arm64-musl@65.10.0':
-    resolution: {integrity: sha512-oJViwIZLLoCsYv5gUbnioxSvOCeffnpWSI2MuBar0vnZ+kRJgNdSxkBrKDb64J9hFgLgkLyzRl5ppcfE7XPd4g==}
+  '@vercel/vc-native-linux-arm64-musl@65.11.0':
+    resolution: {integrity: sha512-rX/jzKrBWLa451CjLZCuW56Buk76HYoOWCHdH5WxRTamUgNnryke3k59vBY+WnGelmT6tLf1GqvL8hRNf8Kcug==}
     cpu: [arm64]
     os: [linux]
     libc: [musl]
 
-  '@vercel/vc-native-linux-arm64@65.10.0':
-    resolution: {integrity: sha512-GhjcosaJqo1jWPnowDe/Ry4O97B2IaBc4pP/S7hbRgGqHtLfILK8pbbTae2aHP2cvgePbZUP2XdiVsGf2vVcfQ==}
+  '@vercel/vc-native-linux-arm64@65.11.0':
+    resolution: {integrity: sha512-57vA1tsudA30ex8q4bFiFmCxgFkC41bGn6Rf8c5Ppk4QHUWcXNVRROgoTPjenGbC4h0q7a3hENLYmNLan8zXPg==}
     cpu: [arm64]
     os: [linux]
     libc: [glibc]
 
-  '@vercel/vc-native-linux-x64-musl@65.10.0':
-    resolution: {integrity: sha512-BjUrXcDAfh4MQXhRn4fAfs2LMZJTqJOZVRH6fibu+vncnBdPB1SDLL8zx7XdNqXxEMt7FUmGy0rkOuljUV5R4w==}
+  '@vercel/vc-native-linux-x64-musl@65.11.0':
+    resolution: {integrity: sha512-6ICTwsGE+0zwoUbcV68MS/zgAX2SxLORWbo8x4GpSSeiyJMg9bNRTlO9EDuAqsXpliz8l6xTY+Pi6SeVi2HL1Q==}
     cpu: [x64]
     os: [linux]
     libc: [musl]
 
-  '@vercel/vc-native-linux-x64@65.10.0':
-    resolution: {integrity: sha512-tpTdd3jKH5vjwrK8YlZkHbgUnhgqrEG/jXk98D99QBH3p6UT/2yTerjOQ2VxuHJPGD6tzcY+HZvBPlgjZolZiQ==}
+  '@vercel/vc-native-linux-x64@65.11.0':
+    resolution: {integrity: sha512-rZAHMe8uyHRLUFIoTxot4t9hYwyyt9OPvqQRY58dmHZHCqJnT/zWS0juXWh+wo3PMDMsaWDEZSKwTWW2j3RsFA==}
     cpu: [x64]
     os: [linux]
     libc: [glibc]
 
-  '@vercel/vc-native-win32-arm64@65.10.0':
-    resolution: {integrity: sha512-ZGm2klWtGkKkMROGGKNf/orIUMmYDqVzkcw7FiZHcgbN9IPLL0OK3+lbVTqHySnkMChurMP/fJhJyQmhFRFPgQ==}
+  '@vercel/vc-native-win32-arm64@65.11.0':
+    resolution: {integrity: sha512-zVB3MGDTKx4mMLXy6CPIwumaDoOIS+ROl8YMamOuBsN/J2ZTt3ooXOkUrzC5fzL8gy3DBSAW6Wf+whCwvXGOwQ==}
     cpu: [arm64]
     os: [win32]
 
-  '@vercel/vc-native-win32-x64@65.10.0':
-    resolution: {integrity: sha512-TCqCQBBfmEGtHi4g6uenNjtihBEN8SJ1oMYeOQ4ZHdGd1IslGec6qSXM/f4RsTlSs7uFMeq3UQdl5IdWEm1Q9A==}
+  '@vercel/vc-native-win32-x64@65.11.0':
+    resolution: {integrity: sha512-ByTtt0GMLt2j1rwO6rk2BYIPAkvgzcDzhORJY9fkeZPLFyACSual6Oqk+/VYHo7PgqcJ3qHZE+6fzy8N8JVlFQ==}
     cpu: [x64]
     os: [win32]
 
@@ -3514,8 +3507,8 @@ packages:
   ee-first@1.1.1:
     resolution: {integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==}
 
-  electron-to-chromium@1.5.472:
-    resolution: {integrity: sha512-s4+nfT29b0FKpVKoaIxl2pWsoNcn7A/nMPSrxayw4T3BsmPeV2lF9Y06BsAQeMGhCTQ4nYJ5XST7jkqe4ZEqFw==}
+  electron-to-chromium@1.5.473:
+    resolution: {integrity: sha512-9njcRQK+6FOXNAWw5g+h2RPiyazqo5RFMVJ39ZMHjDHUNnnFlhnOGV7O0WmJetODDx19ES5p+FLi+KCVFQGugw==}
 
   elegant-spinner@1.0.1:
     resolution: {integrity: sha512-B+ZM+RXvRqQaAmkMlO/oSe5nMUOaUnyfGYCEHoR8wrXsZR2mA0XVibsxV1bvTwxdRWah1PkQqso2EzhILGHtEQ==}
@@ -3701,8 +3694,9 @@ packages:
     resolution: {integrity: sha512-aIL5Fx7mawVa300al2BnEE4iNvo1qETxLrPI/o05L7z6go7fCw1J6EQmbK4FmJ2AS7kgVF/KEZWufBfdClMcPg==}
     engines: {node: '>= 0.6'}
 
-  event-emitter@0.3.5:
-    resolution: {integrity: sha512-D9rRn9y7kLPnJ+hMq7S/nhvoKwwvVJahBi2BPmx3bvbsEdK3W9ii8cBSGjP+72/LnM4n6fo3+dkCX5FeTQruXA==}
+  event-emitter@0.3.7:
+    resolution: {integrity: sha512-R9h/VgWniW4ZRqx3Pd2/n3aGGbPmWilvHwzgrc6YQcFd2HzwPsIFLbrtfoU0hWorKUowd5Iqr5x3ZNv5H6bP+w==}
+    engines: {node: '>=0.12'}
 
   eventemitter3@4.0.7:
     resolution: {integrity: sha512-8guHBZCwKnFhYdHr2ysuRWErTwhoN2X8XELRlrRwpmfeY2jjuUN4taQMsULKUVo1K4DvZl+0pgfyoysHxvmvEw==}
@@ -3747,8 +3741,8 @@ packages:
   exponential-backoff@3.1.3:
     resolution: {integrity: sha512-ZgEeZXj30q+I0EN+CbSSpIyPaJ5HVQD18Z1m+u1FXbAeT94mr1zw50q4q6jiiC447Nl/YTcIYSAftiGqetwXCA==}
 
-  express-rate-limit@8.7.2:
-    resolution: {integrity: sha512-U1ScocxDD9WI09LaBVypvNkOtNR5yWAmZLkuKJdAzIchA4YKFYF6GT5IKER7epG58oXtjvGlV0/6ii0F83EyZg==}
+  express-rate-limit@8.7.3:
+    resolution: {integrity: sha512-zPLqDI2f0gV2WmGnacLf9XSSqn4VldRyP5LCzOwx0BKH40mO6+2PCFkoSsRO2jePx87/Kf6NUF6P2QOTKXHbQA==}
     engines: {node: '>= 16'}
     peerDependencies:
       express: '>= 4.11'
@@ -4305,8 +4299,8 @@ packages:
     resolution: {integrity: sha512-agE4QfB2Lkp9uICn7BAqoscw4SZP9kTE2hxiFI3jBPmXJfdqiahTbUuKGsMoN2GtqL9AxhYioAcVvgsb1HvRbA==}
     engines: {node: '>= 0.10'}
 
-  ip-address@10.7.5:
-    resolution: {integrity: sha512-t2v0rkILYv9WXmSL7TpAaU3HXgaFYOPUcH3QHgwQ++gpJuH3bqyMy4Fvt/DJCTKwzH3Cf+bAp5W/mFL39KPLzA==}
+  ip-address@10.7.6:
+    resolution: {integrity: sha512-00LYkM6byILa9eQIx6qoaXCM40xTLd56AZ4vyaPW3YTyb49VZYPo5xsiAq4tuQ54GH4R7gVdYScJ1B7B77PuTg==}
     engines: {node: '>= 12'}
 
   ipaddr.js@1.9.1:
@@ -4334,8 +4328,8 @@ packages:
     resolution: {integrity: sha512-i2R6zNFDwgEHJyQUtJEk0XFi1i0dPFn/oqjK3/vPCcDeJvW5NQ83V8QbicfF1SupOaB0h8ntgBC2YiE7dfyctQ==}
     engines: {node: '>=4'}
 
-  is-core-module@2.17.0:
-    resolution: {integrity: sha512-J/vG0zBCbIKOQFfufSwyXdMrsohyJIUNkrnmo6WZGzoM7tr/lsbfW5b2BvisL6zsyMzK9UxV9L6c7AoFbyXHOA==}
+  is-core-module@2.18.0:
+    resolution: {integrity: sha512-qyax9fgaKOEC4qK8WZn7Q4IcoZC9RC1O1fFxRcRTq/oMMkWT/uXpqpXa12kzWR409zAt1drYN9N9BO26UmBCmw==}
     engines: {node: '>= 0.4'}
 
   is-decimal@2.0.1:
@@ -5410,8 +5404,8 @@ packages:
     resolution: {integrity: sha512-nDywThFk1i4BQK4twPQ6TA4RT8bDY96yeuCVBWL3ePARCiEKDRSrNGbFIgUJpLp+XeIR65v8ra7WuJOFUBtkMA==}
     engines: {node: '>=8'}
 
-  portless@0.15.13:
-    resolution: {integrity: sha512-eqeJvpeZHfN72snOE1IOBPrgyOloH+L0ce5UEStMuG5Fq55byTELfUn4x7mil2EU029PQkHsayRpySiy0djPpA==}
+  portless@0.16.0:
+    resolution: {integrity: sha512-qklO8w/OhLGLKYoeAi8HOFFnd2JQYenWzbev0rvDcyAZ3xDpMg9tqb/aKlz8qrd6NIEJB5bSiDxGURaq0+YLkA==}
     engines: {node: '>=24'}
     os: [darwin, linux, win32]
     hasBin: true
@@ -5739,8 +5733,8 @@ packages:
     resolution: {integrity: sha512-OcXjMsGdhL4XnbShKpAcSqPMzQoYkYyhbEaeSko47MjRP9NfEQMhZkXL1DoFlt9LWQn4YttrdnV6X2OiyzBi+A==}
     engines: {node: '>=10'}
 
-  resolve@1.22.13:
-    resolution: {integrity: sha512-Dj/cW9zBV2aRj6XzCxuGIs3ESZKv02jixne3q6jFZYZ3/Tg09gHHviSMDL4kObh9pqSahdRHEnDoaP2gn8YLhA==}
+  resolve@1.22.14:
+    resolution: {integrity: sha512-1ZjYvR9sbkiwC5+9QHetqW5HmA2pHRMaoupD01t2HlYnV/vydC2zPwLixhsMieSWVZt0JJRg5LVIk0Ow1D/TrA==}
     engines: {node: '>= 0.4'}
     hasBin: true
 
@@ -5769,8 +5763,8 @@ packages:
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
 
-  rollup@4.67.4:
-    resolution: {integrity: sha512-Lsv3oKcz5jgOQJej/p7nfwbVEdAbDT+z6OPf/SCdI+nF+q2ENp0pTKT35ZwXAmH8g45mfrIiJeEyAqKYSYoL9Q==}
+  rollup@4.67.5:
+    resolution: {integrity: sha512-3Ve5VH1hacCVutdpbmu/htg4kz+JCOIWgy4Q3hjHPYGHeHeIElNHJ0LcJ3rCfIsd5G7qOl5k5mwpzGMj9kdHPA==}
     engines: {node: '>=18.0.0', npm: '>=8.0.0'}
     hasBin: true
 
@@ -6474,8 +6468,8 @@ packages:
   vendors@1.0.4:
     resolution: {integrity: sha512-/juG65kTL4Cy2su4P8HjtkTxk6VmJDiOPBufWniqQ6wknac6jNiXS9vU+hO3wgusiyqWlzTbVHi0dyJqRONg3w==}
 
-  vercel@65.10.0:
-    resolution: {integrity: sha512-dXoJ5FqmbnUqpIJ/wBRXJnc/+fiARikuPA80wFJF3IfhS0/dpH+rv2oIKfpylWTe7p4gtHAIX3svZBiUA81cng==}
+  vercel@65.11.0:
+    resolution: {integrity: sha512-Zf4mh2J5+XsfPwQKAyMqUsY9LGBlXwCoHZuRMWvf/GLqP0cNwIv7reDKRPgnykioCbZyIPWYziaFYlbE9qrIBw==}
     engines: {node: '>= 20'}
     hasBin: true
 
@@ -6695,46 +6689,46 @@ packages:
 
 snapshots:
 
-  '@anthropic-ai/claude-agent-sdk-darwin-arm64@0.3.316':
+  '@anthropic-ai/claude-agent-sdk-darwin-arm64@0.3.317':
     optional: true
 
-  '@anthropic-ai/claude-agent-sdk-darwin-x64@0.3.316':
+  '@anthropic-ai/claude-agent-sdk-darwin-x64@0.3.317':
     optional: true
 
-  '@anthropic-ai/claude-agent-sdk-linux-arm64-musl@0.3.316':
+  '@anthropic-ai/claude-agent-sdk-linux-arm64-musl@0.3.317':
     optional: true
 
-  '@anthropic-ai/claude-agent-sdk-linux-arm64@0.3.316':
+  '@anthropic-ai/claude-agent-sdk-linux-arm64@0.3.317':
     optional: true
 
-  '@anthropic-ai/claude-agent-sdk-linux-x64-musl@0.3.316':
+  '@anthropic-ai/claude-agent-sdk-linux-x64-musl@0.3.317':
     optional: true
 
-  '@anthropic-ai/claude-agent-sdk-linux-x64@0.3.316':
+  '@anthropic-ai/claude-agent-sdk-linux-x64@0.3.317':
     optional: true
 
-  '@anthropic-ai/claude-agent-sdk-win32-arm64@0.3.316':
+  '@anthropic-ai/claude-agent-sdk-win32-arm64@0.3.317':
     optional: true
 
-  '@anthropic-ai/claude-agent-sdk-win32-x64@0.3.316':
+  '@anthropic-ai/claude-agent-sdk-win32-x64@0.3.317':
     optional: true
 
-  '@anthropic-ai/claude-agent-sdk@0.3.316(@anthropic-ai/sdk@1.3.0(zod@4.6.7))(@modelcontextprotocol/sdk@1.32.2(supports-color@5.5.0)(zod@4.6.7))(zod@4.6.7)':
+  '@anthropic-ai/claude-agent-sdk@0.3.317(@anthropic-ai/sdk@1.4.0(zod@4.6.7))(@modelcontextprotocol/sdk@1.32.2(supports-color@5.5.0)(zod@4.6.7))(zod@4.6.7)':
     dependencies:
-      '@anthropic-ai/sdk': 1.3.0(zod@4.6.7)
+      '@anthropic-ai/sdk': 1.4.0(zod@4.6.7)
       '@modelcontextprotocol/sdk': 1.32.2(supports-color@5.5.0)(zod@4.6.7)
       zod: 4.6.7
     optionalDependencies:
-      '@anthropic-ai/claude-agent-sdk-darwin-arm64': 0.3.316
-      '@anthropic-ai/claude-agent-sdk-darwin-x64': 0.3.316
-      '@anthropic-ai/claude-agent-sdk-linux-arm64': 0.3.316
-      '@anthropic-ai/claude-agent-sdk-linux-arm64-musl': 0.3.316
-      '@anthropic-ai/claude-agent-sdk-linux-x64': 0.3.316
-      '@anthropic-ai/claude-agent-sdk-linux-x64-musl': 0.3.316
-      '@anthropic-ai/claude-agent-sdk-win32-arm64': 0.3.316
-      '@anthropic-ai/claude-agent-sdk-win32-x64': 0.3.316
+      '@anthropic-ai/claude-agent-sdk-darwin-arm64': 0.3.317
+      '@anthropic-ai/claude-agent-sdk-darwin-x64': 0.3.317
+      '@anthropic-ai/claude-agent-sdk-linux-arm64': 0.3.317
+      '@anthropic-ai/claude-agent-sdk-linux-arm64-musl': 0.3.317
+      '@anthropic-ai/claude-agent-sdk-linux-x64': 0.3.317
+      '@anthropic-ai/claude-agent-sdk-linux-x64-musl': 0.3.317
+      '@anthropic-ai/claude-agent-sdk-win32-arm64': 0.3.317
+      '@anthropic-ai/claude-agent-sdk-win32-x64': 0.3.317
 
-  '@anthropic-ai/sdk@1.3.0(zod@4.6.7)':
+  '@anthropic-ai/sdk@1.4.0(zod@4.6.7)':
     dependencies:
       '@opentelemetry/api': 1.10.0
       json-schema-to-ts: 3.1.1
@@ -7555,7 +7549,7 @@ snapshots:
       eventsource: 3.0.7
       eventsource-parser: 3.1.1
       express: 5.3.0(supports-color@5.5.0)
-      express-rate-limit: 8.7.2(express@5.3.0(supports-color@5.5.0))(supports-color@5.5.0)
+      express-rate-limit: 8.7.3(express@5.3.0(supports-color@5.5.0))(supports-color@5.5.0)
       hono: 4.13.16
       jose: 6.2.15
       json-schema-typed: 8.0.2
@@ -7617,17 +7611,14 @@ snapshots:
       '@napi-rs/keyring-win32-ia32-msvc': 1.2.0
       '@napi-rs/keyring-win32-x64-msvc': 1.2.0
 
-  '@napi-rs/lzma-linux-x64-gnu@1.5.1':
-    optional: true
-
-  '@napi-rs/wasm-runtime@1.2.6(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2)':
+  '@napi-rs/wasm-runtime@1.2.7(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2)':
     dependencies:
       '@emnapi/core': 1.11.2
       '@emnapi/runtime': 1.11.2
       '@tybys/wasm-util': 0.10.4
     optional: true
 
-  '@napi-rs/wasm-runtime@1.2.6(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)':
+  '@napi-rs/wasm-runtime@1.2.7(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)':
     dependencies:
       '@emnapi/core': 1.11.2
       '@emnapi/runtime': 1.11.3
@@ -7744,7 +7735,7 @@ snapshots:
 
   '@oxc-parser/binding-wasm32-wasi@0.121.0(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)':
     dependencies:
-      '@napi-rs/wasm-runtime': 1.2.6(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)
+      '@napi-rs/wasm-runtime': 1.2.7(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)
     transitivePeerDependencies:
       - '@emnapi/core'
       - '@emnapi/runtime'
@@ -7815,7 +7806,7 @@ snapshots:
     dependencies:
       '@emnapi/core': 1.11.2
       '@emnapi/runtime': 1.11.2
-      '@napi-rs/wasm-runtime': 1.2.6(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2)
+      '@napi-rs/wasm-runtime': 1.2.7(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2)
     optional: true
 
   '@oxc-resolver/binding-win32-arm64-msvc@11.24.2':
@@ -7874,7 +7865,7 @@ snapshots:
 
   '@oxc-transform/binding-wasm32-wasi@0.111.0(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)':
     dependencies:
-      '@napi-rs/wasm-runtime': 1.2.6(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)
+      '@napi-rs/wasm-runtime': 1.2.7(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)
     transitivePeerDependencies:
       - '@emnapi/core'
       - '@emnapi/runtime'
@@ -7889,9 +7880,9 @@ snapshots:
   '@oxc-transform/binding-win32-x64-msvc@0.111.0':
     optional: true
 
-  '@pencil.dev/cli@0.2.9(@anthropic-ai/sdk@1.3.0(zod@4.6.7))(@modelcontextprotocol/sdk@1.32.2(supports-color@5.5.0)(zod@4.6.7))(@types/node@26.6.6)(zod@4.6.7)':
+  '@pencil.dev/cli@0.2.9(@anthropic-ai/sdk@1.4.0(zod@4.6.7))(@modelcontextprotocol/sdk@1.32.2(supports-color@5.5.0)(zod@4.6.7))(@types/node@26.6.6)(zod@4.6.7)':
     dependencies:
-      '@anthropic-ai/claude-agent-sdk': 0.3.316(@anthropic-ai/sdk@1.3.0(zod@4.6.7))(@modelcontextprotocol/sdk@1.32.2(supports-color@5.5.0)(zod@4.6.7))(zod@4.6.7)
+      '@anthropic-ai/claude-agent-sdk': 0.3.317(@anthropic-ai/sdk@1.4.0(zod@4.6.7))(@modelcontextprotocol/sdk@1.32.2(supports-color@5.5.0)(zod@4.6.7))(zod@4.6.7)
       '@inquirer/prompts': 8.7.5(@types/node@26.6.6)
       '@node-ipc/node-ipc': 11.0.3
       '@openai/codex-sdk': 0.142.5
@@ -7968,7 +7959,7 @@ snapshots:
 
   '@rolldown/binding-wasm32-wasi@1.0.0-rc.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)':
     dependencies:
-      '@napi-rs/wasm-runtime': 1.2.6(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)
+      '@napi-rs/wasm-runtime': 1.2.7(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)
     transitivePeerDependencies:
       - '@emnapi/core'
       - '@emnapi/runtime'
@@ -7982,90 +7973,90 @@ snapshots:
 
   '@rolldown/pluginutils@1.0.0-rc.1': {}
 
-  '@rollup/pluginutils@5.5.1(rollup@4.67.4)':
+  '@rollup/pluginutils@5.5.1(rollup@4.67.5)':
     dependencies:
       '@types/estree': 1.0.10
       estree-walker: 2.0.2
       picomatch: 4.0.7
     optionalDependencies:
-      rollup: 4.67.4
+      rollup: 4.67.5
 
-  '@rollup/rollup-android-arm-eabi@4.67.4':
+  '@rollup/rollup-android-arm-eabi@4.67.5':
     optional: true
 
-  '@rollup/rollup-android-arm64@4.67.4':
+  '@rollup/rollup-android-arm64@4.67.5':
     optional: true
 
-  '@rollup/rollup-android-x64@4.67.4':
+  '@rollup/rollup-android-x64@4.67.5':
     optional: true
 
-  '@rollup/rollup-darwin-arm64@4.67.4':
+  '@rollup/rollup-darwin-arm64@4.67.5':
     optional: true
 
-  '@rollup/rollup-darwin-x64@4.67.4':
+  '@rollup/rollup-darwin-x64@4.67.5':
     optional: true
 
-  '@rollup/rollup-freebsd-arm64@4.67.4':
+  '@rollup/rollup-freebsd-arm64@4.67.5':
     optional: true
 
-  '@rollup/rollup-freebsd-x64@4.67.4':
+  '@rollup/rollup-freebsd-x64@4.67.5':
     optional: true
 
-  '@rollup/rollup-linux-arm-gnueabihf@4.67.4':
+  '@rollup/rollup-linux-arm-gnueabihf@4.67.5':
     optional: true
 
-  '@rollup/rollup-linux-arm-musleabihf@4.67.4':
+  '@rollup/rollup-linux-arm-musleabihf@4.67.5':
     optional: true
 
-  '@rollup/rollup-linux-arm64-gnu@4.67.4':
+  '@rollup/rollup-linux-arm64-gnu@4.67.5':
     optional: true
 
-  '@rollup/rollup-linux-arm64-musl@4.67.4':
+  '@rollup/rollup-linux-arm64-musl@4.67.5':
     optional: true
 
-  '@rollup/rollup-linux-loong64-gnu@4.67.4':
+  '@rollup/rollup-linux-loong64-gnu@4.67.5':
     optional: true
 
-  '@rollup/rollup-linux-loong64-musl@4.67.4':
+  '@rollup/rollup-linux-loong64-musl@4.67.5':
     optional: true
 
-  '@rollup/rollup-linux-ppc64-gnu@4.67.4':
+  '@rollup/rollup-linux-ppc64-gnu@4.67.5':
     optional: true
 
-  '@rollup/rollup-linux-ppc64-musl@4.67.4':
+  '@rollup/rollup-linux-ppc64-musl@4.67.5':
     optional: true
 
-  '@rollup/rollup-linux-riscv64-gnu@4.67.4':
+  '@rollup/rollup-linux-riscv64-gnu@4.67.5':
     optional: true
 
-  '@rollup/rollup-linux-riscv64-musl@4.67.4':
+  '@rollup/rollup-linux-riscv64-musl@4.67.5':
     optional: true
 
-  '@rollup/rollup-linux-s390x-gnu@4.67.4':
+  '@rollup/rollup-linux-s390x-gnu@4.67.5':
     optional: true
 
-  '@rollup/rollup-linux-x64-gnu@4.67.4':
+  '@rollup/rollup-linux-x64-gnu@4.67.5':
     optional: true
 
-  '@rollup/rollup-linux-x64-musl@4.67.4':
+  '@rollup/rollup-linux-x64-musl@4.67.5':
     optional: true
 
-  '@rollup/rollup-openbsd-x64@4.67.4':
+  '@rollup/rollup-openbsd-x64@4.67.5':
     optional: true
 
-  '@rollup/rollup-openharmony-arm64@4.67.4':
+  '@rollup/rollup-openharmony-arm64@4.67.5':
     optional: true
 
-  '@rollup/rollup-win32-arm64-msvc@4.67.4':
+  '@rollup/rollup-win32-arm64-msvc@4.67.5':
     optional: true
 
-  '@rollup/rollup-win32-ia32-msvc@4.67.4':
+  '@rollup/rollup-win32-ia32-msvc@4.67.5':
     optional: true
 
-  '@rollup/rollup-win32-x64-gnu@4.67.4':
+  '@rollup/rollup-win32-x64-gnu@4.67.5':
     optional: true
 
-  '@rollup/rollup-win32-x64-msvc@4.67.4':
+  '@rollup/rollup-win32-x64-msvc@4.67.5':
     optional: true
 
   '@samverschueren/stream-to-observable@0.3.1(rxjs@6.6.7)':
@@ -8179,10 +8170,10 @@ snapshots:
     dependencies:
       '@types/yargs-parser': 21.0.3
 
-  '@vercel/backends@24.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.4)(supports-color@5.5.0)':
+  '@vercel/backends@24.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.5)(supports-color@5.5.0)':
     dependencies:
       '@vercel/build-utils': 15.2.1
-      '@vercel/nft': 1.10.0(rollup@4.67.4)(supports-color@5.5.0)
+      '@vercel/nft': 1.10.0(rollup@4.67.5)(supports-color@5.5.0)
       '@vercel/static-config': 3.4.4(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)
       execa: 3.2.0
       fs-extra: 11.1.0
@@ -8216,9 +8207,9 @@ snapshots:
       cjs-module-lexer: 1.2.3
       es-module-lexer: 1.5.0
 
-  '@vercel/cervel@0.1.92(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.4)(supports-color@5.5.0)':
+  '@vercel/cervel@0.1.92(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.5)(supports-color@5.5.0)':
     dependencies:
-      '@vercel/backends': 24.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.4)(supports-color@5.5.0)
+      '@vercel/backends': 24.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.5)(supports-color@5.5.0)
     transitivePeerDependencies:
       - '@emnapi/core'
       - '@emnapi/runtime'
@@ -8251,32 +8242,32 @@ snapshots:
     dependencies:
       execa: 5.1.1
 
-  '@vercel/cli-support@65.10.0(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(rollup@4.67.4)(supports-color@5.5.0)':
+  '@vercel/cli-support@65.11.0(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(rollup@4.67.5)(supports-color@5.5.0)':
     dependencies:
-      '@vercel/backends': 24.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.4)(supports-color@5.5.0)
+      '@vercel/backends': 24.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.5)(supports-color@5.5.0)
       '@vercel/blob': 2.8.0
       '@vercel/build-utils': 15.2.1
       '@vercel/cli-auth': 0.3.15
       '@vercel/cli-config': 0.3.6
       '@vercel/container': 24.0.1(@vercel/build-utils@15.2.1)
       '@vercel/detect-agent': 1.2.7
-      '@vercel/elysia': 24.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.4)(supports-color@5.5.0)
-      '@vercel/express': 24.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.4)(supports-color@5.5.0)
-      '@vercel/fastify': 24.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.4)(supports-color@5.5.0)
+      '@vercel/elysia': 24.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.5)(supports-color@5.5.0)
+      '@vercel/express': 24.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.5)(supports-color@5.5.0)
+      '@vercel/fastify': 24.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.5)(supports-color@5.5.0)
       '@vercel/fun': 1.3.6(supports-color@5.5.0)
       '@vercel/go': 27.0.1(@vercel/build-utils@15.2.1)
-      '@vercel/h3': 24.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.4)(supports-color@5.5.0)
-      '@vercel/hono': 24.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.4)(supports-color@5.5.0)
+      '@vercel/h3': 24.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.5)(supports-color@5.5.0)
+      '@vercel/hono': 24.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.5)(supports-color@5.5.0)
       '@vercel/hydrogen': 25.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)
-      '@vercel/koa': 24.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.4)(supports-color@5.5.0)
-      '@vercel/nestjs': 24.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.4)(supports-color@5.5.0)
-      '@vercel/next': 28.0.1(@vercel/build-utils@15.2.1)(rollup@4.67.4)(supports-color@5.5.0)
-      '@vercel/node': 29.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.4)(supports-color@5.5.0)
+      '@vercel/koa': 24.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.5)(supports-color@5.5.0)
+      '@vercel/nestjs': 24.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.5)(supports-color@5.5.0)
+      '@vercel/next': 28.0.1(@vercel/build-utils@15.2.1)(rollup@4.67.5)(supports-color@5.5.0)
+      '@vercel/node': 29.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.5)(supports-color@5.5.0)
       '@vercel/prepare-flags-definitions': 0.6.1
       '@vercel/python': 30.1.0(@vercel/build-utils@15.2.1)
       '@vercel/python-analysis': 0.15.3
-      '@vercel/redwood': 26.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.4)(supports-color@5.5.0)
-      '@vercel/remix-builder': 29.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.4)(supports-color@5.5.0)
+      '@vercel/redwood': 26.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.5)(supports-color@5.5.0)
+      '@vercel/remix-builder': 29.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.5)(supports-color@5.5.0)
       '@vercel/ruby': 26.0.1(@vercel/build-utils@15.2.1)
       '@vercel/rust': 25.0.1(@vercel/build-utils@15.2.1)
       '@vercel/static-build': 26.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)
@@ -8312,10 +8303,10 @@ snapshots:
 
   '@vercel/detect-agent@1.2.7': {}
 
-  '@vercel/elysia@24.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.4)(supports-color@5.5.0)':
+  '@vercel/elysia@24.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.5)(supports-color@5.5.0)':
     dependencies:
       '@vercel/build-utils': 15.2.1
-      '@vercel/node': 29.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.4)(supports-color@5.5.0)
+      '@vercel/node': 29.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.5)(supports-color@5.5.0)
       '@vercel/static-config': 3.4.4(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)
     transitivePeerDependencies:
       - '@emnapi/core'
@@ -8326,12 +8317,12 @@ snapshots:
 
   '@vercel/error-utils@2.2.1': {}
 
-  '@vercel/express@24.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.4)(supports-color@5.5.0)':
+  '@vercel/express@24.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.5)(supports-color@5.5.0)':
     dependencies:
       '@vercel/build-utils': 15.2.1
-      '@vercel/cervel': 0.1.92(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.4)(supports-color@5.5.0)
-      '@vercel/nft': 1.10.0(rollup@4.67.4)(supports-color@5.5.0)
-      '@vercel/node': 29.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.4)(supports-color@5.5.0)
+      '@vercel/cervel': 0.1.92(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.5)(supports-color@5.5.0)
+      '@vercel/nft': 1.10.0(rollup@4.67.5)(supports-color@5.5.0)
+      '@vercel/node': 29.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.5)(supports-color@5.5.0)
       '@vercel/static-config': 3.4.4(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)
       fs-extra: 11.1.0
       path-to-regexp: 8.3.0
@@ -8344,10 +8335,10 @@ snapshots:
       - rollup
       - supports-color
 
-  '@vercel/fastify@24.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.4)(supports-color@5.5.0)':
+  '@vercel/fastify@24.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.5)(supports-color@5.5.0)':
     dependencies:
       '@vercel/build-utils': 15.2.1
-      '@vercel/node': 29.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.4)(supports-color@5.5.0)
+      '@vercel/node': 29.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.5)(supports-color@5.5.0)
       '@vercel/static-config': 3.4.4(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)
     transitivePeerDependencies:
       - '@emnapi/core'
@@ -8394,10 +8385,10 @@ snapshots:
     dependencies:
       '@vercel/build-utils': 15.2.1
 
-  '@vercel/h3@24.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.4)(supports-color@5.5.0)':
+  '@vercel/h3@24.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.5)(supports-color@5.5.0)':
     dependencies:
       '@vercel/build-utils': 15.2.1
-      '@vercel/node': 29.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.4)(supports-color@5.5.0)
+      '@vercel/node': 29.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.5)(supports-color@5.5.0)
       '@vercel/static-config': 3.4.4(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)
     transitivePeerDependencies:
       - '@emnapi/core'
@@ -8406,11 +8397,11 @@ snapshots:
       - rollup
       - supports-color
 
-  '@vercel/hono@24.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.4)(supports-color@5.5.0)':
+  '@vercel/hono@24.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.5)(supports-color@5.5.0)':
     dependencies:
       '@vercel/build-utils': 15.2.1
-      '@vercel/nft': 1.10.0(rollup@4.67.4)(supports-color@5.5.0)
-      '@vercel/node': 29.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.4)(supports-color@5.5.0)
+      '@vercel/nft': 1.10.0(rollup@4.67.5)(supports-color@5.5.0)
+      '@vercel/node': 29.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.5)(supports-color@5.5.0)
       '@vercel/static-config': 3.4.4(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)
       fs-extra: 11.1.0
       path-to-regexp: 8.3.0
@@ -8432,10 +8423,10 @@ snapshots:
       - '@emnapi/core'
       - '@emnapi/runtime'
 
-  '@vercel/koa@24.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.4)(supports-color@5.5.0)':
+  '@vercel/koa@24.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.5)(supports-color@5.5.0)':
     dependencies:
       '@vercel/build-utils': 15.2.1
-      '@vercel/node': 29.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.4)(supports-color@5.5.0)
+      '@vercel/node': 29.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.5)(supports-color@5.5.0)
       '@vercel/static-config': 3.4.4(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)
     transitivePeerDependencies:
       - '@emnapi/core'
@@ -8444,10 +8435,10 @@ snapshots:
       - rollup
       - supports-color
 
-  '@vercel/nestjs@24.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.4)(supports-color@5.5.0)':
+  '@vercel/nestjs@24.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.5)(supports-color@5.5.0)':
     dependencies:
       '@vercel/build-utils': 15.2.1
-      '@vercel/node': 29.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.4)(supports-color@5.5.0)
+      '@vercel/node': 29.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.5)(supports-color@5.5.0)
       '@vercel/static-config': 3.4.4(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)
     transitivePeerDependencies:
       - '@emnapi/core'
@@ -8456,19 +8447,19 @@ snapshots:
       - rollup
       - supports-color
 
-  '@vercel/next@28.0.1(@vercel/build-utils@15.2.1)(rollup@4.67.4)(supports-color@5.5.0)':
+  '@vercel/next@28.0.1(@vercel/build-utils@15.2.1)(rollup@4.67.5)(supports-color@5.5.0)':
     dependencies:
       '@vercel/build-utils': 15.2.1
-      '@vercel/nft': 1.10.0(rollup@4.67.4)(supports-color@5.5.0)
+      '@vercel/nft': 1.10.0(rollup@4.67.5)(supports-color@5.5.0)
     transitivePeerDependencies:
       - encoding
       - rollup
       - supports-color
 
-  '@vercel/nft@1.10.0(rollup@4.67.4)(supports-color@5.5.0)':
+  '@vercel/nft@1.10.0(rollup@4.67.5)(supports-color@5.5.0)':
     dependencies:
       '@mapbox/node-pre-gyp': 2.0.3(supports-color@5.5.0)
-      '@rollup/pluginutils': 5.5.1(rollup@4.67.4)
+      '@rollup/pluginutils': 5.5.1(rollup@4.67.5)
       acorn: 8.19.0
       acorn-import-attributes: 1.9.5(acorn@8.19.0)
       async-sema: 3.1.1
@@ -8484,7 +8475,7 @@ snapshots:
       - rollup
       - supports-color
 
-  '@vercel/node@29.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.4)(supports-color@5.5.0)':
+  '@vercel/node@29.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.5)(supports-color@5.5.0)':
     dependencies:
       '@edge-runtime/node-utils': 2.3.0
       '@edge-runtime/primitives': 4.1.0
@@ -8492,7 +8483,7 @@ snapshots:
       '@types/node': 20.11.0
       '@vercel/build-utils': 15.2.1
       '@vercel/error-utils': 2.2.1
-      '@vercel/nft': 1.10.0(rollup@4.67.4)(supports-color@5.5.0)
+      '@vercel/nft': 1.10.0(rollup@4.67.5)(supports-color@5.5.0)
       '@vercel/static-config': 3.4.4(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)
       async-listen: 3.0.0
       cjs-module-lexer: 1.2.3
@@ -8543,10 +8534,10 @@ snapshots:
       '@vercel/build-utils': 15.2.1
       '@vercel/python-analysis': 0.15.3
 
-  '@vercel/redwood@26.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.4)(supports-color@5.5.0)':
+  '@vercel/redwood@26.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.5)(supports-color@5.5.0)':
     dependencies:
       '@vercel/build-utils': 15.2.1
-      '@vercel/nft': 1.10.0(rollup@4.67.4)(supports-color@5.5.0)
+      '@vercel/nft': 1.10.0(rollup@4.67.5)(supports-color@5.5.0)
       '@vercel/static-config': 3.4.4(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)
       semver: 6.3.1
       ts-morph: 12.0.0
@@ -8557,11 +8548,11 @@ snapshots:
       - rollup
       - supports-color
 
-  '@vercel/remix-builder@29.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.4)(supports-color@5.5.0)':
+  '@vercel/remix-builder@29.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.5)(supports-color@5.5.0)':
     dependencies:
       '@vercel/build-utils': 15.2.1
       '@vercel/error-utils': 2.2.1
-      '@vercel/nft': 1.10.0(rollup@4.67.4)(supports-color@5.5.0)
+      '@vercel/nft': 1.10.0(rollup@4.67.5)(supports-color@5.5.0)
       '@vercel/static-config': 3.4.4(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)
       path-to-regexp: 6.1.0
       path-to-regexp-updated: path-to-regexp@6.3.0
@@ -8624,28 +8615,28 @@ snapshots:
       - '@emnapi/core'
       - '@emnapi/runtime'
 
-  '@vercel/vc-native-darwin-arm64@65.10.0':
+  '@vercel/vc-native-darwin-arm64@65.11.0':
     optional: true
 
-  '@vercel/vc-native-darwin-x64@65.10.0':
+  '@vercel/vc-native-darwin-x64@65.11.0':
     optional: true
 
-  '@vercel/vc-native-linux-arm64-musl@65.10.0':
+  '@vercel/vc-native-linux-arm64-musl@65.11.0':
     optional: true
 
-  '@vercel/vc-native-linux-arm64@65.10.0':
+  '@vercel/vc-native-linux-arm64@65.11.0':
     optional: true
 
-  '@vercel/vc-native-linux-x64-musl@65.10.0':
+  '@vercel/vc-native-linux-x64-musl@65.11.0':
     optional: true
 
-  '@vercel/vc-native-linux-x64@65.10.0':
+  '@vercel/vc-native-linux-x64@65.11.0':
     optional: true
 
-  '@vercel/vc-native-win32-arm64@65.10.0':
+  '@vercel/vc-native-win32-arm64@65.11.0':
     optional: true
 
-  '@vercel/vc-native-win32-x64@65.10.0':
+  '@vercel/vc-native-win32-x64@65.11.0':
     optional: true
 
   '@web/config-loader@0.1.3':
@@ -8974,7 +8965,7 @@ snapshots:
   browserslist@1.7.7:
     dependencies:
       caniuse-db: 1.0.30001820
-      electron-to-chromium: 1.5.472
+      electron-to-chromium: 1.5.473
 
   buffer-crc32@0.2.13: {}
 
@@ -9723,7 +9714,7 @@ snapshots:
 
   ee-first@1.1.1: {}
 
-  electron-to-chromium@1.5.472: {}
+  electron-to-chromium@1.5.473: {}
 
   elegant-spinner@1.0.1: {}
 
@@ -9905,7 +9896,7 @@ snapshots:
     dependencies:
       d: 1.0.2
       es5-ext: 0.10.64
-      event-emitter: 0.3.5
+      event-emitter: 0.3.7
       type: 2.7.3
 
   espree@11.2.0:
@@ -9934,10 +9925,11 @@ snapshots:
 
   etag@1.8.1: {}
 
-  event-emitter@0.3.5:
+  event-emitter@0.3.7:
     dependencies:
       d: 1.0.2
       es5-ext: 0.10.64
+      type: 2.7.3
 
   eventemitter3@4.0.7: {}
 
@@ -10009,11 +10001,11 @@ snapshots:
 
   exponential-backoff@3.1.3: {}
 
-  express-rate-limit@8.7.2(express@5.3.0(supports-color@5.5.0))(supports-color@5.5.0):
+  express-rate-limit@8.7.3(express@5.3.0(supports-color@5.5.0))(supports-color@5.5.0):
     dependencies:
       debug: 4.4.3(supports-color@5.5.0)
       express: 5.3.0(supports-color@5.5.0)
-      ip-address: 10.7.5
+      ip-address: 10.7.6
     transitivePeerDependencies:
       - supports-color
 
@@ -10634,7 +10626,7 @@ snapshots:
 
   interpret@1.4.0: {}
 
-  ip-address@10.7.5: {}
+  ip-address@10.7.6: {}
 
   ipaddr.js@1.9.1: {}
 
@@ -10655,7 +10647,7 @@ snapshots:
 
   is-buffer@2.0.5: {}
 
-  is-core-module@2.17.0:
+  is-core-module@2.18.0:
     dependencies:
       hasown: 2.0.4
 
@@ -11090,7 +11082,7 @@ snapshots:
       d: 1.0.2
       es5-ext: 0.10.64
       es6-weak-map: 2.0.3
-      event-emitter: 0.3.5
+      event-emitter: 0.3.7
       is-promise: 2.2.2
       lru-queue: 0.1.0
       next-tick: 1.1.0
@@ -11866,7 +11858,7 @@ snapshots:
     dependencies:
       find-up: 3.0.0
 
-  portless@0.15.13: {}
+  portless@0.16.0: {}
 
   postcss-calc@5.3.1:
     dependencies:
@@ -12254,7 +12246,7 @@ snapshots:
 
   rechoir@0.6.2:
     dependencies:
-      resolve: 1.22.13
+      resolve: 1.22.14
 
   reduce-css-calc@1.3.0:
     dependencies:
@@ -12305,10 +12297,10 @@ snapshots:
 
   resolve.exports@2.0.3: {}
 
-  resolve@1.22.13:
+  resolve@1.22.14:
     dependencies:
       es-errors: 1.3.0
-      is-core-module: 2.17.0
+      is-core-module: 2.18.0
       path-parse: 1.0.7
       supports-preserve-symlinks-flag: 1.0.0
 
@@ -12353,37 +12345,36 @@ snapshots:
       - '@emnapi/core'
       - '@emnapi/runtime'
 
-  rollup@4.67.4:
+  rollup@4.67.5:
     dependencies:
       '@types/estree': 1.0.10
     optionalDependencies:
-      '@napi-rs/lzma-linux-x64-gnu': 1.5.1
-      '@rollup/rollup-android-arm-eabi': 4.67.4
-      '@rollup/rollup-android-arm64': 4.67.4
-      '@rollup/rollup-android-x64': 4.67.4
-      '@rollup/rollup-darwin-arm64': 4.67.4
-      '@rollup/rollup-darwin-x64': 4.67.4
-      '@rollup/rollup-freebsd-arm64': 4.67.4
-      '@rollup/rollup-freebsd-x64': 4.67.4
-      '@rollup/rollup-linux-arm-gnueabihf': 4.67.4
-      '@rollup/rollup-linux-arm-musleabihf': 4.67.4
-      '@rollup/rollup-linux-arm64-gnu': 4.67.4
-      '@rollup/rollup-linux-arm64-musl': 4.67.4
-      '@rollup/rollup-linux-loong64-gnu': 4.67.4
-      '@rollup/rollup-linux-loong64-musl': 4.67.4
-      '@rollup/rollup-linux-ppc64-gnu': 4.67.4
-      '@rollup/rollup-linux-ppc64-musl': 4.67.4
-      '@rollup/rollup-linux-riscv64-gnu': 4.67.4
-      '@rollup/rollup-linux-riscv64-musl': 4.67.4
-      '@rollup/rollup-linux-s390x-gnu': 4.67.4
-      '@rollup/rollup-linux-x64-gnu': 4.67.4
-      '@rollup/rollup-linux-x64-musl': 4.67.4
-      '@rollup/rollup-openbsd-x64': 4.67.4
-      '@rollup/rollup-openharmony-arm64': 4.67.4
-      '@rollup/rollup-win32-arm64-msvc': 4.67.4
-      '@rollup/rollup-win32-ia32-msvc': 4.67.4
-      '@rollup/rollup-win32-x64-gnu': 4.67.4
-      '@rollup/rollup-win32-x64-msvc': 4.67.4
+      '@rollup/rollup-android-arm-eabi': 4.67.5
+      '@rollup/rollup-android-arm64': 4.67.5
+      '@rollup/rollup-android-x64': 4.67.5
+      '@rollup/rollup-darwin-arm64': 4.67.5
+      '@rollup/rollup-darwin-x64': 4.67.5
+      '@rollup/rollup-freebsd-arm64': 4.67.5
+      '@rollup/rollup-freebsd-x64': 4.67.5
+      '@rollup/rollup-linux-arm-gnueabihf': 4.67.5
+      '@rollup/rollup-linux-arm-musleabihf': 4.67.5
+      '@rollup/rollup-linux-arm64-gnu': 4.67.5
+      '@rollup/rollup-linux-arm64-musl': 4.67.5
+      '@rollup/rollup-linux-loong64-gnu': 4.67.5
+      '@rollup/rollup-linux-loong64-musl': 4.67.5
+      '@rollup/rollup-linux-ppc64-gnu': 4.67.5
+      '@rollup/rollup-linux-ppc64-musl': 4.67.5
+      '@rollup/rollup-linux-riscv64-gnu': 4.67.5
+      '@rollup/rollup-linux-riscv64-musl': 4.67.5
+      '@rollup/rollup-linux-s390x-gnu': 4.67.5
+      '@rollup/rollup-linux-x64-gnu': 4.67.5
+      '@rollup/rollup-linux-x64-musl': 4.67.5
+      '@rollup/rollup-openbsd-x64': 4.67.5
+      '@rollup/rollup-openharmony-arm64': 4.67.5
+      '@rollup/rollup-win32-arm64-msvc': 4.67.5
+      '@rollup/rollup-win32-ia32-msvc': 4.67.5
+      '@rollup/rollup-win32-x64-gnu': 4.67.5
+      '@rollup/rollup-win32-x64-msvc': 4.67.5
       fsevents: 2.3.3
 
   router@2.2.0(supports-color@5.5.0):
@@ -12672,7 +12663,7 @@ snapshots:
 
   socks@2.8.10:
     dependencies:
-      ip-address: 10.7.5
+      ip-address: 10.7.6
       smart-buffer: 4.2.0
 
   sort-keys@1.1.2:
@@ -13131,32 +13122,32 @@ snapshots:
 
   vendors@1.0.4: {}
 
-  vercel@65.10.0(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(rollup@4.67.4)(supports-color@5.5.0):
+  vercel@65.11.0(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(rollup@4.67.5)(supports-color@5.5.0):
     dependencies:
-      '@vercel/backends': 24.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.4)(supports-color@5.5.0)
+      '@vercel/backends': 24.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.5)(supports-color@5.5.0)
       '@vercel/blob': 2.8.0
       '@vercel/build-utils': 15.2.1
       '@vercel/cli-auth': 0.3.15
       '@vercel/cli-config': 0.3.6
       '@vercel/container': 24.0.1(@vercel/build-utils@15.2.1)
       '@vercel/detect-agent': 1.2.7
-      '@vercel/elysia': 24.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.4)(supports-color@5.5.0)
-      '@vercel/express': 24.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.4)(supports-color@5.5.0)
-      '@vercel/fastify': 24.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.4)(supports-color@5.5.0)
+      '@vercel/elysia': 24.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.5)(supports-color@5.5.0)
+      '@vercel/express': 24.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.5)(supports-color@5.5.0)
+      '@vercel/fastify': 24.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.5)(supports-color@5.5.0)
       '@vercel/fun': 1.3.6(supports-color@5.5.0)
       '@vercel/go': 27.0.1(@vercel/build-utils@15.2.1)
-      '@vercel/h3': 24.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.4)(supports-color@5.5.0)
-      '@vercel/hono': 24.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.4)(supports-color@5.5.0)
+      '@vercel/h3': 24.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.5)(supports-color@5.5.0)
+      '@vercel/hono': 24.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.5)(supports-color@5.5.0)
       '@vercel/hydrogen': 25.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)
-      '@vercel/koa': 24.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.4)(supports-color@5.5.0)
-      '@vercel/nestjs': 24.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.4)(supports-color@5.5.0)
-      '@vercel/next': 28.0.1(@vercel/build-utils@15.2.1)(rollup@4.67.4)(supports-color@5.5.0)
-      '@vercel/node': 29.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.4)(supports-color@5.5.0)
+      '@vercel/koa': 24.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.5)(supports-color@5.5.0)
+      '@vercel/nestjs': 24.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.5)(supports-color@5.5.0)
+      '@vercel/next': 28.0.1(@vercel/build-utils@15.2.1)(rollup@4.67.5)(supports-color@5.5.0)
+      '@vercel/node': 29.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.5)(supports-color@5.5.0)
       '@vercel/prepare-flags-definitions': 0.6.1
       '@vercel/python': 30.1.0(@vercel/build-utils@15.2.1)
       '@vercel/python-analysis': 0.15.3
-      '@vercel/redwood': 26.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.4)(supports-color@5.5.0)
-      '@vercel/remix-builder': 29.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.4)(supports-color@5.5.0)
+      '@vercel/redwood': 26.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.5)(supports-color@5.5.0)
+      '@vercel/remix-builder': 29.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)(rollup@4.67.5)(supports-color@5.5.0)
       '@vercel/ruby': 26.0.1(@vercel/build-utils@15.2.1)
       '@vercel/rust': 25.0.1(@vercel/build-utils@15.2.1)
       '@vercel/static-build': 26.0.1(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@vercel/build-utils@15.2.1)
@@ -13171,15 +13162,15 @@ snapshots:
       uuid: 14.0.1
       zod: 4.6.7
     optionalDependencies:
-      '@vercel/cli-support': 65.10.0(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(rollup@4.67.4)(supports-color@5.5.0)
-      '@vercel/vc-native-darwin-arm64': 65.10.0
-      '@vercel/vc-native-darwin-x64': 65.10.0
-      '@vercel/vc-native-linux-arm64': 65.10.0
-      '@vercel/vc-native-linux-arm64-musl': 65.10.0
-      '@vercel/vc-native-linux-x64': 65.10.0
-      '@vercel/vc-native-linux-x64-musl': 65.10.0
-      '@vercel/vc-native-win32-arm64': 65.10.0
-      '@vercel/vc-native-win32-x64': 65.10.0
+      '@vercel/cli-support': 65.11.0(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(rollup@4.67.5)(supports-color@5.5.0)
+      '@vercel/vc-native-darwin-arm64': 65.11.0
+      '@vercel/vc-native-darwin-x64': 65.11.0
+      '@vercel/vc-native-linux-arm64': 65.11.0
+      '@vercel/vc-native-linux-arm64-musl': 65.11.0
+      '@vercel/vc-native-linux-x64': 65.11.0
+      '@vercel/vc-native-linux-x64-musl': 65.11.0
+      '@vercel/vc-native-win32-arm64': 65.11.0
+      '@vercel/vc-native-win32-x64': 65.11.0
     transitivePeerDependencies:
       - '@emnapi/core'
       - '@emnapi/runtime'
