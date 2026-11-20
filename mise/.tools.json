@@ -41,8 +41,16 @@
   "fnox": [
     {
       "version": "1.48.0",
-      "requested_version": "latest",
       "install_path": "/Users/RHESS/.local/share/mise/installs/fnox/1.48.0",
+      "scheduled_for_pruning": true,
+      "prune_after": "2026-11-21T00:35:13Z",
+      "installed": true,
+      "active": false
+    },
+    {
+      "version": "1.50.0",
+      "requested_version": "latest",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/fnox/1.50.0",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
@@ -78,14 +86,6 @@
     }
   ],
   "pipx": [
-    {
-      "version": "1.18.16",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/pipx/1.18.16",
-      "scheduled_for_pruning": true,
-      "prune_after": "2026-11-19T19:19:05Z",
-      "installed": true,
-      "active": false
-    },
     {
       "version": "1.18.19",
       "requested_version": "latest",
@@ -166,17 +166,17 @@
   ],
   "ty": [
     {
-      "version": "0.0.104",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/ty/0.0.104",
+      "version": "0.0.105",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/ty/0.0.105",
       "scheduled_for_pruning": true,
-      "prune_after": "2026-11-19T19:19:05Z",
+      "prune_after": "2026-11-21T00:35:13Z",
       "installed": true,
       "active": false
     },
     {
-      "version": "0.0.105",
+      "version": "0.0.107",
       "requested_version": "latest",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/ty/0.0.105",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/ty/0.0.107",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
@@ -186,14 +186,6 @@
     }
   ],
   "usage": [
-    {
-      "version": "7.3.0",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/usage/7.3.0",
-      "scheduled_for_pruning": true,
-      "prune_after": "2026-11-19T19:19:05Z",
-      "installed": true,
-      "active": false
-    },
     {
       "version": "7.4.0",
       "requested_version": "latest",
@@ -207,14 +199,6 @@
     }
   ],
   "uv": [
-    {
-      "version": "0.13.8",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/uv/0.13.8",
-      "scheduled_for_pruning": true,
-      "prune_after": "2026-11-19T19:19:05Z",
-      "installed": true,
-      "active": false
-    },
     {
       "version": "0.13.9",
       "requested_version": "latest",
