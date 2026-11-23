@@ -5,7 +5,7 @@
   "private": true,
   "author": "Richard Hess",
   "license": "MIT",
-  "packageManager": "pnpm@12.21.0",
+  "packageManager": "pnpm@12.23.0",
   "scripts": {
     "preinstall": "npx only-allow pnpm"
   },
@@ -27,7 +27,7 @@
     "eslint": "10.15.0",
     "foreman": "3.0.1",
     "instatunnel": "1.1.24",
-    "markdownlint-cli": "0.50.0",
+    "markdownlint-cli": "0.50.1",
     "newman": "6.2.3",
     "nodemon": "3.1.14",
     "np": "12.1.1",
@@ -37,7 +37,7 @@
     "only-allow": "1.2.2",
     "portless": "0.18.1",
     "prettier": "3.10.1",
-    "rollup": "4.68.7",
+    "rollup": "4.68.8",
     "serve": "14.2.8",
     "sirv-cli": "3.0.1",
     "svgo": "4.1.0",
