@@ -2,8 +2,16 @@
   "bun": [
     {
       "version": "1.4.4",
-      "requested_version": "latest",
       "install_path": "/Users/RHESS/.local/share/mise/installs/bun/1.4.4",
+      "scheduled_for_pruning": true,
+      "prune_after": "2026-11-24T16:50:13Z",
+      "installed": true,
+      "active": false
+    },
+    {
+      "version": "1.4.5",
+      "requested_version": "latest",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/bun/1.4.5",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
@@ -15,8 +23,16 @@
   "cargo-binstall": [
     {
       "version": "1.27.0",
-      "requested_version": "latest",
       "install_path": "/Users/RHESS/.local/share/mise/installs/cargo-binstall/1.27.0",
+      "scheduled_for_pruning": true,
+      "prune_after": "2026-11-24T16:50:13Z",
+      "installed": true,
+      "active": false
+    },
+    {
+      "version": "1.28.0",
+      "requested_version": "latest",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/cargo-binstall/1.28.0",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
@@ -39,14 +55,6 @@
     }
   ],
   "fnox": [
-    {
-      "version": "1.48.0",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/fnox/1.48.0",
-      "scheduled_for_pruning": true,
-      "prune_after": "2026-11-21T00:35:13Z",
-      "installed": true,
-      "active": false
-    },
     {
       "version": "1.50.0",
       "requested_version": "latest",
@@ -114,8 +122,16 @@
   "pnpm": [
     {
       "version": "12.21.0",
-      "requested_version": "latest",
       "install_path": "/Users/RHESS/.local/share/mise/installs/pnpm/12.21.0",
+      "scheduled_for_pruning": true,
+      "prune_after": "2026-11-24T16:50:13Z",
+      "installed": true,
+      "active": false
+    },
+    {
+      "version": "12.23.0",
+      "requested_version": "latest",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/pnpm/12.23.0",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
@@ -140,8 +156,16 @@
   "ruff": [
     {
       "version": "0.17.5",
-      "requested_version": "latest",
       "install_path": "/Users/RHESS/.local/share/mise/installs/ruff/0.17.5",
+      "scheduled_for_pruning": true,
+      "prune_after": "2026-11-24T16:50:13Z",
+      "installed": true,
+      "active": false
+    },
+    {
+      "version": "0.17.6",
+      "requested_version": "latest",
+      "install_path": "/Users/RHESS/.local/share/mise/installs/ruff/0.17.6",
       "source": {
         "type": "mise.toml",
         "path": "/Users/RHESS/github/eswat2/devtools/mise/config.toml"
@@ -165,14 +189,6 @@
     }
   ],
   "ty": [
-    {
-      "version": "0.0.105",
-      "install_path": "/Users/RHESS/.local/share/mise/installs/ty/0.0.105",
-      "scheduled_for_pruning": true,
-      "prune_after": "2026-11-21T00:35:13Z",
-      "installed": true,
-      "active": false
-    },
     {
       "version": "0.0.107",
       "requested_version": "latest",
